@@ -33,6 +33,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Sell | ToF Market</title>
+</svelte:head>
+
 <div class="flex flex-row m-2">
 	<input class="input variant-form-material" type="search" placeholder="Search (name)..." bind:value={searchTerm} />
 	<select class="select w-[50%] md:w-[30%] lg:w-[20%]" bind:value={sortBy}>
