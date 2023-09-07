@@ -1,19 +1,22 @@
 <script lang="ts">
+	export let data;
+
 	import '../app.postcss';
 	import { AppShell, AppBar, TabGroup, TabAnchor } from '@skeletonlabs/skeleton';
 
-	// Floating UI for Popups
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
-	import { storePopup } from '@skeletonlabs/skeleton';
+	import { storePopup, initializeStores, Modal } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
+	initializeStores();
 
 	import { page } from '$app/stores';
+	import { fly } from 'svelte/transition';
 </script>
 
-<!-- App Shell -->
+<Modal buttonPositive="variant-filled-success" />
+
 <AppShell>
 	<svelte:fragment slot="header">
-		<!-- App Bar -->
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead">
 				<strong class="text-xl uppercase">Tianhe Bazaar</strong>
@@ -31,6 +34,7 @@
 				<TabAnchor href="/sell" selected={$page.url.pathname === '/sell'}>
 					<svelte:fragment slot="lead">
 						<svg
+							class="mx-auto"
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
 							height="24"
@@ -51,6 +55,7 @@
 				<TabAnchor href="/buy" selected={$page.url.pathname === '/buy'}>
 					<svelte:fragment slot="lead">
 						<svg
+							class="mx-auto"
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
 							height="24"
@@ -68,7 +73,6 @@
 					</svelte:fragment>
 					<span>Buy</span>
 				</TabAnchor>
-				<!-- ... -->
 			</TabGroup>
 
 			<svelte:fragment slot="trail">
@@ -83,6 +87,14 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<!-- Page Route Content -->
-	<slot />
+
+	{#key data.url}
+		<div
+			class="w-full h-full"
+			in:fly={{ x: -200, duration: 300, delay: 300 }}
+			out:fly={{ x: -200, duration: 300 }}
+		>
+			<slot />
+		</div>
+	{/key}
 </AppShell>
