@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>About | ToF Market</title>
+</svelte:head>
+
 <div class="flex flex-col h-full items-center justify-center">
 	<h1 class="h1 p-2">Tianhe Bazaar Market Price</h1>
 	<div class="hbar bg-primary-700" />

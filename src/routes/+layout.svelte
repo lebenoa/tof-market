@@ -2,7 +2,13 @@
 	export let data;
 
 	import '../app.postcss';
-	import { AppShell, AppBar, TabGroup, TabAnchor } from '@skeletonlabs/skeleton';
+	import {
+		AppShell,
+		AppBar,
+		TabGroup,
+		TabAnchor,
+		type ModalComponent
+	} from '@skeletonlabs/skeleton';
 
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup, initializeStores, Modal } from '@skeletonlabs/skeleton';
@@ -11,9 +17,47 @@
 
 	import { page } from '$app/stores';
 	import { fly } from 'svelte/transition';
+	import { browser } from '$app/environment';
+	import ImageModal from '$lib/componenets/modal/ImageModal.svelte';
+
+	const animationDelay = 210;
+	const registry: Record<string, ModalComponent> = {
+		image: {
+			ref: ImageModal
+		}
+	};
+
+	let showBackToTopButton = false;
+
+	async function shouldShowBackToTopButton(_url: string) {
+		if (!browser) return;
+
+		if (!document) {
+			console.log('no document');
+			return;
+		} else {
+			console.log('document');
+		}
+
+		await new Promise((resolve) => setTimeout(resolve, animationDelay + 10));
+
+		const page = document.querySelector('#page');
+		if (!page) return;
+
+		console.log('scrollHeight', page.scrollHeight);
+		console.log('clientHeight', page.clientHeight);
+
+		if (page.scrollHeight > page.clientHeight) {
+			showBackToTopButton = true;
+		} else {
+			showBackToTopButton = false;
+		}
+	}
+
+	$: shouldShowBackToTopButton(data.url);
 </script>
 
-<Modal buttonPositive="variant-filled-success" />
+<Modal components={registry} buttonPositive="variant-filled-success" />
 
 <AppShell>
 	<svelte:fragment slot="pageHeader">
@@ -57,7 +101,7 @@
 					</svelte:fragment>
 					<span>Sell</span>
 				</TabAnchor>
-				<TabAnchor href="/buy" selected={$page.url.pathname === '/buy'}>
+				<TabAnchor href="/buy" selected={$page.url.pathname.startsWith('/buy')}>
 					<svelte:fragment slot="lead">
 						<svg
 							class="mx-auto"
@@ -117,10 +161,23 @@
 	{#key data.url}
 		<div
 			class="w-full h-full"
-			in:fly={{ x: -200, duration: 300, delay: 300 }}
-			out:fly={{ x: -200, duration: 300 }}
+			in:fly={{ x: -200, duration: animationDelay, delay: animationDelay }}
+			out:fly={{ x: -200, duration: animationDelay }}
 		>
 			<slot />
+			{#if showBackToTopButton}
+				<button
+					class="btn variant-soft-primary w-full mb-5 lg:mb-0"
+					on:click={() => {
+						document.querySelector('#page')?.scrollTo({
+							behavior: 'smooth',
+							top: 0
+						});
+					}}
+				>
+					Back To Top
+				</button>
+			{/if}
 		</div>
 	{/key}
 </AppShell>

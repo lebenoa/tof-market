@@ -1,19 +1,4 @@
-export enum Tier {
-	Legendary = 1,
-	Epic = 2,
-	Rare = 3,
-	Common = 4
-}
-
-export interface Pricing {
-	name: string;
-	image: string;
-	tier: Tier;
-	lowest_price: number;
-	highest_price: number;
-	lowest_quantity: number;
-	highest_quantity: number;
-}
+import { Tier, type Pricing } from "./core";
 
 export const sellPrice: Pricing[] = [
 	{
@@ -134,5 +119,3 @@ export const sellPrice: Pricing[] = [
 		highest_quantity: 13
 	}
 ];
-
-export const buyPrice: Pricing[] = [];

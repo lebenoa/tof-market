@@ -1,17 +1,14 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
+	import { buyPrice } from '$lib/core/buy';
+	import SellerCard from '$lib/componenets/SellerCard.svelte';
 </script>
 
-<div class="flex flex-col justify-center items-center w-full h-full">
-	<h1 class="h1 text-red-500 mb-4">Not ready yet!</h1>
-    <div class="w-full h-px bg-primary-500" />
-	<h3 class="h3 mt-4">The content you're trying to access is not ready yet! Please stay tune!</h3>
-	<button
-		class="btn variant-ghost-success mt-2"
-		on:click={() => {
-			goto('/sell');
-		}}
-	>
-		Take me back
-	</button>
+<svelte:head>
+	<title>Buy | ToF Market</title>
+</svelte:head>
+
+<div class="flex flex-row flex-wrap mx-auto mb-4 box-border">
+	{#each buyPrice as item, idx}
+		<SellerCard seller={item.seller} id={idx} />
+	{/each}
 </div>

@@ -1,25 +1,11 @@
 <script lang="ts">
-	import { Tier, type Pricing } from '$lib/core';
+	import { Tier, TierColor, type Pricing } from '$lib/core/core';
 	import { fly } from 'svelte/transition';
 
 	export let item: Pricing;
+	export let prioritizeLowest: boolean = false;
 
-	let name_color = '';
-
-	$: switch (item.tier) {
-		case Tier.Legendary:
-			name_color = 'text-yellow-500';
-			break;
-		case Tier.Epic:
-			name_color = 'text-purple-500';
-			break;
-		case Tier.Rare:
-			name_color = 'text-blue-300';
-			break;
-		case Tier.Common:
-			name_color = 'text-gray-500';
-			break;
-	}
+	$: name_color = TierColor(item.tier);
 </script>
 
 <div class="card mt-4 py-4 mx-auto w-[350px] flex flex-col justify-between" in:fly={{ y: 200 }} out:fly={{ x: 200 }}>
@@ -31,11 +17,11 @@
 
 	<div class="flex justify-evenly">
 		<h4 class="h4 text-center mt-auto">
-			Lowest Price <br /> <strong class="text-red-500">{item.lowest_price}</strong>
+			Lowest Price <br /> <strong class="text-{prioritizeLowest ? 'green' : 'red'}-500">{item.lowest_price}</strong>
 		</h4>
 		<div class="h-full w-px bg-surface-600" />
 		<h4 class="h4 text-center">
-			Highest Price <br /> <strong class="text-green-500">{item.highest_price}</strong>
+			Highest Price <br /> <strong class="text-{prioritizeLowest ? 'red' : 'green'}-500">{item.highest_price}</strong>
 		</h4>
 	</div>
 </div>
