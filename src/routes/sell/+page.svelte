@@ -28,7 +28,6 @@
 			}
 		});
 	} else {
-		console.log(sellPrice)
 		displayData = sellPrice;
 	}
 </script>
@@ -38,7 +37,12 @@
 </svelte:head>
 
 <div class="flex flex-row m-2">
-	<input class="input variant-form-material" type="search" placeholder="Search (name)..." bind:value={searchTerm} />
+	<input
+		class="input variant-form-material"
+		type="search"
+		placeholder="Search (name)..."
+		bind:value={searchTerm}
+	/>
 	<select class="select w-[50%] md:w-[30%] lg:w-[20%]" bind:value={sortBy}>
 		<option value="">Sort By</option>
 		<option value="Highest Tier">Highest Tier</option>
@@ -47,11 +51,9 @@
 	</select>
 </div>
 <div class="flex flex-row flex-wrap mx-auto mb-4 box-border">
-	{#key displayData}
-		{#each displayData as item}
-			<Card {item} />
-		{/each}
-	{/key}
+	{#each displayData as item}
+		<Card {item} />
+	{/each}
 </div>
 <button
 	class="btn variant-soft-primary w-full mb-5 lg:mb-0"

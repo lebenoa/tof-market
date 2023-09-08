@@ -16,10 +16,15 @@
 <Modal buttonPositive="variant-filled-success" />
 
 <AppShell>
-	<svelte:fragment slot="header">
-		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+	<svelte:fragment slot="pageHeader">
+		<AppBar
+			gridColumns="grid-cols-3"
+			slotDefault="place-self-center"
+			slotTrail="place-content-end"
+			padding="p-0"
+		>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Tianhe Bazaar</strong>
+				<strong class="lg:text-xl ml-2 uppercase">Tianhe Bazaar</strong>
 			</svelte:fragment>
 
 			<TabGroup
@@ -73,11 +78,32 @@
 					</svelte:fragment>
 					<span>Buy</span>
 				</TabAnchor>
+				<TabAnchor href="/about" selected={$page.url.pathname === '/about'}>
+					<svelte:fragment slot="lead">
+						<svg
+							class="mx-auto"
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<circle cx="12" cy="12" r="10" />
+							<path d="M12 16v-4" />
+							<path d="M12 8h.01" />
+						</svg>
+					</svelte:fragment>
+					<span>About</span>
+				</TabAnchor>
 			</TabGroup>
 
 			<svelte:fragment slot="trail">
 				<a
-					class="btn btn-sm variant-ghost-surface"
+					class="btn btn-sm variant-ghost-surface mr-2"
 					href="https://tof-todo.vercel.app"
 					target="_blank"
 					rel="noreferrer"
