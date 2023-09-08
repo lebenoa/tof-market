@@ -56,6 +56,16 @@ export const buyPrice: Seller[] = [
 				highest_quantity: 26
 			},
 			{
+				name: 'Beast Hide',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1149729220562518047/image.png',
+				tier: Tier.Common,
+				lowest_price: 29,
+				highest_price: 48,
+				lowest_quantity: 14,
+				highest_quantity: 14
+			},
+			{
 				name: 'Fortress Belt',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149771859294957669/image.png',
