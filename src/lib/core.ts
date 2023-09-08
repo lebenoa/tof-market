@@ -30,9 +30,9 @@ export const sellPrice: Pricing[] = [
 		image: 'https://cdn.discordapp.com/attachments/1149358091180195940/1149365422156677200/Forging_Hammer.png',
 		tier: Tier.Rare,
 		lowest_price: 47,
-		highest_price: 95,
-		lowest_quantity: 5,
-		highest_quantity: 5
+		highest_price: 98,
+		lowest_quantity: 4,
+		highest_quantity: 4
 	},
 	{
 		name: 'Shengwen Carved Dracojade Box',
@@ -58,8 +58,8 @@ export const sellPrice: Pricing[] = [
 		tier: Tier.Epic,
 		lowest_price: 63,
 		highest_price: 133,
-		lowest_quantity: 5,
-		highest_quantity: 5
+		lowest_quantity: 4,
+		highest_quantity: 4
 	},
 	{
 		name: 'Fruit Rice Punch',
@@ -67,8 +67,8 @@ export const sellPrice: Pricing[] = [
 		tier: Tier.Rare,
 		lowest_price: 43,
 		highest_price: 91,
-		lowest_quantity: 5,
-		highest_quantity: 5
+		lowest_quantity: 7,
+		highest_quantity: 7
 	},
 	{
 		name: 'Mercerized Cotton',
@@ -94,8 +94,8 @@ export const sellPrice: Pricing[] = [
 		tier: Tier.Rare,
 		lowest_price: 44,
 		highest_price: 96,
-		lowest_quantity: 5,
-		highest_quantity: 5
+		lowest_quantity: 6,
+		highest_quantity: 6
 	},
 	{
 		name: 'Golden Vein Ointment',
@@ -103,8 +103,8 @@ export const sellPrice: Pricing[] = [
 		tier: Tier.Rare,
 		lowest_price: 50,
 		highest_price: 95,
-		lowest_quantity: 5,
-		highest_quantity: 5
+		lowest_quantity: 3,
+		highest_quantity: 3
 	},
 	{
 		name: 'Fast-Acting Heart Capsule',
