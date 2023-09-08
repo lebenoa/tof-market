@@ -31,21 +31,12 @@
 
 	async function shouldShowBackToTopButton(_url: string) {
 		if (!browser) return;
-
-		if (!document) {
-			console.log('no document');
-			return;
-		} else {
-			console.log('document');
-		}
+		if (!document) return;
 
 		await new Promise((resolve) => setTimeout(resolve, animationDelay + 10));
 
 		const page = document.querySelector('#page');
 		if (!page) return;
-
-		console.log('scrollHeight', page.scrollHeight);
-		console.log('clientHeight', page.clientHeight);
 
 		if (page.scrollHeight > page.clientHeight) {
 			showBackToTopButton = true;
