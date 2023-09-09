@@ -15,8 +15,9 @@
 			component: 'image',
 			image: url,
 			meta: {
-				source: 'NPC info'
-			}
+				source: 'NPC info',
+				alt: seller.name
+			},
 		}
 	}
 
@@ -33,8 +34,13 @@
 	<h2 class="h4 lg:h2 text-center">{seller.name}</h2>
 	<div class="flex flex-col justify-center lg:flex-row lg:justify-end">
 		<button class="btn variant-filled-secondary rounded-none hidden md:block" on:click={() => modalStore.trigger(npcImageModal)}>NPC Image</button>
-		<div class="w-full h-px lg:h-full lg:w-px bg-slate-500" />
+		<div class="w-full h-px lg:h-full lg:w-px bg-slate-500 hidden md:block" />
 		<button class="btn variant-filled-secondary rounded-none hidden md:block" on:click={() => modalStore.trigger(locationImageModal)}>Location</button>
 	</div>
+</div>
+<div class="flex flex-row md:hidden">
+	<button class="btn variant-filled-secondary w-full rounded-none" on:click={() => modalStore.trigger(npcImageModal)}>NPC Image</button>
+	<div class="w-1 h-full bg-slate-500" />
+	<button class="btn variant-filled-secondary w-full rounded-none" on:click={() => modalStore.trigger(locationImageModal)}>Location</button>
 </div>
 <CardContainer {items} prioritizeLowest={true} />

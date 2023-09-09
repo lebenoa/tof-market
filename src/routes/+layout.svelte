@@ -16,7 +16,7 @@
 	initializeStores();
 
 	import { page } from '$app/stores';
-	import { fly } from 'svelte/transition';
+	import { fly, scale } from 'svelte/transition';
 	import { browser } from '$app/environment';
 	import ImageModal from '$lib/componenets/modal/ImageModal.svelte';
 
@@ -49,7 +49,7 @@
 	$: shouldShowBackToTopButton(data.url);
 </script>
 
-<Modal components={registry} buttonPositive="variant-filled-success" />
+<Modal components={registry} transitionIn={scale} transitionOut={scale} padding="p-96" buttonPositive="variant-filled-success" />
 
 <AppShell>
 	<svelte:fragment slot="pageHeader">
