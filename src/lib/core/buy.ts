@@ -119,7 +119,8 @@ export const buyPrice: Seller[] = [
 		items: [
 			{
 				name: 'Roughstone',
-				image: placeholder,
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074523534753982/image.png',
 				tier: Tier.Rare,
 				lowest_price: 51,
 				highest_price: 95,
@@ -128,7 +129,8 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Jadestone',
-				image: placeholder,
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074570448056340/image.png',
 				tier: Tier.Common,
 				lowest_price: 29,
 				highest_price: 46,
@@ -137,7 +139,8 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Raw Crystal',
-				image: placeholder,
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074611413827714/image.png',
 				tier: Tier.Common,
 				lowest_price: 27,
 				highest_price: 49,
@@ -146,7 +149,8 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Heart of Summit',
-				image: placeholder,
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074986879516722/image.png',
 				tier: Tier.Rare,
 				lowest_price: 4,
 				highest_price: 15,
@@ -155,7 +159,8 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Snowsource',
-				image: placeholder,
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074922115285052/image.png',
 				tier: Tier.Epic,
 				lowest_price: 6,
 				highest_price: 38,
@@ -164,12 +169,250 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Heart of Lava',
-				image: placeholder,
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150075039614521404/image.png',
 				tier: Tier.Rare,
 				lowest_price: 2,
 				highest_price: 18,
 				lowest_quantity: 3,
 				highest_quantity: 3
+			}
+		]
+	},
+	{
+		seller: {
+			name: '[Sky Workshop] Master Tang',
+			image:
+				'https://cdn.discordapp.com/attachments/1149567307023122443/1150077488379211796/image.png',
+			location:
+				'https://cdn.discordapp.com/attachments/1149567307023122443/1150078026508419102/image.png',
+			highlights: [
+				{
+					name: 'Augment Stats Fortification Chip',
+					tier: Tier.Legendary
+				},
+				{
+					name: 'Colorful Scale',
+					tier: Tier.Rare
+				}
+			]
+		},
+		items: [
+			{
+				name: 'Shellstone',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078746011914370/image.png',
+				tier: Tier.Rare,
+				lowest_price: 54,
+				highest_price: 97,
+				lowest_quantity: 16,
+				highest_quantity: 16
+			},
+			{
+				name: 'Colorful Scale',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078694602313889/image.png',
+				tier: Tier.Rare,
+				lowest_price: 68,
+				highest_price: 97,
+				lowest_quantity: 20,
+				highest_quantity: 20
+			},
+			{
+				name: 'Nanofiber Frame II',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078836982161441/image.png',
+				tier: Tier.Legendary,
+				lowest_price: 22,
+				highest_price: 59,
+				lowest_quantity: 2,
+				highest_quantity: 2
+			},
+			{
+				name: 'Acidproof Glaze III',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150079012790599720/image.png',
+				tier: Tier.Legendary,
+				lowest_price: 28,
+				highest_price: 141,
+				lowest_quantity: 2,
+				highest_quantity: 2
+			},
+			{
+				name: 'Augment Stats Fortification Chip',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078582622785627/image.png',
+				tier: Tier.Legendary,
+				lowest_price: 232,
+				highest_price: 799,
+				lowest_quantity: 1,
+				highest_quantity: 1
+			}
+		]
+	},
+	{
+		seller: {
+			name: '[Golden Elixer Pavilion] Jing Dan',
+			image:
+				'https://cdn.discordapp.com/attachments/1149567307023122443/1150082542205149225/image.png',
+			location:
+				'https://cdn.discordapp.com/attachments/1149567307023122443/1150082068047478855/image.png',
+			highlights: [
+				{
+					name: 'Medicinal Herbs',
+					tier: Tier.Rare
+				},
+				{
+					name: 'Enhancement Shot',
+					tier: Tier.Epic
+				},
+				{
+					name: 'Rejuvenation Shot',
+					tier: Tier.Epic
+				}
+			]
+		},
+		items: [
+			{
+				name: 'Medicinal Herbs',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150081767571718144/image.png',
+				tier: Tier.Rare,
+				lowest_price: 26,
+				highest_price: 49,
+				lowest_quantity: 12,
+				highest_quantity: 12
+			},
+			{
+				name: 'Ginseng',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083089494724688/image.png',
+				tier: Tier.Rare,
+				lowest_price: 53,
+				highest_price: 93,
+				lowest_quantity: 8,
+				highest_quantity: 8
+			},
+			{
+				name: 'Lingzhi',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083253852721222/image.png',
+				tier: Tier.Rare,
+				lowest_price: 52,
+				highest_price: 96,
+				lowest_quantity: 8,
+				highest_quantity: 8
+			},
+			{
+				name: 'Rejuvenation Shot',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083123804111029/image.png',
+				tier: Tier.Epic,
+				lowest_price: 307,
+				highest_price: 599,
+				lowest_quantity: 1,
+				highest_quantity: 1
+			},
+			{
+				name: 'Enhancement Shot',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083167655559168/image.png',
+				tier: Tier.Epic,
+				lowest_price: 222,
+				highest_price: 392,
+				lowest_quantity: 1,
+				highest_quantity: 1
+			}
+		]
+	},
+	{
+		seller: {
+			name: '[Jade Dew Corner] Jing Tian',
+			image:
+				'https://cdn.discordapp.com/attachments/1149567307023122443/1150083715456831539/image.png',
+			location:
+				'https://cdn.discordapp.com/attachments/1149567307023122443/1150084183843160165/image.png',
+			highlights: [
+				{
+					name: 'Salt',
+					tier: Tier.Rare
+				},
+				{
+					name: 'Brocade Rice',
+					tier: Tier.Rare
+				}
+			]
+		},
+		items: [
+			{
+				name: 'Salt',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150085815838453780/image.png',
+				tier: Tier.Rare,
+				lowest_price: 25,
+				highest_price: 47,
+				lowest_quantity: 16,
+				highest_quantity: 16
+			},
+			{
+				name: 'Brocade Rice',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150085881584156782/image.png',
+				tier: Tier.Rare,
+				lowest_price: 25,
+				highest_price: 49,
+				lowest_quantity: 16,
+				highest_quantity: 16
+			},
+			{
+				name: 'Sorghum',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150085963842867220/image.png',
+				tier: Tier.Common,
+				lowest_price: 10,
+				highest_price: 17,
+				lowest_quantity: 12,
+				highest_quantity: 12
+			},
+			{
+				name: 'Green Plum',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150085963842867220/image.png',
+				tier: Tier.Common,
+				lowest_price: 10,
+				highest_price: 19,
+				lowest_quantity: 17,
+				highest_quantity: 17
+			},
+			{
+				name: 'Begonia',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150087190307680326/image.png',
+				tier: Tier.Rare,
+				lowest_price: 2,
+				highest_price: 18,
+				lowest_quantity: 26,
+				highest_quantity: 16
+			},
+			{
+				name: 'Bamboo Shoots',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150087457430315069/image.png',
+				tier: Tier.Epic,
+				lowest_price: 3,
+				highest_price: 17,
+				lowest_quantity: 20,
+				highest_quantity: 20
+			},
+			{
+				name: 'Green Jade',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150087561897840752/image.png',
+				tier: Tier.Epic,
+				lowest_price: 3,
+				highest_price: 19,
+				lowest_quantity: 12,
+				highest_quantity: 12
 			}
 		]
 	}

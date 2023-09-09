@@ -124,7 +124,7 @@ export const sellPrice: Pricing[] = [
 	{
 		name: 'Sorghum',
 		image:
-			'https://cdn.discordapp.com/attachments/1149358091180195940/1149365449662939216/Sorghum.png',
+			'https://cdn.discordapp.com/attachments/1149567307023122443/1150085963842867220/image.png',
 		tier: Tier.Common,
 		lowest_price: 12,
 		highest_price: 29,

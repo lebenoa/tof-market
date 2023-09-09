@@ -10,7 +10,7 @@
 
 <a
 	href="/buy/{id}"
-	class="card mt-4 w-[450px] mx-auto flex flex-col justify-between text-center"
+	class="card mt-4 w-[350px] mx-auto flex flex-col justify-between text-center"
 	in:fly={{ y: 200 }}
 	out:fly={{ x: 200 }}
 >
