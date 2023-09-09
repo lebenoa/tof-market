@@ -1,22 +1,36 @@
 <script lang="ts">
-    import type { Pricing } from "$lib/core/core";
-    export let items: Pricing[];
+	import type { Pricing } from '$lib/core/core';
+	export let items: Pricing[];
+	export let prioritizeLowest: boolean = false;
 
-    import ItemCard from "./ItemCard.svelte";
+	import ItemCard from './ItemCard.svelte';
 
-    let searchTerm = '';
-    let sortBy = '';
-    let displayData = items;
+	let searchTerm = '';
+	let sortBy = '';
+	let displayData = items;
 
-    $: if (searchTerm) {
+	$: if (searchTerm && sortBy) {
+		displayData = items
+			.filter((item) => {
+				return item.name.toLowerCase().includes(searchTerm.toLowerCase());
+			})
+			.sort((a, b) => {
+				switch (sortBy) {
+					case 'Highest Tier':
+						return a.tier - b.tier;
+					case 'Lowest Tier':
+						return b.tier - a.tier;
+					case 'Name':
+						return a.name.localeCompare(b.name);
+					default:
+						return 0;
+				}
+			});
+	} else if (searchTerm) {
 		displayData = items.filter((item) => {
 			return item.name.toLowerCase().includes(searchTerm.toLowerCase());
 		});
-	} else {
-		displayData = items;
-	}
-
-	$: if (sortBy) {
+	} else if (sortBy) {
 		displayData = [...items].sort((a, b) => {
 			switch (sortBy) {
 				case 'Highest Tier':
@@ -50,6 +64,6 @@
 </div>
 <div class="flex flex-row flex-wrap mx-auto mb-4 box-border">
 	{#each displayData as item}
-		<ItemCard {item} prioritizeLowest={true} />
+		<ItemCard {item} {prioritizeLowest} />
 	{/each}
 </div>

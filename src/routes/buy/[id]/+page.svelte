@@ -37,4 +37,4 @@
 		<button class="btn variant-filled-secondary rounded-none hidden md:block" on:click={() => modalStore.trigger(locationImageModal)}>Location</button>
 	</div>
 </div>
-<CardContainer {items} />
+<CardContainer {items} prioritizeLowest={true} />
