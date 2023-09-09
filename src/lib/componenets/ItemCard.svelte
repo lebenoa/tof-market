@@ -13,7 +13,11 @@
 	$: nameColor = TierColor(item.tier);
 </script>
 
-<div class="card mt-4 py-4 mx-auto w-[350px] flex flex-col justify-between" in:fly={{ y: 200 }} out:fly={{ x: 200 }}>
+<div
+	class="card mt-4 py-4 mx-auto w-[350px] flex flex-col justify-between"
+	in:fly={{ y: 200 }}
+	out:fly={{ x: 200 }}
+>
 	<img class="mx-auto" src={item.image} alt={item.name} width="96" height="96" />
 	<h3 class="h3 text-center {nameColor}">{item.name}</h3>
 	<hr class="my-2" />

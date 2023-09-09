@@ -14,7 +14,7 @@
 	<img
 		src={$modalStore[0]?.image}
 		class="lg:max-w-[90%] lg:max-h-[90%] rounded-container-token overflow-hidden shadow-xl"
-		alt="{$modalStore[0]?.meta.alt}"
+		alt={$modalStore[0]?.meta.alt}
 		title="Source: {$modalStore[0]?.meta.source}"
 	/>
 {/if}

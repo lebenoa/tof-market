@@ -49,7 +49,13 @@
 	$: shouldShowBackToTopButton(data.url);
 </script>
 
-<Modal components={registry} transitionIn={scale} transitionOut={scale} padding="p-96" buttonPositive="variant-filled-success" />
+<Modal
+	components={registry}
+	transitionIn={scale}
+	transitionOut={scale}
+	padding="p-96"
+	buttonPositive="variant-filled-success"
+/>
 
 <AppShell>
 	<svelte:fragment slot="pageHeader">

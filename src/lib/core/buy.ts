@@ -1,6 +1,7 @@
 import { Tier, type Pricing } from './core';
 
-const placeholder = 'https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png';
+const placeholder =
+	'https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png';
 
 export interface Highlight {
 	name: string;
@@ -118,8 +119,7 @@ export const buyPrice: Seller[] = [
 		items: [
 			{
 				name: 'Roughstone',
-				image:
-					placeholder,
+				image: placeholder,
 				tier: Tier.Rare,
 				lowest_price: 51,
 				highest_price: 95,
@@ -128,8 +128,7 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Jadestone',
-				image:
-					placeholder,
+				image: placeholder,
 				tier: Tier.Common,
 				lowest_price: 29,
 				highest_price: 46,
@@ -138,8 +137,7 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Raw Crystal',
-				image:
-					placeholder,
+				image: placeholder,
 				tier: Tier.Common,
 				lowest_price: 27,
 				highest_price: 49,
@@ -148,8 +146,7 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Heart of Summit',
-				image:
-					placeholder,
+				image: placeholder,
 				tier: Tier.Rare,
 				lowest_price: 4,
 				highest_price: 15,
@@ -158,8 +155,7 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Snowsource',
-				image:
-					placeholder,
+				image: placeholder,
 				tier: Tier.Epic,
 				lowest_price: 6,
 				highest_price: 38,
@@ -168,8 +164,7 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Heart of Lava',
-				image:
-					placeholder,
+				image: placeholder,
 				tier: Tier.Rare,
 				lowest_price: 2,
 				highest_price: 18,
