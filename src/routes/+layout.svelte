@@ -30,6 +30,7 @@
 	let showBackToTopButton = false;
 
 	async function shouldShowBackToTopButton(_url: string) {
+		showBackToTopButton = false;
 		if (!browser) return;
 		if (!document) return;
 
