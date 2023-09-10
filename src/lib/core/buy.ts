@@ -71,7 +71,7 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149771859294957669/image.png',
 				tier: Tier.Legendary,
-				lowest_price: 529,
+				lowest_price: 499,
 				highest_price: 1179,
 				lowest_quantity: 1,
 				highest_quantity: 1
@@ -92,7 +92,7 @@ export const buyPrice: Seller[] = [
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149779866103857214/image.png',
 				tier: Tier.Epic,
 				lowest_price: 57,
-				highest_price: 172,
+				highest_price: 180,
 				lowest_quantity: 1,
 				highest_quantity: 1
 			}
@@ -123,7 +123,7 @@ export const buyPrice: Seller[] = [
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074523534753982/image.png',
 				tier: Tier.Rare,
 				lowest_price: 51,
-				highest_price: 95,
+				highest_price: 97,
 				lowest_quantity: 20,
 				highest_quantity: 20
 			},
@@ -152,8 +152,8 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074986879516722/image.png',
 				tier: Tier.Rare,
-				lowest_price: 4,
-				highest_price: 15,
+				lowest_price: 3,
+				highest_price: 18,
 				lowest_quantity: 3,
 				highest_quantity: 3
 			},
@@ -213,7 +213,7 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078694602313889/image.png',
 				tier: Tier.Rare,
-				lowest_price: 68,
+				lowest_price: 60,
 				highest_price: 97,
 				lowest_quantity: 20,
 				highest_quantity: 20
@@ -290,8 +290,8 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowest_price: 53,
 				highest_price: 93,
-				lowest_quantity: 8,
-				highest_quantity: 8
+				lowest_quantity: 18,
+				highest_quantity: 18
 			},
 			{
 				name: 'Lingzhi',
@@ -318,7 +318,7 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083167655559168/image.png',
 				tier: Tier.Epic,
-				lowest_price: 222,
+				lowest_price: 205,
 				highest_price: 392,
 				lowest_quantity: 1,
 				highest_quantity: 1
@@ -377,7 +377,7 @@ export const buyPrice: Seller[] = [
 			{
 				name: 'Green Plum',
 				image:
-					'https://cdn.discordapp.com/attachments/1149567307023122443/1150085963842867220/image.png',
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150086018461085696/image.png',
 				tier: Tier.Common,
 				lowest_price: 10,
 				highest_price: 19,
@@ -390,7 +390,7 @@ export const buyPrice: Seller[] = [
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150087190307680326/image.png',
 				tier: Tier.Rare,
 				lowest_price: 2,
-				highest_price: 18,
+				highest_price: 19,
 				lowest_quantity: 26,
 				highest_quantity: 16
 			},
@@ -400,7 +400,7 @@ export const buyPrice: Seller[] = [
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150087457430315069/image.png',
 				tier: Tier.Epic,
 				lowest_price: 3,
-				highest_price: 17,
+				highest_price: 18,
 				lowest_quantity: 20,
 				highest_quantity: 20
 			},
