@@ -1,8 +1,5 @@
 import { Tier, type Pricing } from './core';
 
-const placeholder =
-	'https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png';
-
 export interface Highlight {
 	name: string;
 	tier: Tier;
@@ -43,8 +40,8 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowest_price: 51,
 				highest_price: 97,
-				lowest_quantity: 16,
-				highest_quantity: 16
+				lowest_quantity: 27,
+				highest_quantity: 27
 			},
 			{
 				name: 'Beast Bone',
@@ -53,7 +50,7 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Common,
 				lowest_price: 26,
 				highest_price: 47,
-				lowest_quantity: 26,
+				lowest_quantity: 17,
 				highest_quantity: 26
 			},
 			{
@@ -64,7 +61,7 @@ export const buyPrice: Seller[] = [
 				lowest_price: 29,
 				highest_price: 48,
 				lowest_quantity: 14,
-				highest_quantity: 14
+				highest_quantity: 23
 			},
 			{
 				name: 'Fortress Belt',
@@ -73,6 +70,15 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Legendary,
 				lowest_price: 499,
 				highest_price: 1179,
+				lowest_quantity: 1,
+				highest_quantity: 1
+			},
+			{
+				name: 'Fortress Hanguards',
+				image: '',
+				tier: Tier.Legendary,
+				lowest_price: 574,
+				highest_price: 1180,
 				lowest_quantity: 1,
 				highest_quantity: 1
 			},
@@ -93,6 +99,24 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Epic,
 				lowest_price: 57,
 				highest_price: 180,
+				lowest_quantity: 1,
+				highest_quantity: 1
+			},
+			{
+				name: 'Elite Armbands',
+				image: '',
+				tier: Tier.Epic,
+				lowest_price: 57,
+				highest_price: 195,
+				lowest_quantity: 1,
+				highest_quantity: 1
+			},
+			{
+				name: 'Elite Combat Belt',
+				image: '',
+				tier: Tier.Epic,
+				lowest_price: 53,
+				highest_price: 199,
 				lowest_quantity: 1,
 				highest_quantity: 1
 			}
@@ -125,7 +149,7 @@ export const buyPrice: Seller[] = [
 				lowest_price: 51,
 				highest_price: 97,
 				lowest_quantity: 20,
-				highest_quantity: 20
+				highest_quantity: 24
 			},
 			{
 				name: 'Jadestone',
@@ -144,7 +168,7 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Common,
 				lowest_price: 27,
 				highest_price: 49,
-				lowest_quantity: 29,
+				lowest_quantity: 26,
 				highest_quantity: 29
 			},
 			{
@@ -165,7 +189,7 @@ export const buyPrice: Seller[] = [
 				lowest_price: 6,
 				highest_price: 38,
 				lowest_quantity: 1,
-				highest_quantity: 1
+				highest_quantity: 2
 			},
 			{
 				name: 'Heart of Lava',
@@ -176,6 +200,15 @@ export const buyPrice: Seller[] = [
 				highest_price: 18,
 				lowest_quantity: 3,
 				highest_quantity: 3
+			},
+			{
+				name: 'Crystal Chunk',
+				image: '',
+				tier: Tier.Common,
+				lowest_price: 3,
+				highest_price: 19,
+				lowest_quantity: 12,
+				highest_quantity: 12
 			}
 		]
 	},
@@ -216,7 +249,7 @@ export const buyPrice: Seller[] = [
 				lowest_price: 60,
 				highest_price: 97,
 				lowest_quantity: 20,
-				highest_quantity: 20
+				highest_quantity: 26
 			},
 			{
 				name: 'Nanofiber Frame II',
@@ -235,8 +268,17 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Legendary,
 				lowest_price: 28,
 				highest_price: 141,
-				lowest_quantity: 2,
+				lowest_quantity: 1,
 				highest_quantity: 2
+			},
+			{
+				name: 'Nano Coating I',
+				image: '',
+				tier: Tier.Rare,
+				lowest_price: 2,
+				highest_price: 19,
+				lowest_quantity: 5,
+				highest_quantity: 5
 			},
 			{
 				name: 'Augment Stats Fortification Chip',
@@ -247,6 +289,15 @@ export const buyPrice: Seller[] = [
 				highest_price: 799,
 				lowest_quantity: 1,
 				highest_quantity: 1
+			},
+			{
+				name: 'Information Processing Module',
+				image: '',
+				tier: Tier.Legendary,
+				lowest_price: 123,
+				highest_price: 396,
+				lowest_quantity: 4,
+				highest_quantity: 4
 			}
 		]
 	},
@@ -280,8 +331,8 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowest_price: 26,
 				highest_price: 49,
-				lowest_quantity: 12,
-				highest_quantity: 12
+				lowest_quantity: 27,
+				highest_quantity: 27
 			},
 			{
 				name: 'Ginseng',
@@ -290,7 +341,7 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowest_price: 53,
 				highest_price: 93,
-				lowest_quantity: 18,
+				lowest_quantity: 13,
 				highest_quantity: 18
 			},
 			{
@@ -300,8 +351,8 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowest_price: 52,
 				highest_price: 96,
-				lowest_quantity: 8,
-				highest_quantity: 8
+				lowest_quantity: 24,
+				highest_quantity: 24
 			},
 			{
 				name: 'Rejuvenation Shot',
@@ -322,7 +373,17 @@ export const buyPrice: Seller[] = [
 				highest_price: 392,
 				lowest_quantity: 1,
 				highest_quantity: 1
-			}
+			},
+			{
+				name: 'Enhanced Blade Shot',
+				image:
+					'',
+				tier: Tier.Epic,
+				lowest_price: 405,
+				highest_price: 785,
+				lowest_quantity: 1,
+				highest_quantity: 1
+			},
 		]
 	},
 	{
@@ -351,7 +412,7 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowest_price: 25,
 				highest_price: 47,
-				lowest_quantity: 16,
+				lowest_quantity: 15,
 				highest_quantity: 16
 			},
 			{
@@ -362,7 +423,7 @@ export const buyPrice: Seller[] = [
 				lowest_price: 25,
 				highest_price: 49,
 				lowest_quantity: 16,
-				highest_quantity: 16
+				highest_quantity: 21
 			},
 			{
 				name: 'Sorghum',
@@ -370,9 +431,9 @@ export const buyPrice: Seller[] = [
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150085963842867220/image.png',
 				tier: Tier.Common,
 				lowest_price: 10,
-				highest_price: 17,
+				highest_price: 19,
 				lowest_quantity: 12,
-				highest_quantity: 12
+				highest_quantity: 16
 			},
 			{
 				name: 'Green Plum',
@@ -382,7 +443,7 @@ export const buyPrice: Seller[] = [
 				lowest_price: 10,
 				highest_price: 19,
 				lowest_quantity: 17,
-				highest_quantity: 17
+				highest_quantity: 22
 			},
 			{
 				name: 'Begonia',
@@ -391,8 +452,8 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowest_price: 2,
 				highest_price: 19,
-				lowest_quantity: 26,
-				highest_quantity: 16
+				lowest_quantity: 16,
+				highest_quantity: 21
 			},
 			{
 				name: 'Bamboo Shoots',
@@ -401,7 +462,7 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Epic,
 				lowest_price: 3,
 				highest_price: 18,
-				lowest_quantity: 20,
+				lowest_quantity: 11,
 				highest_quantity: 20
 			},
 			{
@@ -412,7 +473,7 @@ export const buyPrice: Seller[] = [
 				lowest_price: 3,
 				highest_price: 19,
 				lowest_quantity: 12,
-				highest_quantity: 12
+				highest_quantity: 19
 			}
 		]
 	}

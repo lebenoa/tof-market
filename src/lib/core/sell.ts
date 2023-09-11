@@ -67,7 +67,7 @@ export const sellPrice: Pricing[] = [
 			'https://cdn.discordapp.com/attachments/1149358091180195940/1149365421087141928/Mercerized_Cotton.png',
 		tier: Tier.Rare,
 		lowest_price: 43,
-		highest_price: 94,
+		highest_price: 105,
 		lowest_quantity: 6,
 		highest_quantity: 6
 	},

@@ -18,7 +18,7 @@
 	in:fly={{ y: 200 }}
 	out:fly={{ x: 200 }}
 >
-	<img class="mx-auto" src={item.image} alt={item.name} width="96" height="96" />
+	<img class="mx-auto" src={item.image ? item.image : 'https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png'} alt={item.name} width="96" height="96" />
 	<h3 class="h3 text-center {nameColor}">{item.name}</h3>
 	<hr class="my-2" />
 	<p class="text-center">Quantity: {item.lowest_quantity} - {item.highest_quantity}</p>
