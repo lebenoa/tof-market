@@ -9,10 +9,10 @@ export interface Pricing {
 	name: string;
 	image: string;
 	tier: Tier;
-	lowest_price: number;
-	highest_price: number;
-	lowest_quantity: number;
-	highest_quantity: number;
+	lowestPrice: number;
+	highestPrice: number;
+	lowestQuantity: number;
+	highestQuantity: number;
 }
 
 export function TierColor(tier: Tier): string {

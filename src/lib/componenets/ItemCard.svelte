@@ -92,17 +92,17 @@
 	<hr class="mb-2" />
 	<p class="text-center">
 		<span class="text-secondary-500">Quantity:</span>
-		{item.lowest_quantity} - {item.highest_quantity}
+		{item.lowestQuantity} - {item.highestQuantity}
 	</p>
 	<hr class="my-2" />
 
 	<div class="flex justify-evenly pb-2">
 		<h4 class="h4 text-center mt-auto {lowestColor}">
-			Lowest Price <br /> <strong class="text-3xl">{item.lowest_price}</strong>
+			Lowest Price <br /> <strong class="text-3xl">{item.lowestPrice}</strong>
 		</h4>
 		<div class="h-full w-px bg-surface-600" />
 		<h4 class="h4 text-center {highestColor}">
-			Highest Price <br /> <strong class="text-3xl">{item.highest_price}</strong>
+			Highest Price <br /> <strong class="text-3xl">{item.highestPrice}</strong>
 		</h4>
 	</div>
 </div>

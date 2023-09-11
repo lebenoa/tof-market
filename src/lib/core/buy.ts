@@ -38,90 +38,90 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149728020366635028/Silk_Cocoon.png',
 				tier: Tier.Rare,
-				lowest_price: 51,
-				highest_price: 97,
-				lowest_quantity: 27,
-				highest_quantity: 27
+				lowestPrice: 51,
+				highestPrice: 97,
+				lowestQuantity: 27,
+				highestQuantity: 27
 			},
 			{
 				name: 'Beast Bone',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149729186999705640/image.png',
 				tier: Tier.Common,
-				lowest_price: 26,
-				highest_price: 47,
-				lowest_quantity: 17,
-				highest_quantity: 26
+				lowestPrice: 26,
+				highestPrice: 47,
+				lowestQuantity: 17,
+				highestQuantity: 26
 			},
 			{
 				name: 'Beast Hide',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149729220562518047/image.png',
 				tier: Tier.Common,
-				lowest_price: 29,
-				highest_price: 48,
-				lowest_quantity: 14,
-				highest_quantity: 23
+				lowestPrice: 29,
+				highestPrice: 48,
+				lowestQuantity: 14,
+				highestQuantity: 23
 			},
 			{
 				name: 'Fortress Belt',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149771859294957669/image.png',
 				tier: Tier.Legendary,
-				lowest_price: 499,
-				highest_price: 1179,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 499,
+				highestPrice: 1179,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Fortress Handguards',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825312049963150/image.png',
 				tier: Tier.Legendary,
-				lowest_price: 574,
-				highest_price: 1180,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 574,
+				highestPrice: 1180,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Elite Combat Leggings',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149779757781750050/image.png',
 				tier: Tier.Epic,
-				lowest_price: 68,
-				highest_price: 193,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 68,
+				highestPrice: 193,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Elite Combat Helmet',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149779866103857214/image.png',
 				tier: Tier.Epic,
-				lowest_price: 57,
-				highest_price: 180,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 57,
+				highestPrice: 180,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Elite Armbands',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825448067055717/image.png',
 				tier: Tier.Epic,
-				lowest_price: 57,
-				highest_price: 195,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 57,
+				highestPrice: 195,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Elite Combat Belt',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825511493316678/image.png',
 				tier: Tier.Epic,
-				lowest_price: 53,
-				highest_price: 199,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 53,
+				highestPrice: 199,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			}
 		]
 	},
@@ -149,70 +149,70 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074523534753982/image.png',
 				tier: Tier.Rare,
-				lowest_price: 51,
-				highest_price: 97,
-				lowest_quantity: 20,
-				highest_quantity: 24
+				lowestPrice: 51,
+				highestPrice: 97,
+				lowestQuantity: 20,
+				highestQuantity: 24
 			},
 			{
 				name: 'Jadestone',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074570448056340/image.png',
 				tier: Tier.Common,
-				lowest_price: 29,
-				highest_price: 46,
-				lowest_quantity: 13,
-				highest_quantity: 13
+				lowestPrice: 29,
+				highestPrice: 46,
+				lowestQuantity: 13,
+				highestQuantity: 13
 			},
 			{
 				name: 'Raw Crystal',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074611413827714/image.png',
 				tier: Tier.Common,
-				lowest_price: 27,
-				highest_price: 49,
-				lowest_quantity: 26,
-				highest_quantity: 29
+				lowestPrice: 27,
+				highestPrice: 49,
+				lowestQuantity: 26,
+				highestQuantity: 29
 			},
 			{
 				name: 'Heart of Summit',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074986879516722/image.png',
 				tier: Tier.Rare,
-				lowest_price: 3,
-				highest_price: 18,
-				lowest_quantity: 3,
-				highest_quantity: 3
+				lowestPrice: 3,
+				highestPrice: 18,
+				lowestQuantity: 3,
+				highestQuantity: 3
 			},
 			{
 				name: 'Snowsource',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074922115285052/image.png',
 				tier: Tier.Epic,
-				lowest_price: 6,
-				highest_price: 38,
-				lowest_quantity: 1,
-				highest_quantity: 2
+				lowestPrice: 6,
+				highestPrice: 38,
+				lowestQuantity: 1,
+				highestQuantity: 2
 			},
 			{
 				name: 'Heart of Lava',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150075039614521404/image.png',
 				tier: Tier.Rare,
-				lowest_price: 2,
-				highest_price: 18,
-				lowest_quantity: 3,
-				highest_quantity: 3
+				lowestPrice: 2,
+				highestPrice: 18,
+				lowestQuantity: 3,
+				highestQuantity: 3
 			},
 			{
 				name: 'Crystal Chunk',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825903870464011/image.png',
 				tier: Tier.Common,
-				lowest_price: 3,
-				highest_price: 19,
-				lowest_quantity: 12,
-				highest_quantity: 12
+				lowestPrice: 3,
+				highestPrice: 19,
+				lowestQuantity: 12,
+				highestQuantity: 12
 			}
 		]
 	},
@@ -240,70 +240,70 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078746011914370/image.png',
 				tier: Tier.Rare,
-				lowest_price: 54,
-				highest_price: 97,
-				lowest_quantity: 16,
-				highest_quantity: 16
+				lowestPrice: 54,
+				highestPrice: 97,
+				lowestQuantity: 16,
+				highestQuantity: 16
 			},
 			{
 				name: 'Colorful Scale',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078694602313889/image.png',
 				tier: Tier.Rare,
-				lowest_price: 60,
-				highest_price: 97,
-				lowest_quantity: 20,
-				highest_quantity: 26
+				lowestPrice: 60,
+				highestPrice: 97,
+				lowestQuantity: 20,
+				highestQuantity: 26
 			},
 			{
 				name: 'Nanofiber Frame II',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078836982161441/image.png',
 				tier: Tier.Legendary,
-				lowest_price: 22,
-				highest_price: 59,
-				lowest_quantity: 2,
-				highest_quantity: 2
+				lowestPrice: 22,
+				highestPrice: 59,
+				lowestQuantity: 2,
+				highestQuantity: 2
 			},
 			{
 				name: 'Acidproof Glaze III',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150079012790599720/image.png',
 				tier: Tier.Legendary,
-				lowest_price: 28,
-				highest_price: 141,
-				lowest_quantity: 1,
-				highest_quantity: 2
+				lowestPrice: 28,
+				highestPrice: 141,
+				lowestQuantity: 1,
+				highestQuantity: 2
 			},
 			{
 				name: 'Nano Coating I',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150824937267925146/image.png',
 				tier: Tier.Rare,
-				lowest_price: 2,
-				highest_price: 19,
-				lowest_quantity: 5,
-				highest_quantity: 5
+				lowestPrice: 2,
+				highestPrice: 19,
+				lowestQuantity: 5,
+				highestQuantity: 5
 			},
 			{
 				name: 'Augment Stats Fortification Chip',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078582622785627/image.png',
 				tier: Tier.Legendary,
-				lowest_price: 232,
-				highest_price: 799,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 232,
+				highestPrice: 799,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Information Processing Module',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150824742346043442/image.png',
 				tier: Tier.Legendary,
-				lowest_price: 123,
-				highest_price: 396,
-				lowest_quantity: 4,
-				highest_quantity: 4
+				lowestPrice: 123,
+				highestPrice: 396,
+				lowestQuantity: 4,
+				highestQuantity: 4
 			}
 		]
 	},
@@ -335,60 +335,60 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150081767571718144/image.png',
 				tier: Tier.Rare,
-				lowest_price: 26,
-				highest_price: 49,
-				lowest_quantity: 27,
-				highest_quantity: 27
+				lowestPrice: 26,
+				highestPrice: 49,
+				lowestQuantity: 27,
+				highestQuantity: 27
 			},
 			{
 				name: 'Ginseng',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083089494724688/image.png',
 				tier: Tier.Rare,
-				lowest_price: 53,
-				highest_price: 93,
-				lowest_quantity: 13,
-				highest_quantity: 18
+				lowestPrice: 53,
+				highestPrice: 93,
+				lowestQuantity: 13,
+				highestQuantity: 18
 			},
 			{
 				name: 'Lingzhi',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083253852721222/image.png',
 				tier: Tier.Rare,
-				lowest_price: 52,
-				highest_price: 96,
-				lowest_quantity: 24,
-				highest_quantity: 24
+				lowestPrice: 52,
+				highestPrice: 96,
+				lowestQuantity: 24,
+				highestQuantity: 24
 			},
 			{
 				name: 'Rejuvenation Shot',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083123804111029/image.png',
 				tier: Tier.Epic,
-				lowest_price: 307,
-				highest_price: 599,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 307,
+				highestPrice: 599,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Enhancement Shot',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083167655559168/image.png',
 				tier: Tier.Epic,
-				lowest_price: 205,
-				highest_price: 392,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 205,
+				highestPrice: 392,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Enhanced Blade Shot',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150826290941804550/image.png',
 				tier: Tier.Epic,
-				lowest_price: 405,
-				highest_price: 785,
-				lowest_quantity: 1,
-				highest_quantity: 1
+				lowestPrice: 405,
+				highestPrice: 785,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			}
 		]
 	},
@@ -416,70 +416,70 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150085815838453780/image.png',
 				tier: Tier.Rare,
-				lowest_price: 25,
-				highest_price: 47,
-				lowest_quantity: 15,
-				highest_quantity: 16
+				lowestPrice: 25,
+				highestPrice: 47,
+				lowestQuantity: 15,
+				highestQuantity: 16
 			},
 			{
 				name: 'Brocade Rice',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150085881584156782/image.png',
 				tier: Tier.Rare,
-				lowest_price: 25,
-				highest_price: 49,
-				lowest_quantity: 16,
-				highest_quantity: 21
+				lowestPrice: 25,
+				highestPrice: 49,
+				lowestQuantity: 16,
+				highestQuantity: 21
 			},
 			{
 				name: 'Sorghum',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150085963842867220/image.png',
 				tier: Tier.Common,
-				lowest_price: 10,
-				highest_price: 19,
-				lowest_quantity: 12,
-				highest_quantity: 16
+				lowestPrice: 10,
+				highestPrice: 19,
+				lowestQuantity: 12,
+				highestQuantity: 16
 			},
 			{
 				name: 'Green Plum',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150086018461085696/image.png',
 				tier: Tier.Common,
-				lowest_price: 10,
-				highest_price: 19,
-				lowest_quantity: 17,
-				highest_quantity: 22
+				lowestPrice: 10,
+				highestPrice: 19,
+				lowestQuantity: 17,
+				highestQuantity: 22
 			},
 			{
 				name: 'Begonia',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150087190307680326/image.png',
 				tier: Tier.Rare,
-				lowest_price: 2,
-				highest_price: 19,
-				lowest_quantity: 16,
-				highest_quantity: 21
+				lowestPrice: 2,
+				highestPrice: 19,
+				lowestQuantity: 16,
+				highestQuantity: 21
 			},
 			{
 				name: 'Bamboo Shoots',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150087457430315069/image.png',
 				tier: Tier.Epic,
-				lowest_price: 3,
-				highest_price: 18,
-				lowest_quantity: 11,
-				highest_quantity: 20
+				lowestPrice: 3,
+				highestPrice: 18,
+				lowestQuantity: 11,
+				highestQuantity: 20
 			},
 			{
 				name: 'Green Jade',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150087561897840752/image.png',
 				tier: Tier.Epic,
-				lowest_price: 3,
-				highest_price: 19,
-				lowest_quantity: 12,
-				highest_quantity: 19
+				lowestPrice: 3,
+				highestPrice: 19,
+				lowestQuantity: 12,
+				highestQuantity: 19
 			}
 		]
 	}
