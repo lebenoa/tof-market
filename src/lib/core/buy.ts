@@ -74,8 +74,9 @@ export const buyPrice: Seller[] = [
 				highest_quantity: 1
 			},
 			{
-				name: 'Fortress Hanguards',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1150825312049963150/image.png',
+				name: 'Fortress Handguards',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825312049963150/image.png',
 				tier: Tier.Legendary,
 				lowest_price: 574,
 				highest_price: 1180,
@@ -104,7 +105,8 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Elite Armbands',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1150825448067055717/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825448067055717/image.png',
 				tier: Tier.Epic,
 				lowest_price: 57,
 				highest_price: 195,
@@ -113,7 +115,8 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Elite Combat Belt',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1150825511493316678/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825511493316678/image.png',
 				tier: Tier.Epic,
 				lowest_price: 53,
 				highest_price: 199,
@@ -203,7 +206,8 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Crystal Chunk',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1150825903870464011/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825903870464011/image.png',
 				tier: Tier.Common,
 				lowest_price: 3,
 				highest_price: 19,
@@ -273,7 +277,8 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Nano Coating I',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1150824937267925146/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150824937267925146/image.png',
 				tier: Tier.Rare,
 				lowest_price: 2,
 				highest_price: 19,
@@ -292,7 +297,8 @@ export const buyPrice: Seller[] = [
 			},
 			{
 				name: 'Information Processing Module',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1150824742346043442/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150824742346043442/image.png',
 				tier: Tier.Legendary,
 				lowest_price: 123,
 				highest_price: 396,
@@ -383,7 +389,7 @@ export const buyPrice: Seller[] = [
 				highest_price: 785,
 				lowest_quantity: 1,
 				highest_quantity: 1
-			},
+			}
 		]
 	},
 	{
