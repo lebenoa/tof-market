@@ -10,7 +10,7 @@
 
 <a
 	href="/buy/{id}"
-	class="card mt-4 w-[350px] mx-auto flex flex-col justify-between text-center"
+	class="card mt-4 w-[350px] mx-auto flex flex-col text-center"
 	in:fly={{ y: 200 }}
 	out:fly={{ x: 200 }}
 >
@@ -20,13 +20,11 @@
 	</div>
 	<h3 class="h3 text-primary-500">{seller.name}</h3>
 	<hr class="w-full my-2" />
-	<h4 class="h4 text-yellow-500">Highlight Items</h4>
-	<p>
-		{@html seller.highlights
-			.map((i) => {
-				const color = TierColor(i.tier);
-				return `<span class="${color}">${i.name}</span>`;
-			})
-			.join(', ')}
-	</p>
+	<div class="w-full h-full flex flex-col pb-2">
+		<h4 class="h4 text-orange-500 underline">Highlight Items</h4>
+
+		{#each seller.highlights as item}
+			<p>- <span class={TierColor(item.tier)}>{item.name}</span></p>
+		{/each}
+	</div>
 </a>

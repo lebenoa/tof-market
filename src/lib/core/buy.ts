@@ -229,6 +229,10 @@ export const buyPrice: Seller[] = [
 					tier: Tier.Legendary
 				},
 				{
+					name: 'Information Processing Module',
+					tier: Tier.Legendary
+				},
+				{
 					name: 'Colorful Scale',
 					tier: Tier.Rare
 				}
