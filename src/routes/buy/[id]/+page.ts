@@ -3,13 +3,19 @@ import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ params }) => {
-	const idStr = params.id;
+	const id = Number(params.id);
 
-	let id: number;
-	try {
-		id = parseInt(idStr);
-	} catch (e) {
-		throw error(400, 'Invalid ID');
+	if (!Number.isInteger(id))
+		throw error(400, {
+			code: 'Invalid ID',
+			message: `ID: "${params.id}" is not a number`
+		});
+
+	if (id > buyPrice.length - 1) {
+		throw error(400, {
+			code: 'Invalid ID',
+			message: `ID: ${id} is out of range`
+		});
 	}
 
 	return {

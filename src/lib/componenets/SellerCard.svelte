@@ -18,13 +18,13 @@
 		<img src={seller.image} alt="{seller.name} npc" />
 		<img src={seller.location} alt="{seller.name} location" />
 	</div>
-	<h3 class="h3 text-primary-500">{seller.name}</h3>
+	<h3 class="h3 text-primary-400">{seller.name}</h3>
 	<hr class="w-full my-2" />
 	<div class="w-full h-full flex flex-col pb-2">
 		<h4 class="h4 text-orange-500 underline">Highlight Items</h4>
 
 		{#each seller.highlights as item}
-			<p>- <span class={TierColor(item.tier)}>{item.name}</span></p>
+			<p class={TierColor(item.tier)}>• {item.name}</p>
 		{/each}
 	</div>
 </a>

@@ -9,7 +9,7 @@
 
 	const modalStore = getModalStore();
 
-	function imageModal(url: string): ModalSettings {
+	function imageModal(url?: string): ModalSettings {
 		return {
 			type: 'component',
 			component: 'image',
