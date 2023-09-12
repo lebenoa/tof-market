@@ -17,7 +17,7 @@ export const sellPrice: Pricing[] = [
 			'https://cdn.discordapp.com/attachments/1149358091180195940/1149365422156677200/Forging_Hammer.png',
 		tier: Tier.Rare,
 		lowestPrice: 47,
-		highestPrice: 98,
+		highestPrice: 103,
 		lowestQuantity: 4,
 		highestQuantity: 4
 	},
@@ -27,7 +27,7 @@ export const sellPrice: Pricing[] = [
 			'https://cdn.discordapp.com/attachments/1149358091180195940/1149365449461596190/Shengwen_Carved_Dracojade_Box.png',
 		tier: Tier.Legendary,
 		lowestPrice: 103,
-		highestPrice: 216,
+		highestPrice: 221,
 		lowestQuantity: 5,
 		highestQuantity: 5
 	},
@@ -67,7 +67,7 @@ export const sellPrice: Pricing[] = [
 			'https://cdn.discordapp.com/attachments/1149358091180195940/1149365421087141928/Mercerized_Cotton.png',
 		tier: Tier.Rare,
 		lowestPrice: 43,
-		highestPrice: 105,
+		highestPrice: 106,
 		lowestQuantity: 6,
 		highestQuantity: 6
 	},
