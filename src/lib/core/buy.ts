@@ -568,7 +568,7 @@ export const buyPrice: Seller[] = [
 				highestQuantity: 4,
 			},
 			{
-				name: 'Infernal Steel Lized (Tamed)',
+				name: 'Infernal Steel Lizard (Tamed)',
 				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151576105959051264/image.png',
 				tier: Tier.Common,
 				lowestPrice: 13,
