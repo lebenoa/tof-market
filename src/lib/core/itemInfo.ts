@@ -61,5 +61,11 @@ export const itemInfo: Record<string, string> = {
 	'Bamboo Shoots':
 		'https://cdn.discordapp.com/attachments/1149567307023122443/1150845401293934612/image.png',
 	'Green Jade':
-		'https://cdn.discordapp.com/attachments/1149567307023122443/1150845440099635272/image.png'
+		'https://cdn.discordapp.com/attachments/1149567307023122443/1150845440099635272/image.png',
+	'Augment Stats Fortification Chip':
+		'https://cdn.discordapp.com/attachments/1149567307023122443/1151578786681344110/image.png',
+	'Nanofiber Frame II':
+		'https://cdn.discordapp.com/attachments/1149567307023122443/1151579331357839502/image.png',
+	'Heart of Summit':
+		'https://cdn.discordapp.com/attachments/1149567307023122443/1151579729384706268/image.png'
 };

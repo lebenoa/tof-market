@@ -44,13 +44,11 @@
 			}}
 		>
 			<img
-				class="mx-auto"
+				class="mx-auto max-w-full max-h-full"
 				src={item.image
 					? item.image
 					: 'https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png'}
 				alt={item.name}
-				width="96"
-				height="96"
 			/>
 			<h3 class="h3 text-center {nameColor}">{item.name}</h3>
 			<div class="absolute top-0 right-0">
@@ -78,13 +76,11 @@
 		</div>
 	{:else}
 		<img
-			class="mx-auto pt-2"
+			class="mx-auto min-w-[96px] min-h-[96px] max-w-full max-h-full pt-2"
 			src={item.image
 				? item.image
 				: 'https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png'}
 			alt={item.name}
-			width="96"
-			height="96"
 		/>
 		<h3 class="h3 text-center {nameColor}">{item.name}</h3>
 	{/if}

@@ -46,7 +46,7 @@ export const sellPrice: Pricing[] = [
 		image:
 			'https://cdn.discordapp.com/attachments/1149358091180195940/1149365449885233202/Two-Sided_Jade_Pendant.png',
 		tier: Tier.Epic,
-		lowestPrice: 63,
+		lowestPrice: 60,
 		highestPrice: 133,
 		lowestQuantity: 4,
 		highestQuantity: 4
@@ -76,7 +76,7 @@ export const sellPrice: Pricing[] = [
 		image:
 			'https://cdn.discordapp.com/attachments/1149358091180195940/1149365421372342322/Crystal_Bangle.png',
 		tier: Tier.Rare,
-		lowestPrice: 59,
+		lowestPrice: 43,
 		highestPrice: 106,
 		lowestQuantity: 5,
 		highestQuantity: 5

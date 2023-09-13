@@ -189,7 +189,7 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074922115285052/image.png',
 				tier: Tier.Epic,
-				lowestPrice: 6,
+				lowestPrice: 4,
 				highestPrice: 38,
 				lowestQuantity: 1,
 				highestQuantity: 2
@@ -254,7 +254,7 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078694602313889/image.png',
 				tier: Tier.Rare,
-				lowestPrice: 57,
+				lowestPrice: 55,
 				highestPrice: 97,
 				lowestQuantity: 20,
 				highestQuantity: 26
@@ -485,6 +485,106 @@ export const buyPrice: Seller[] = [
 				lowestQuantity: 12,
 				highestQuantity: 19
 			}
+		]
+	},
+	{
+		"seller": {
+			name: '[Beast Adoption Shelter] Xue Yan',
+			image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151571543499997285/image.png',
+			location: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151572741309349979/image.png',
+			highlights: []
+		},
+		items: [
+			{
+				name: 'G-Coyote (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574143565824000/image.png',
+				tier: Tier.Common,
+				lowestPrice: 41,
+				highestPrice: 150,
+				lowestQuantity: 1,
+				highestQuantity: 1,
+			},
+			{
+				name: 'Folium Tiger (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574575444926516/image.png',
+				tier: Tier.Common,
+				lowestPrice: 96,
+				highestPrice: 246,
+				lowestQuantity: 1,
+				highestQuantity: 1,
+			},
+			{
+				name: 'G-Thorn Wolf (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574220539707453/image.png',
+				tier: Tier.Common,
+				lowestPrice: 24,
+				highestPrice: 87,
+				lowestQuantity: 1,
+				highestQuantity: 1,
+			},
+			{
+				name: 'Bunnydart (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574397015040010/image.png',
+				tier: Tier.Common,
+				lowestPrice: 23,
+				highestPrice: 79,
+				lowestQuantity: 2,
+				highestQuantity: 2,
+			},
+			{
+				name: 'G-Crawler (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574300944502864/image.png',
+				tier: Tier.Common,
+				lowestPrice: 17,
+				highestPrice: 85,
+				lowestQuantity: 2,
+				highestQuantity: 2,
+			},
+			{
+				name: 'Stone Spider (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574475310125066/image.png',
+				tier: Tier.Common,
+				lowestPrice: 38,
+				highestPrice: 155,
+				lowestQuantity: 2,
+				highestQuantity: 2,
+			},
+			{
+				name: 'Desert Predator (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574665282723881/image.png',
+				tier: Tier.Common,
+				lowestPrice: 48,
+				highestPrice: 240,
+				lowestQuantity: 1,
+				highestQuantity: 1,
+			},
+			{
+				name: 'Saber-Toothed Wolf (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151577557259538492/image.png',
+				tier: Tier.Common,
+				lowestPrice: 40,
+				highestPrice: 158,
+				lowestQuantity: 4,
+				highestQuantity: 4,
+			},
+			{
+				name: 'Infernal Steel Lized (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151576105959051264/image.png',
+				tier: Tier.Common,
+				lowestPrice: 13,
+				highestPrice: 42,
+				lowestQuantity: 4,
+				highestQuantity: 4,
+			},
+			{
+				name: 'Forest Spider (Tamed)',
+				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574432645652611/image.png',
+				tier: Tier.Common,
+				lowestPrice: 18,
+				highestPrice: 81,
+				lowestQuantity: 4,
+				highestQuantity: 4,
+			},
 		]
 	}
 ];
