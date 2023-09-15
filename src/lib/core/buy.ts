@@ -48,7 +48,7 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149729186999705640/image.png',
 				tier: Tier.Common,
-				lowestPrice: 26,
+				lowestPrice: 25,
 				highestPrice: 47,
 				lowestQuantity: 17,
 				highestQuantity: 26
@@ -149,7 +149,7 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150074523534753982/image.png',
 				tier: Tier.Rare,
-				lowestPrice: 51,
+				lowestPrice: 50,
 				highestPrice: 97,
 				lowestQuantity: 20,
 				highestQuantity: 24
@@ -350,7 +350,7 @@ export const buyPrice: Seller[] = [
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150083089494724688/image.png',
 				tier: Tier.Rare,
 				lowestPrice: 53,
-				highestPrice: 93,
+				highestPrice: 97,
 				lowestQuantity: 13,
 				highestQuantity: 18
 			},
@@ -390,7 +390,7 @@ export const buyPrice: Seller[] = [
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150826290941804550/image.png',
 				tier: Tier.Epic,
 				lowestPrice: 405,
-				highestPrice: 785,
+				highestPrice: 792,
 				lowestQuantity: 1,
 				highestQuantity: 1
 			}
@@ -471,7 +471,7 @@ export const buyPrice: Seller[] = [
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150087457430315069/image.png',
 				tier: Tier.Epic,
 				lowestPrice: 3,
-				highestPrice: 18,
+				highestPrice: 19,
 				lowestQuantity: 11,
 				highestQuantity: 20
 			},
@@ -500,7 +500,7 @@ export const buyPrice: Seller[] = [
 				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574143565824000/image.png',
 				tier: Tier.Common,
 				lowestPrice: 41,
-				highestPrice: 150,
+				highestPrice: 152,
 				lowestQuantity: 1,
 				highestQuantity: 1,
 			},
