@@ -96,7 +96,7 @@ export const sellPrice: Pricing[] = [
 		image:
 			'https://cdn.discordapp.com/attachments/1149358091180195940/1149365422584504370/Golden_Vein_Ointment.png',
 		tier: Tier.Rare,
-		lowestPrice: 50,
+		lowestPrice: 45,
 		highestPrice: 99,
 		lowestQuantity: 3,
 		highestQuantity: 3
@@ -117,7 +117,7 @@ export const sellPrice: Pricing[] = [
 			'https://cdn.discordapp.com/attachments/1149358091180195940/1149365422823571497/Herbal_Longevity_Tonic.png',
 		tier: Tier.Epic,
 		lowestPrice: 52,
-		highestPrice: 114,
+		highestPrice: 118,
 		lowestQuantity: 3,
 		highestQuantity: 3
 	},
