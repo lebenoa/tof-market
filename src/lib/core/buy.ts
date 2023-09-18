@@ -40,7 +40,7 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowestPrice: 51,
 				highestPrice: 97,
-				lowestQuantity: 27,
+				lowestQuantity: 17,
 				highestQuantity: 27
 			},
 			{
@@ -58,10 +58,29 @@ export const buyPrice: Seller[] = [
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1149729220562518047/image.png',
 				tier: Tier.Common,
-				lowestPrice: 29,
+				lowestPrice: 26,
 				highestPrice: 48,
 				lowestQuantity: 14,
 				highestQuantity: 23
+			},
+			{
+				name: 'Fortress Helm',
+				image: '',
+				tier: Tier.Legendary,
+				lowestPrice: 368,
+				highestPrice: 1169,
+				lowestQuantity: 1,
+				highestQuantity: 1
+			},
+			{
+				name: 'Fortress Handguards',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825312049963150/image.png',
+				tier: Tier.Legendary,
+				lowestPrice: 368,
+				highestPrice: 1180,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Fortress Belt',
@@ -74,12 +93,11 @@ export const buyPrice: Seller[] = [
 				highestQuantity: 1
 			},
 			{
-				name: 'Fortress Handguards',
-				image:
-					'https://cdn.discordapp.com/attachments/1149567307023122443/1150825312049963150/image.png',
+				name: 'Fortress Legguards',
+				image: '',
 				tier: Tier.Legendary,
-				lowestPrice: 368,
-				highestPrice: 1180,
+				lowestPrice: 337,
+				highestPrice: 1073,
 				lowestQuantity: 1,
 				highestQuantity: 1
 			},
@@ -152,7 +170,7 @@ export const buyPrice: Seller[] = [
 				lowestPrice: 50,
 				highestPrice: 97,
 				lowestQuantity: 20,
-				highestQuantity: 24
+				highestQuantity: 29
 			},
 			{
 				name: 'Jadestone',
@@ -162,7 +180,7 @@ export const buyPrice: Seller[] = [
 				lowestPrice: 29,
 				highestPrice: 47,
 				lowestQuantity: 13,
-				highestQuantity: 13
+				highestQuantity: 21
 			},
 			{
 				name: 'Raw Crystal',
@@ -171,7 +189,7 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Common,
 				lowestPrice: 26,
 				highestPrice: 49,
-				lowestQuantity: 26,
+				lowestQuantity: 12,
 				highestQuantity: 29
 			},
 			{
@@ -203,6 +221,16 @@ export const buyPrice: Seller[] = [
 				highestPrice: 18,
 				lowestQuantity: 3,
 				highestQuantity: 3
+			},
+			{
+				name: 'Cluster',
+				image:
+					'',
+				tier: Tier.Rare,
+				lowestPrice: 4,
+				highestPrice: 38,
+				lowestQuantity: 3,
+				highestQuantity: 8
 			},
 			{
 				name: 'Crystal Chunk',
@@ -245,8 +273,8 @@ export const buyPrice: Seller[] = [
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078746011914370/image.png',
 				tier: Tier.Rare,
 				lowestPrice: 54,
-				highestPrice: 97,
-				lowestQuantity: 16,
+				highestPrice: 98,
+				lowestQuantity: 15,
 				highestQuantity: 16
 			},
 			{
@@ -270,6 +298,16 @@ export const buyPrice: Seller[] = [
 				highestQuantity: 2
 			},
 			{
+				name: 'Acidproof Glaze II',
+				image:
+					'',
+				tier: Tier.Legendary,
+				lowestPrice: 6,
+				highestPrice: 53,
+				lowestQuantity: 5,
+				highestQuantity: 5
+			},
+			{
 				name: 'Acidproof Glaze III',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150079012790599720/image.png',
@@ -290,6 +328,26 @@ export const buyPrice: Seller[] = [
 				highestQuantity: 5
 			},
 			{
+				name: 'Information Processing Module',
+				image:
+				'https://cdn.discordapp.com/attachments/1149567307023122443/1150824742346043442/image.png',
+				tier: Tier.Legendary,
+				lowestPrice: 123,
+				highestPrice: 396,
+				lowestQuantity: 4,
+				highestQuantity: 4
+			},
+			{
+				name: 'Sense Enhancement Module',
+				image:
+				'',
+				tier: Tier.Legendary,
+				lowestPrice: 140,
+				highestPrice: 370,
+				lowestQuantity: 4,
+				highestQuantity: 4
+			},
+			{
 				name: 'Augment Stats Fortification Chip',
 				image:
 					'https://cdn.discordapp.com/attachments/1149567307023122443/1150078582622785627/image.png',
@@ -299,16 +357,6 @@ export const buyPrice: Seller[] = [
 				lowestQuantity: 1,
 				highestQuantity: 1
 			},
-			{
-				name: 'Information Processing Module',
-				image:
-					'https://cdn.discordapp.com/attachments/1149567307023122443/1150824742346043442/image.png',
-				tier: Tier.Legendary,
-				lowestPrice: 123,
-				highestPrice: 396,
-				lowestQuantity: 4,
-				highestQuantity: 4
-			}
 		]
 	},
 	{
@@ -322,6 +370,10 @@ export const buyPrice: Seller[] = [
 				{
 					name: 'Medicinal Herbs',
 					tier: Tier.Rare
+				},
+				{
+					name: 'Enhanced Blade Shot',
+					tier: Tier.Epic
 				},
 				{
 					name: 'Enhancement Shot',
@@ -341,7 +393,7 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowestPrice: 26,
 				highestPrice: 49,
-				lowestQuantity: 27,
+				lowestQuantity: 26,
 				highestQuantity: 27
 			},
 			{
@@ -352,7 +404,7 @@ export const buyPrice: Seller[] = [
 				lowestPrice: 53,
 				highestPrice: 97,
 				lowestQuantity: 13,
-				highestQuantity: 18
+				highestQuantity: 26
 			},
 			{
 				name: 'Lingzhi',
@@ -422,7 +474,7 @@ export const buyPrice: Seller[] = [
 				tier: Tier.Rare,
 				lowestPrice: 25,
 				highestPrice: 47,
-				lowestQuantity: 15,
+				lowestQuantity: 10,
 				highestQuantity: 16
 			},
 			{
@@ -453,7 +505,7 @@ export const buyPrice: Seller[] = [
 				lowestPrice: 10,
 				highestPrice: 19,
 				lowestQuantity: 17,
-				highestQuantity: 22
+				highestQuantity: 29
 			},
 			{
 				name: 'Begonia',
@@ -463,7 +515,7 @@ export const buyPrice: Seller[] = [
 				lowestPrice: 2,
 				highestPrice: 19,
 				lowestQuantity: 16,
-				highestQuantity: 21
+				highestQuantity: 24
 			},
 			{
 				name: 'Bamboo Shoots',
@@ -483,108 +535,150 @@ export const buyPrice: Seller[] = [
 				lowestPrice: 2,
 				highestPrice: 19,
 				lowestQuantity: 12,
-				highestQuantity: 19
+				highestQuantity: 28
 			}
 		]
 	},
 	{
-		"seller": {
+		seller: {
 			name: '[Beast Adoption Shelter] Xue Yan',
-			image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151571543499997285/image.png',
-			location: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151572741309349979/image.png',
+			image:
+				'https://cdn.discordapp.com/attachments/1149567307023122443/1151571543499997285/image.png',
+			location:
+				'https://cdn.discordapp.com/attachments/1149567307023122443/1151572741309349979/image.png',
 			highlights: []
 		},
 		items: [
 			{
 				name: 'G-Coyote (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574143565824000/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151574143565824000/image.png',
 				tier: Tier.Common,
 				lowestPrice: 41,
 				highestPrice: 152,
 				lowestQuantity: 1,
-				highestQuantity: 1,
+				highestQuantity: 1
+			},
+			{
+				name: 'Gray Sand Otter (Tamed)',
+				image:
+					'',
+				tier: Tier.Common,
+				lowestPrice: 40,
+				highestPrice: 149,
+				lowestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Folium Tiger (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574575444926516/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151574575444926516/image.png',
 				tier: Tier.Common,
 				lowestPrice: 96,
 				highestPrice: 246,
 				lowestQuantity: 1,
-				highestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'G-Thorn Wolf (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574220539707453/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151574220539707453/image.png',
 				tier: Tier.Common,
 				lowestPrice: 23,
 				highestPrice: 87,
 				lowestQuantity: 1,
-				highestQuantity: 1,
+				highestQuantity: 1
 			},
 			{
 				name: 'Bunnydart (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574397015040010/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151574397015040010/image.png',
 				tier: Tier.Common,
 				lowestPrice: 18,
 				highestPrice: 79,
 				lowestQuantity: 2,
-				highestQuantity: 2,
+				highestQuantity: 2
 			},
 			{
 				name: 'G-Crawler (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574300944502864/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151574300944502864/image.png',
 				tier: Tier.Common,
 				lowestPrice: 17,
 				highestPrice: 85,
 				lowestQuantity: 2,
-				highestQuantity: 2,
+				highestQuantity: 2
+			},
+			{
+				name: 'G-Arachnas (Tamed)',
+				image:
+					'',
+				tier: Tier.Common,
+				lowestPrice: 50,
+				highestPrice: 241,
+				lowestQuantity: 2,
+				highestQuantity: 2
 			},
 			{
 				name: 'Stone Spider (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574475310125066/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151574475310125066/image.png',
 				tier: Tier.Common,
 				lowestPrice: 38,
 				highestPrice: 155,
 				lowestQuantity: 2,
-				highestQuantity: 2,
+				highestQuantity: 2
 			},
 			{
 				name: 'Desert Predator (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574665282723881/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151574665282723881/image.png',
 				tier: Tier.Common,
 				lowestPrice: 48,
 				highestPrice: 245,
 				lowestQuantity: 1,
-				highestQuantity: 1,
+				highestQuantity: 1
+			},
+			{
+				name: 'Gooseneck Beast (Tamed)',
+				image:
+					'',
+				tier: Tier.Common,
+				lowestPrice: 15,
+				highestPrice: 44,
+				lowestQuantity: 4,
+				highestQuantity: 4
 			},
 			{
 				name: 'Saber-Toothed Wolf (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151577557259538492/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151577557259538492/image.png',
 				tier: Tier.Common,
 				lowestPrice: 40,
 				highestPrice: 158,
 				lowestQuantity: 4,
-				highestQuantity: 4,
+				highestQuantity: 4
 			},
 			{
 				name: 'Infernal Steel Lizard (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151576105959051264/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151576105959051264/image.png',
 				tier: Tier.Common,
 				lowestPrice: 13,
 				highestPrice: 42,
 				lowestQuantity: 4,
-				highestQuantity: 4,
+				highestQuantity: 4
 			},
 			{
 				name: 'Forest Spider (Tamed)',
-				image: 'https://cdn.discordapp.com/attachments/1149567307023122443/1151574432645652611/image.png',
+				image:
+					'https://cdn.discordapp.com/attachments/1149567307023122443/1151574432645652611/image.png',
 				tier: Tier.Common,
 				lowestPrice: 18,
 				highestPrice: 81,
 				lowestQuantity: 4,
-				highestQuantity: 4,
-			},
+				highestQuantity: 4
+			}
 		]
 	}
 ];
