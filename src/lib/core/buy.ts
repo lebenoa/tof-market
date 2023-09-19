@@ -46,7 +46,7 @@ export const buyPrice: Seller[] = [
                 name: "Fortress Helm",
                 image: "",
                 tier: "Legendary",
-                lowestPrice: 368,
+                lowestPrice: 335,
                 highestPrice: 1169,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -74,7 +74,7 @@ export const buyPrice: Seller[] = [
                 image: "",
                 tier: "Legendary",
                 lowestPrice: 337,
-                highestPrice: 1073,
+                highestPrice: 1095,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -139,7 +139,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074523534753982/image.png",
                 tier: "Rare",
                 lowestPrice: 50,
-                highestPrice: 97,
+                highestPrice: 98,
                 lowestQuantity: 20,
                 highestQuantity: 29
             },
@@ -262,7 +262,7 @@ export const buyPrice: Seller[] = [
                 image: "",
                 tier: "Legendary",
                 lowestPrice: 6,
-                highestPrice: 53,
+                highestPrice: 56,
                 lowestQuantity: 5,
                 highestQuantity: 5
             },
@@ -361,9 +361,9 @@ export const buyPrice: Seller[] = [
                 name: "Lingzhi",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083253852721222/image.png",
                 tier: "Rare",
-                lowestPrice: 52,
+                lowestPrice: 51,
                 highestPrice: 96,
-                lowestQuantity: 24,
+                lowestQuantity: 14,
                 highestQuantity: 24
             },
             {
