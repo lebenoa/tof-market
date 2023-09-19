@@ -1,15 +1,16 @@
 <script lang="ts">
-    import type { SellerInfo } from "$lib/core/buy";
-    import { TierColor } from "$lib/core/core";
+    import type { SellerInfo } from "$lib/core/core";
+    import { getTierColor } from "$lib/core/core";
 
     export let seller: SellerInfo;
     export let id: number;
+    export let action = "buy";
 
     import { fly } from "svelte/transition";
 </script>
 
 <a
-    href="/buy/{id}"
+    href="/{action}/{id}"
     class="card mt-4 w-[350px] mx-auto flex flex-col text-center"
     in:fly={{ y: 200 }}
     out:fly={{ x: 200 }}
@@ -30,7 +31,7 @@
             <h4 class="h4 text-orange-500 underline">Highlight Items</h4>
 
             {#each seller.highlights as item}
-                <p class={TierColor(item.tier)}>• {item.name}</p>
+                <p class={getTierColor(item.tier)}>• {item.name}</p>
             {/each}
         </div>
     {/if}

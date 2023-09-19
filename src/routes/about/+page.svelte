@@ -6,8 +6,12 @@
     <h1 class="h1 p-2">Tianhe Bazaar Market Price</h1>
     <div class="hbar bg-primary-700" />
     <p>
-        This website contains Tianhe Bazaar market price information with highest & lowest price
-        with quantity range
+        This website track Tianhe Bazaar market records with highest & lowest price and quantity
+        range
+    </p>
+    <p>
+        <span class="font-bold text-secondary-500 text-xl">Meaning:</span>
+        All information in this website, had happened at least once
     </p>
 
     <div class="hbar" />
@@ -17,7 +21,7 @@
         but the <strong class="text-primary-500">prices & items</strong>
         will be update
         <strong class="text-green-400">daily</strong>
-         based on SEA server
+        based on SEA server
     </p>
 
     <div class="hbar bg-primary-700" />

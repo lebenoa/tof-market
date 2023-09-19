@@ -61,6 +61,11 @@ export const actions: Actions = {
                 expires: new Date(Date.now() + 1000 * 60 * 60),
                 path: "/"
             });
+        } else if (authSession[id]) {
+            return fail(400, {
+                success: false,
+                message: "Already logged in"
+            });
         }
 
         if (username != env.ADMIN_USERNAME || password != env.ADMIN_PASSWORD) {
@@ -74,6 +79,6 @@ export const actions: Actions = {
 
         return {
             success: true
-        }
+        };
     }
 };

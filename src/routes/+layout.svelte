@@ -10,8 +10,12 @@
         storePopup,
         initializeStores,
         Modal,
+        storeHighlightJs,
         type ModalComponent
     } from "@skeletonlabs/skeleton";
+    import hljs from "highlight.js";
+    import "highlight.js/styles/vs2015.css";
+    storeHighlightJs.set(hljs);
 
     import { computePosition, autoUpdate, flip, shift, offset, arrow } from "@floating-ui/dom";
     storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
@@ -36,7 +40,7 @@
         if (!browser) return;
         if (!document) return;
 
-        await new Promise((resolve) => setTimeout(resolve, animationDelay + 10));
+        await new Promise((resolve) => setTimeout(resolve, animationDelay + 50));
 
         const page = document.querySelector("#page");
         if (!page) return;
@@ -80,7 +84,7 @@
                 border=""
                 class="bg-surface-100-800-token w-full"
             >
-                <TabAnchor href="/sell" selected={$page.url.pathname === "/sell"}>
+                <TabAnchor href="/sell" selected={$page.url.pathname.startsWith("/sell")}>
                     <svelte:fragment slot="lead">
                         <svg
                             class="mx-auto"

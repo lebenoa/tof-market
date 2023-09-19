@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { TierColor, type Pricing } from "$lib/core/core";
+    import { getTierColor, type Pricing } from "$lib/core/core";
     import { itemInfo } from "$lib/core/itemInfo";
     import { fly } from "svelte/transition";
     import { getModalStore, type ModalSettings } from "@skeletonlabs/skeleton";
@@ -28,7 +28,7 @@
         };
     }
 
-    $: nameColor = TierColor(item.tier);
+    $: nameColor = getTierColor(item.tier);
 </script>
 
 <div
