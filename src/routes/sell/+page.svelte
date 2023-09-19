@@ -9,6 +9,6 @@
 
 <div class="flex flex-row flex-wrap justify-evenly">
     {#each sellPrice as item, idx}
-        <SellerCard seller={item.seller} id={idx} action={"sell"} />
+        <SellerCard seller={item.seller} id={idx} />
     {/each}
 </div>

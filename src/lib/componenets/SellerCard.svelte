@@ -1,16 +1,16 @@
 <script lang="ts">
     import type { SellerInfo } from "$lib/core/core";
     import { getTierColor } from "$lib/core/core";
+    import { page } from "$app/stores";
 
     export let seller: SellerInfo;
     export let id: number;
-    export let action = "buy";
 
     import { fly } from "svelte/transition";
 </script>
 
 <a
-    href="/{action}/{id}"
+    href="{$page.url.pathname}/{id}"
     class="card mt-4 w-[350px] flex flex-col text-center"
     in:fly={{ y: 200 }}
     out:fly={{ x: 200 }}

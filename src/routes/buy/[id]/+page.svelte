@@ -30,7 +30,7 @@
 </svelte:head>
 
 <div class="flex flex-row justify-between items-center border-b border-primary-900">
-    <a href="/buy" class="btn variant-filled-error text-start pl-2 lg:w-[10%] h-full">&lt;- Back</a>
+    <a href="./" class="btn variant-filled-error text-start pl-2 lg:w-[10%] h-full">&lt;- Back</a>
     <h2 class="h4 lg:h2 text-center">{seller.name}</h2>
     <div class="flex flex-col justify-center lg:flex-row lg:justify-end">
         <button
