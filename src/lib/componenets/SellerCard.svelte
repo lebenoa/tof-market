@@ -11,7 +11,7 @@
 
 <a
     href="/{action}/{id}"
-    class="card mt-4 w-[350px] mx-auto flex flex-col text-center"
+    class="card mt-4 w-[350px] flex flex-col text-center"
     in:fly={{ y: 200 }}
     out:fly={{ x: 200 }}
 >

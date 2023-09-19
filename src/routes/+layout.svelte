@@ -25,6 +25,7 @@
     import { fly, scale } from "svelte/transition";
     import { browser } from "$app/environment";
     import ImageModal from "$lib/componenets/modal/ImageModal.svelte";
+    import { settings } from "$lib/store/settings";
 
     const animationDelay = 210;
     const registry: Record<string, ModalComponent> = {
@@ -147,6 +148,28 @@
                     </svelte:fragment>
                     <span>About</span>
                 </TabAnchor>
+                <TabAnchor href="/settings" selected={$page.url.pathname === "/settings"}>
+                    <svelte:fragment slot="lead">
+                        <svg
+                            class="mx-auto"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path
+                                d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"
+                            />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg>
+                    </svelte:fragment>
+                    <span>Settings</span>
+                </TabAnchor>
             </TabGroup>
 
             <svelte:fragment slot="trail">
@@ -162,26 +185,31 @@
         </AppBar>
     </svelte:fragment>
 
-    {#key data.url}
-        <div
-            class="w-full h-full"
-            in:fly={{ x: -200, duration: animationDelay, delay: animationDelay }}
-            out:fly={{ x: -200, duration: animationDelay }}
+    {#if $settings.enableAnimation}
+        {#key data.url}
+            <div
+                class="w-full h-full"
+                in:fly={{ x: -300, duration: animationDelay, delay: animationDelay }}
+                out:fly={{ x: -300, duration: animationDelay }}
+            >
+                <slot />
+            </div>
+        {/key}
+    {:else}
+        <slot />
+    {/if}
+
+    {#if showBackToTopButton}
+        <button
+            class="btn variant-soft-primary w-full mb-5 lg:mb-0"
+            on:click={() => {
+                document.querySelector("#page")?.scrollTo({
+                    behavior: "smooth",
+                    top: 0
+                });
+            }}
         >
-            <slot />
-            {#if showBackToTopButton}
-                <button
-                    class="btn variant-soft-primary w-full mb-5 lg:mb-0"
-                    on:click={() => {
-                        document.querySelector("#page")?.scrollTo({
-                            behavior: "smooth",
-                            top: 0
-                        });
-                    }}
-                >
-                    Back To Top
-                </button>
-            {/if}
-        </div>
-    {/key}
+            Back To Top
+        </button>
+    {/if}
 </AppShell>
