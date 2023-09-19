@@ -24,13 +24,20 @@
     import { page } from "$app/stores";
     import { fly, scale } from "svelte/transition";
     import { browser } from "$app/environment";
-    import ImageModal from "$lib/componenets/modal/ImageModal.svelte";
     import { settings } from "$lib/store/settings";
+
+    import EditModal from "$lib/componenets/modal/EditModal.svelte";
+    import ImageModal from "$lib/componenets/modal/ImageModal.svelte";
+    import { buyPrice } from "$lib/core/buy";
+    import { sellPrice } from "$lib/core/sell";
 
     const animationDelay = 210;
     const registry: Record<string, ModalComponent> = {
         image: {
             ref: ImageModal
+        },
+        edit: {
+            ref: EditModal
         }
     };
 
@@ -173,6 +180,30 @@
             </TabGroup>
 
             <svelte:fragment slot="trail">
+                {#if data.authed}
+                    <a class="btn btn-sm variant-ghost-surface" href="/badminbadpeople">Bad</a>
+                    <button
+                        class="btn btn-sm variant-ghost-surface"
+                        on:click={async () => {
+                            (async () => {
+                                await fetch("/api/save/buy", {
+                                    method: "POST",
+                                    body: JSON.stringify(buyPrice)
+                                });
+                            })();
+
+                            (async () => {
+                                await fetch("/api/save/sell", {
+                                    method: "POST",
+                                    body: JSON.stringify(sellPrice)
+                                });
+                            })();
+                        }}
+                    >
+                        Save
+                    </button>
+                    <a class="btn btn-sm variant-ghost-surface" href="/data">Data</a>
+                {/if}
                 <a
                     class="btn btn-sm variant-ghost-surface mr-2"
                     href="https://tof-todo.vercel.app"

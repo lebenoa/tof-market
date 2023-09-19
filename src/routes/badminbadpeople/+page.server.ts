@@ -9,8 +9,6 @@ export const load: PageServerLoad = async ({ cookies }) => {
     if (!env.ADMIN_USERNAME) throw redirect(302, "/");
     if (!env.ADMIN_PASSWORD) throw redirect(302, "/");
 
-    console.log(authSession);
-
     const id = cookies.get("id");
     if (!id || typeof authSession[id] == "undefined") {
         const newId = crypto.randomUUID();

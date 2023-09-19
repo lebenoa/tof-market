@@ -1,4 +1,4 @@
-import type { Tier, Pricing, Seller } from "./core";
+import type { Seller } from "./core";
 
 export const sellPrice: Seller[] = [
     {
@@ -149,7 +149,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Gray Sand Otter (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1153742744720781393/image.png",
                 tier: "Common",
                 lowestPrice: 40,
                 highestPrice: 149,
@@ -194,7 +194,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "G-Arachnas (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1153743932765769798/image.png",
                 tier: "Common",
                 lowestPrice: 50,
                 highestPrice: 241,
@@ -221,7 +221,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Gooseneck Beast (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1153744545931087932/image.png",
                 tier: "Common",
                 lowestPrice: 15,
                 highestPrice: 44,
