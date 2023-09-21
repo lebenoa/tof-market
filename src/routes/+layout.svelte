@@ -180,7 +180,7 @@
             </TabGroup>
 
             <svelte:fragment slot="trail">
-                {#if data.authed}
+                {#if typeof data.authed == 'boolean' && data.authed}
                     <a class="btn btn-sm variant-ghost-surface" href="/badminbadpeople">Bad</a>
                     <button
                         class="btn btn-sm variant-ghost-surface"
