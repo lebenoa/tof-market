@@ -160,7 +160,7 @@ export const sellPrice: Seller[] = [
                 name: "Folium Tiger (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574575444926516/image.png",
                 tier: "Common",
-                lowestPrice: 96,
+                lowestPrice: 65,
                 highestPrice: 246,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -241,7 +241,7 @@ export const sellPrice: Seller[] = [
                 name: "Infernal Steel Lizard (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151576105959051264/image.png",
                 tier: "Common",
-                lowestPrice: 13,
+                lowestPrice: 11,
                 highestPrice: 42,
                 lowestQuantity: 4,
                 highestQuantity: 4

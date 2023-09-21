@@ -45,7 +45,7 @@
                 <span>Lowest Price</span>
                 <input
                     class="input"
-                    type="text"
+                    type="number"
                     placeholder="Lowest Price"
                     bind:value={item.lowestPrice}
                 />
@@ -55,7 +55,7 @@
                 <span>Highest Price</span>
                 <input
                     class="input"
-                    type="text"
+                    type="number"
                     placeholder="Highest Price"
                     bind:value={item.highestPrice}
                 />
@@ -65,7 +65,7 @@
                 <span>Lowest Quantity</span>
                 <input
                     class="input"
-                    type="text"
+                    type="number"
                     placeholder="Lowest Quantity"
                     bind:value={item.lowestQuantity}
                 />
@@ -75,7 +75,7 @@
                 <span>Highest Quantity</span>
                 <input
                     class="input"
-                    type="text"
+                    type="number"
                     placeholder="Highest Quantity"
                     bind:value={item.highestQuantity}
                 />

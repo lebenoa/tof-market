@@ -7,7 +7,12 @@ export const buyPrice: Seller[] = [
             image: "https://cdn.discordapp.com/attachments/1149570080154333274/1149570080393396274/bh_auth_yun.png",
             location:
                 "https://cdn.discordapp.com/attachments/1149567307023122443/1149734094981316669/image.png",
-            highlights: [{ name: "Silk Cocoon", tier: "Rare" }]
+            highlights: [
+                {
+                    name: "Silk Cocoon",
+                    tier: "Rare"
+                }
+            ]
         },
         items: [
             {
@@ -118,8 +123,14 @@ export const buyPrice: Seller[] = [
             location:
                 "https://cdn.discordapp.com/attachments/1149567307023122443/1149760008356110336/image.png",
             highlights: [
-                { name: "Roughstone", tier: "Rare" },
-                { name: "Jadestone", tier: "Common" }
+                {
+                    name: "Roughstone",
+                    tier: "Rare"
+                },
+                {
+                    name: "Jadestone",
+                    tier: "Common"
+                }
             ]
         },
         items: [
@@ -192,7 +203,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 3,
                 highestPrice: 19,
-                lowestQuantity: 12,
+                lowestQuantity: 7,
                 highestQuantity: 12
             }
         ]
@@ -204,9 +215,18 @@ export const buyPrice: Seller[] = [
             location:
                 "https://cdn.discordapp.com/attachments/1149567307023122443/1150078026508419102/image.png",
             highlights: [
-                { name: "Augment Stats Fortification Chip", tier: "Legendary" },
-                { name: "Information Processing Module", tier: "Legendary" },
-                { name: "Colorful Scale", tier: "Rare" }
+                {
+                    name: "Augment Stats Fortification Chip",
+                    tier: "Legendary"
+                },
+                {
+                    name: "Information Processing Module",
+                    tier: "Legendary"
+                },
+                {
+                    name: "Colorful Scale",
+                    tier: "Rare"
+                }
             ]
         },
         items: [
@@ -214,7 +234,7 @@ export const buyPrice: Seller[] = [
                 name: "Shellstone",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078746011914370/image.png",
                 tier: "Rare",
-                lowestPrice: 54,
+                lowestPrice: 50,
                 highestPrice: 98,
                 lowestQuantity: 15,
                 highestQuantity: 16
@@ -277,8 +297,8 @@ export const buyPrice: Seller[] = [
                 name: "Sense Enhancement Module",
                 image: "",
                 tier: "Legendary",
-                lowestPrice: 140,
-                highestPrice: 370,
+                lowestPrice: 135,
+                highestPrice: 372,
                 lowestQuantity: 4,
                 highestQuantity: 4
             },
@@ -300,10 +320,22 @@ export const buyPrice: Seller[] = [
             location:
                 "https://cdn.discordapp.com/attachments/1149567307023122443/1150082068047478855/image.png",
             highlights: [
-                { name: "Medicinal Herbs", tier: "Rare" },
-                { name: "Enhanced Blade Shot", tier: "Epic" },
-                { name: "Enhancement Shot", tier: "Epic" },
-                { name: "Rejuvenation Shot", tier: "Epic" }
+                {
+                    name: "Medicinal Herbs",
+                    tier: "Rare"
+                },
+                {
+                    name: "Enhanced Blade Shot",
+                    tier: "Epic"
+                },
+                {
+                    name: "Enhancement Shot",
+                    tier: "Epic"
+                },
+                {
+                    name: "Rejuvenation Shot",
+                    tier: "Epic"
+                }
             ]
         },
         items: [
@@ -311,7 +343,7 @@ export const buyPrice: Seller[] = [
                 name: "Medicinal Herbs",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150081767571718144/image.png",
                 tier: "Rare",
-                lowestPrice: 26,
+                lowestPrice: 25,
                 highestPrice: 49,
                 lowestQuantity: 26,
                 highestQuantity: 27
@@ -329,7 +361,7 @@ export const buyPrice: Seller[] = [
                 name: "Lingzhi",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083253852721222/image.png",
                 tier: "Rare",
-                lowestPrice: 51,
+                lowestPrice: 50,
                 highestPrice: 96,
                 lowestQuantity: 14,
                 highestQuantity: 24
@@ -370,8 +402,14 @@ export const buyPrice: Seller[] = [
             location:
                 "https://cdn.discordapp.com/attachments/1149567307023122443/1150084183843160165/image.png",
             highlights: [
-                { name: "Salt", tier: "Rare" },
-                { name: "Brocade Rice", tier: "Rare" }
+                {
+                    name: "Salt",
+                    tier: "Rare"
+                },
+                {
+                    name: "Brocade Rice",
+                    tier: "Rare"
+                }
             ]
         },
         items: [
