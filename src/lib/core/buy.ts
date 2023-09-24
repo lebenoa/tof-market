@@ -74,7 +74,7 @@ export const buyPrice: Seller[] = [
                 image: "",
                 tier: "Legendary",
                 lowestPrice: 337,
-                highestPrice: 1095,
+                highestPrice: 1146,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -147,7 +147,7 @@ export const buyPrice: Seller[] = [
                 name: "Jadestone",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074570448056340/image.png",
                 tier: "Common",
-                lowestPrice: 29,
+                lowestPrice: 26,
                 highestPrice: 47,
                 lowestQuantity: 13,
                 highestQuantity: 21
@@ -190,7 +190,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Cluster",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1155317574792392835/image.png",
                 tier: "Rare",
                 lowestPrice: 4,
                 highestPrice: 38,
@@ -201,7 +201,7 @@ export const buyPrice: Seller[] = [
                 name: "Crystal Chunk",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150825903870464011/image.png",
                 tier: "Common",
-                lowestPrice: 3,
+                lowestPrice: 2,
                 highestPrice: 19,
                 lowestQuantity: 7,
                 highestQuantity: 12
@@ -259,7 +259,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Acidproof Glaze II",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1155317262677446706/image.png",
                 tier: "Legendary",
                 lowestPrice: 6,
                 highestPrice: 56,
@@ -295,7 +295,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Sense Enhancement Module",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1155316624522485840/image.png",
                 tier: "Legendary",
                 lowestPrice: 135,
                 highestPrice: 372,
@@ -353,7 +353,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083089494724688/image.png",
                 tier: "Rare",
                 lowestPrice: 53,
-                highestPrice: 97,
+                highestPrice: 99,
                 lowestQuantity: 13,
                 highestQuantity: 26
             },
@@ -418,7 +418,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150085815838453780/image.png",
                 tier: "Rare",
                 lowestPrice: 25,
-                highestPrice: 47,
+                highestPrice: 48,
                 lowestQuantity: 10,
                 highestQuantity: 16
             },

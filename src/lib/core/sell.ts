@@ -15,7 +15,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149358839334973522/Moon_Glow_Satin.png",
                 tier: "Legendary",
                 lowestPrice: 85,
-                highestPrice: 157,
+                highestPrice: 164,
                 lowestQuantity: 5,
                 highestQuantity: 5
             },
@@ -96,7 +96,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422584504370/Golden_Vein_Ointment.png",
                 tier: "Rare",
                 lowestPrice: 45,
-                highestPrice: 99,
+                highestPrice: 105,
                 lowestQuantity: 3,
                 highestQuantity: 3
             },
@@ -160,7 +160,7 @@ export const sellPrice: Seller[] = [
                 name: "Folium Tiger (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574575444926516/image.png",
                 tier: "Common",
-                lowestPrice: 65,
+                lowestPrice: 56,
                 highestPrice: 246,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -179,7 +179,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574397015040010/image.png",
                 tier: "Common",
                 lowestPrice: 18,
-                highestPrice: 79,
+                highestPrice: 82,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
@@ -223,7 +223,7 @@ export const sellPrice: Seller[] = [
                 name: "Gooseneck Beast (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1153744545931087932/image.png",
                 tier: "Common",
-                lowestPrice: 15,
+                lowestPrice: 11,
                 highestPrice: 44,
                 lowestQuantity: 4,
                 highestQuantity: 4
@@ -242,7 +242,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151576105959051264/image.png",
                 tier: "Common",
                 lowestPrice: 11,
-                highestPrice: 42,
+                highestPrice: 46,
                 lowestQuantity: 4,
                 highestQuantity: 4
             },
