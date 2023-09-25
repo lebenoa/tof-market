@@ -86,7 +86,7 @@ export const sellPrice: Seller[] = [
                 name: "Exquisite Rock Carving",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365421649178654/Exquisite_Rock_Carving.png",
                 tier: "Rare",
-                lowestPrice: 44,
+                lowestPrice: 39,
                 highestPrice: 96,
                 lowestQuantity: 6,
                 highestQuantity: 6
@@ -175,6 +175,24 @@ export const sellPrice: Seller[] = [
                 highestQuantity: 1
             },
             {
+                name: "Shrooman (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 11,
+                highestPrice: 45,
+                lowestQuantity: 1,
+                highestQuantity: 1
+            },
+            {
+                name: "Sand Otter (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 31,
+                highestPrice: 72,
+                lowestQuantity: 1,
+                highestQuantity: 1
+            },
+            {
                 name: "Bunnydart (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574397015040010/image.png",
                 tier: "Common",
@@ -218,6 +236,15 @@ export const sellPrice: Seller[] = [
                 highestPrice: 245,
                 lowestQuantity: 1,
                 highestQuantity: 1
+            },
+            {
+                name: "Cactus (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 20,
+                highestPrice: 41,
+                lowestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Gooseneck Beast (Tamed)",
