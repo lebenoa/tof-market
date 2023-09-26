@@ -64,7 +64,7 @@ export const buyPrice: Seller[] = [
                 name: "Fortress Belt",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149771859294957669/image.png",
                 tier: "Legendary",
-                lowestPrice: 499,
+                lowestPrice: 451,
                 highestPrice: 1198,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -83,7 +83,7 @@ export const buyPrice: Seller[] = [
                 image: "",
                 tier: "Legendary",
                 lowestPrice: 311,
-                highestPrice: 842,
+                highestPrice: 1070,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -122,7 +122,7 @@ export const buyPrice: Seller[] = [
                 highestPrice: 193,
                 lowestQuantity: 1,
                 highestQuantity: 1
-            },
+            }
         ]
     },
     {
@@ -268,10 +268,10 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Nanofiber Frame I",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156227871040339979/image.png",
                 tier: "Epic",
                 lowestPrice: 6,
-                highestPrice: 59,
+                highestPrice: 19,
                 lowestQuantity: 3,
                 highestQuantity: 3
             },
@@ -288,7 +288,7 @@ export const buyPrice: Seller[] = [
                 name: "Acidproof Glaze II",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1155317262677446706/image.png",
                 tier: "Epic",
-                lowestPrice: 6,
+                lowestPrice: 7,
                 highestPrice: 59,
                 lowestQuantity: 3,
                 highestQuantity: 5
@@ -340,13 +340,13 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Augmentation Factor",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156227910471008356/image.png",
                 tier: "Legendary",
                 lowestPrice: 45,
                 highestPrice: 141,
                 lowestQuantity: 4,
                 highestQuantity: 4
-            },
+            }
         ]
     },
     {
