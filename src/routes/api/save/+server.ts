@@ -6,20 +6,20 @@ export const POST: RequestHandler = async ({ request }) => {
     const textData = await request.text();
     const data = JSON.parse(textData);
 
-    for (const seller of sellPrice) {
-        for (let j = 0; j < seller.items.length; j++) {
-            if (seller.items[j].name != data.name) continue;
+    for (let i = 0; i < sellPrice.length; i++) {
+        for (let j = 0; j < sellPrice[i].items.length; j++) {
+            if (sellPrice[i].items[j].name != data.name) continue;
 
-            seller.items[j] = data;
+            sellPrice[i].items[j] = data;
             return text(textData);
         }
     }
 
-    for (const seller of buyPrice) {
-        for (let j = 0; j < seller.items.length; j++) {
-            if (seller.items[j].name != data.name) continue;
+    for (let i = 0; i < buyPrice.length; i++) {
+        for (let j = 0; j < buyPrice[i].items.length; j++) {
+            if (buyPrice[i].items[j].name != data.name) continue;
 
-            seller.items[j] = data;
+            buyPrice[i].items[j] = data;
             return text(textData);
         }
     }
