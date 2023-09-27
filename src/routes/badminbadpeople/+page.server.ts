@@ -3,6 +3,8 @@ export let prerender = false;
 import { redirect, fail } from "@sveltejs/kit";
 import { env } from "$env/dynamic/private";
 import { authSession } from "$lib/server/auth";
+import { buyPrice } from "$lib/server/core/buy";
+import { sellPrice } from "$lib/server/core/sell";
 import type { PageServerLoad, Actions } from "./$types";
 
 export const load: PageServerLoad = async ({ cookies }) => {
@@ -29,7 +31,9 @@ export const load: PageServerLoad = async ({ cookies }) => {
         };
     } else {
         return {
-            authed: true
+            authed: true,
+            buyPrice,
+            sellPrice
         };
     }
 };

@@ -1,6 +1,6 @@
 <script lang="ts">
-    import { getTierColor, type Pricing } from "$lib/core/core";
-    import { itemInfo } from "$lib/core/itemInfo";
+    import { getTierColor, type Pricing } from "$lib/core";
+    import { itemInfo } from "$lib/itemInfo";
     import { fly } from "svelte/transition";
     import { getModalStore, type ModalSettings } from "@skeletonlabs/skeleton";
 

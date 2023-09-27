@@ -1,14 +1,23 @@
 <script lang="ts">
+    export let data;
+
+    const { buyPrice, sellPrice } = data;
+
     import { TabGroup, Tab, CodeBlock } from "@skeletonlabs/skeleton";
-    import { buyPrice } from "$lib/core/buy";
-    import { sellPrice } from "$lib/core/sell";
 
     let tabSet = 0;
 
     async function toJSON(value: any): Promise<string> {
         return JSON.stringify(value, null, 4);
     }
+
+    const sellOutput = toJSON(sellPrice);
+    const buyOutput = toJSON(buyPrice);
 </script>
+
+<svelte:head>
+    <title>Data | ToF Market</title>
+</svelte:head>
 
 <TabGroup justify="justify-center">
     <Tab bind:group={tabSet} name="sell" value={0}>Sell</Tab>
@@ -16,13 +25,13 @@
 
     <svelte:fragment slot="panel">
         {#if tabSet === 0}
-            {#await toJSON(sellPrice)}
+            {#await sellOutput}
                 <h3 class="h3">Loading Sell Price Data...</h3>
             {:then output}
                 <CodeBlock language="json" code={output} />
             {/await}
         {:else if tabSet === 1}
-            {#await toJSON(buyPrice)}
+            {#await buyOutput}
                 <h3 class="h3">Loading Buy Price Data...</h3>
             {:then output}
                 <CodeBlock language="json" code={output} />

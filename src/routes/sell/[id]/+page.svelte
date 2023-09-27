@@ -1,8 +1,8 @@
 <script lang="ts">
     export let data;
 
-    const seller = data.data.seller;
-    const items = data.data.items;
+    const seller = data.seller;
+    const items = data.items;
 
     import { getModalStore, type ModalSettings } from "@skeletonlabs/skeleton";
     import CardContainer from "$lib/componenets/CardContainer.svelte";

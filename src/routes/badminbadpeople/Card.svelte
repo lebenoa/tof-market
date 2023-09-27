@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { getTierColor, type Pricing } from "$lib/core/core";
+    import { getTierColor, type Pricing } from "$lib/core";
     import { getModalStore, type ModalSettings, type ModalComponent } from "@skeletonlabs/skeleton";
     import EditModal from "$lib/componenets/modal/EditModal.svelte";
     import { fly } from "svelte/transition";
@@ -12,7 +12,7 @@
     $: modalComponent = {
         ref: EditModal,
         props: {
-            item: internal
+            item
         }
     };
 
@@ -20,10 +20,11 @@
     $: modalSettings = {
         type: "component",
         component: modalComponent,
-        title: `Edit: ${internal.name}`,
-        response: (internal) => {
-            if (internal) {
-                internal.image = internal.image;
+        title: `Edit: ${item.name}`,
+        response: (i) => {
+            if (i) {
+                console.log({ i });
+                internal = i;
             }
         }
     };
@@ -31,7 +32,6 @@
     const modalStore = getModalStore();
 </script>
 
-<!-- <input class="input" type="text" bind:value={internal.image}> -->
 <button
     class="card mt-4 mx-auto w-[350px] flex flex-col justify-between"
     in:fly={{ y: 100, duration: 200, delay: 200 }}
@@ -41,16 +41,13 @@
     }}
 >
     <div class="card mx-auto w-[350px] flex flex-col justify-between h-full">
-        <!-- {#if internal.image} -->
-
         <img
             class="mx-auto min-w-[96px] min-h-[96px] max-w-full max-h-full pt-2"
-            src={internal.image}
+            src={internal.image
+                ? internal.image
+                : "https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png"}
             alt={internal.name}
         />
-        <!-- {:else}
-            <h3 class="h3 variant-filled-error">Missing Image</h3>
-        {/if} -->
         <h3 class="h3 text-center mx-auto {getTierColor(internal.tier)}">{internal.name}</h3>
 
         <hr class="w-full h-px my-auto" />

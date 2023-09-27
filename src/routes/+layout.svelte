@@ -7,18 +7,17 @@
         AppBar,
         TabGroup,
         TabAnchor,
-        storePopup,
         initializeStores,
         Modal,
         storeHighlightJs,
         type ModalComponent
     } from "@skeletonlabs/skeleton";
-    import hljs from "highlight.js";
+    import hljs from "highlight.js/lib/core";
+    import jsonHl from "highlight.js/lib/languages/json";
+    hljs.registerLanguage("json", jsonHl);
     import "highlight.js/styles/vs2015.css";
     storeHighlightJs.set(hljs);
 
-    import { computePosition, autoUpdate, flip, shift, offset, arrow } from "@floating-ui/dom";
-    storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
     initializeStores();
 
     import { page } from "$app/stores";
@@ -28,16 +27,11 @@
 
     import EditModal from "$lib/componenets/modal/EditModal.svelte";
     import ImageModal from "$lib/componenets/modal/ImageModal.svelte";
-    import { buyPrice } from "$lib/core/buy";
-    import { sellPrice } from "$lib/core/sell";
 
     const animationDelay = 210;
     const registry: Record<string, ModalComponent> = {
         image: {
             ref: ImageModal
-        },
-        edit: {
-            ref: EditModal
         }
     };
 
@@ -180,29 +174,9 @@
             </TabGroup>
 
             <svelte:fragment slot="trail">
-                {#if typeof data.authed == "boolean" && data.authed}
-                    <a class="btn btn-sm variant-ghost-surface" href="/badminbadpeople">Bad</a>
-                    <button
-                        class="btn btn-sm variant-ghost-surface"
-                        on:click={async () => {
-                            (async () => {
-                                await fetch("/api/save/buy", {
-                                    method: "POST",
-                                    body: JSON.stringify(buyPrice)
-                                });
-                            })();
-
-                            (async () => {
-                                await fetch("/api/save/sell", {
-                                    method: "POST",
-                                    body: JSON.stringify(sellPrice)
-                                });
-                            })();
-                        }}
-                    >
-                        Save
-                    </button>
-                    <a class="btn btn-sm variant-ghost-surface" href="/data">Data</a>
+                {#if data.authed}
+                    <a class="btn btn-sm variant-ghost-surface mr-2" href="/badminbadpeople">Bad</a>
+                    <a class="btn btn-sm variant-ghost-surface mr-2" href="/data">Data</a>
                 {/if}
                 <a
                     class="btn btn-sm variant-ghost-surface mr-2"

@@ -1,12 +1,11 @@
 <script lang="ts">
-    import type { SellerInfo } from "$lib/core/core";
-    import { getTierColor } from "$lib/core/core";
-    import { page } from "$app/stores";
+    import { getTierColor, type SellerInfo } from "$lib/core";
 
     export let seller: SellerInfo;
     export let id: number;
 
     import { fly } from "svelte/transition";
+    import { page } from "$app/stores";
 </script>
 
 <a

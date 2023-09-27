@@ -1,5 +1,6 @@
 <script lang="ts">
-    import { getTierSortValue, type Pricing } from "$lib/core/core";
+    import { getTierSortValue, type Pricing } from "$lib/core";
+
     export let items: Pricing[];
     export let prioritizeLowest: boolean = false;
 
@@ -34,6 +35,12 @@
             case "Lowest Tier":
                 items.sort((a, b) => getTierSortValue(b.tier) - getTierSortValue(a.tier));
                 break;
+            case "Highest Price":
+                items.sort((a, b) => b.highestPrice - a.highestPrice);
+                break;
+            case "Lowest Price":
+                items.sort((a, b) => a.lowestPrice - b.lowestPrice);
+                break;
             case "Name":
                 items.sort((a, b) => a.name.localeCompare(b.name));
                 break;
@@ -54,6 +61,8 @@
         <option value="">Sort By</option>
         <option value="Highest Tier">Highest Tier</option>
         <option value="Lowest Tier">Lowest Tier</option>
+        <option value="Highest Price">Highest Price</option>
+        <option value="Lowest Price">Lowest Price</option>
         <option value="Name">Name</option>
     </select>
 </div>

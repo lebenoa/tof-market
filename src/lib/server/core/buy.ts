@@ -1,4 +1,4 @@
-import type { Seller } from "./core";
+import type { Seller } from "../../core";
 
 export const buyPrice: Seller[] = [
     {

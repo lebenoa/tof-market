@@ -1,8 +1,8 @@
-import { buyPrice } from "$lib/core/buy";
+import { buyPrice } from "$lib/server/core/buy";
 import { error } from "@sveltejs/kit";
-import type { PageLoad } from "./$types";
+import type { PageServerLoad } from "./$types";
 
-export const load: PageLoad = async ({ params }) => {
+export const load: PageServerLoad = async ({ params }) => {
     const id = Number(params.id);
 
     if (!Number.isInteger(id))

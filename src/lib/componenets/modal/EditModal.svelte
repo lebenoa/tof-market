@@ -1,15 +1,30 @@
 <script lang="ts">
     import { getModalStore } from "@skeletonlabs/skeleton";
-    import { getTierColor, type Pricing } from "$lib/core/core";
-
-    const modalStore = getModalStore();
+    import { getTierColor, type Pricing } from "$lib/core";
+    import { onDestroy } from "svelte";
 
     export let parent: any;
     export let item: Pricing;
 
-    $: if ($modalStore[0] && $modalStore[0].response) {
-        $modalStore[0].response(item);
-    }
+    const modalStore = getModalStore();
+    let response = $modalStore[0]?.response;
+
+    onDestroy(async () => {
+        const resp = await fetch("/api/save", {
+            method: "POST",
+            body: JSON.stringify(item)
+        });
+
+        if (!resp.ok) {
+            alert("Error saving item");
+            return;
+        }
+
+        const data = await resp.json();
+        if (response) {
+            response(data);
+        }
+    });
 </script>
 
 {#if $modalStore[0]}
@@ -81,6 +96,7 @@
                 />
             </label>
         </div>
+        <button class="btn variant-ghost-warning" on:click={parent.onClose}>Close</button>
     </div>
 {/if}
 

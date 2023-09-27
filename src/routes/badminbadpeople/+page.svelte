@@ -4,32 +4,38 @@
 
     import Login from "./Login.svelte";
 
-    import { buyPrice } from "$lib/core/buy";
-    import { sellPrice } from "$lib/core/sell";
-    import { getTierSortValue, type Pricing, type Seller } from "$lib/core/core";
+    import { getTierSortValue, type Pricing, type Seller } from "$lib/core";
     import { TabGroup, Tab } from "@skeletonlabs/skeleton";
     import Card from "./Card.svelte";
     import { fly } from "svelte/transition";
 
-    const total: Seller[] = sellPrice.concat(buyPrice);
-    const items = total.map((item) => item.items).flat();
+    let total: Seller[];
+    let items;
+    $: if (data.authed) {
+        total = data.sellPrice!.concat(data.buyPrice!);
+        items = total.map((item) => item.items).flat();
+    }
 
     let searchTerm = "";
     let sortBy = "";
     let tabSet = 0;
 
     let displayData: Pricing[];
-    $: displayData = total[tabSet].items;
+    $: if (data.authed) {
+        displayData = total![tabSet].items;
+    }
 
-    $: if (searchTerm && sortBy) {
-        displayData = filter(total[tabSet].items);
-        displayData = sort(displayData);
-    } else if (searchTerm) {
-        displayData = filter(total[tabSet].items);
-    } else if (sortBy) {
-        displayData = sort([...total[tabSet].items]);
-    } else {
-        displayData = total[tabSet].items;
+    $: if (data.authed) {
+        if (searchTerm && sortBy) {
+            displayData = filter(total![tabSet].items);
+            displayData = sort(displayData);
+        } else if (searchTerm) {
+            displayData = filter(total![tabSet].items);
+        } else if (sortBy) {
+            displayData = sort([...total![tabSet].items]);
+        } else {
+            displayData = total![tabSet].items;
+        }
     }
 
     function filter(items: Pricing[]): Pricing[] {
@@ -59,9 +65,13 @@
     <Login {form} />
 {:else}
     <TabGroup flex="flex-1" justify="justify-center">
-        {#each total as item, idx}
-            <Tab bind:group={tabSet} name={item.seller.name} value={idx}>{item.seller.name}</Tab>
-        {/each}
+        {#if total}
+            {#each total as item, idx}
+                <Tab bind:group={tabSet} name={item.seller.name} value={idx}>
+                    {item.seller.name}
+                </Tab>
+            {/each}
+        {/if}
 
         <svelte:fragment slot="panel">
             <div class="flex flex-row m-2">
@@ -84,8 +94,8 @@
                 out:fly={{ y: 100, duration: 200 }}
             >
                 {#each displayData as item}
-                    <Card bind:item />
-                {/each}
+                        <Card bind:item />
+                        {/each}
             </div>
         </svelte:fragment>
     </TabGroup>
