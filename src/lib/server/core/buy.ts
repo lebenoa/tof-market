@@ -44,7 +44,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Helm",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156478761764655214/image.png",
                 tier: "Legendary",
                 lowestPrice: 335,
                 highestPrice: 1169,
@@ -71,7 +71,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Legguards",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156479067122573363/image.png",
                 tier: "Legendary",
                 lowestPrice: 337,
                 highestPrice: 1146,
@@ -80,7 +80,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Sabatons",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156478903653761084/image.png",
                 tier: "Legendary",
                 lowestPrice: 311,
                 highestPrice: 1070,
@@ -175,13 +175,13 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074922115285052/image.png",
                 tier: "Epic",
                 lowestPrice: 4,
-                highestPrice: 38,
+                highestPrice: 39,
                 lowestQuantity: 1,
                 highestQuantity: 2
             },
             {
                 name: "Sunsource",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156478578872033350/image.png",
                 tier: "Epic",
                 lowestPrice: 7,
                 highestPrice: 39,
@@ -413,7 +413,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Piercing Shot",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156479387223461948/image.png",
                 tier: "Epic",
                 lowestPrice: 308,
                 highestPrice: 573,

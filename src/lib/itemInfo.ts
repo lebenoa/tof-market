@@ -5,22 +5,30 @@ export const itemInfo: Record<string, string> = {
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150831647617470506/image.png",
     "Beast Hide":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150833201695166595/image.png",
+    "Fortress Helm":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156512875997822976/image.png",
     "Fortress Handguards":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150835250956599357/image.png",
     "Fortress Belt":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150837662979195031/image.png",
+    "Fortress Legguards":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156512967727263824/image.png",
+    "Fortress Sabatons":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513003081043988/image.png",
     "Elite Armbands":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150835133709037631/image.png",
     "Elite Combat Belt":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150835196829110432/image.png",
     "Elite Combat Helmet":
-        "https://cdn.discordapp.com/attachments/1149567307023122443/1150837662979195031/image.png",
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1150838702906548305/image.png",
     "Elite Combat Leggings":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150838763392614400/image.png",
     Shellstone:
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150839413090304133/image.png",
     "Colorful Scale":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150839443146670150/image.png",
+    "Acidproof Glaze II":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513593269956668/image.png",
     "Acidproof Glaze III":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150839479540654120/image.png",
     "Nano Coating I":
@@ -33,8 +41,12 @@ export const itemInfo: Record<string, string> = {
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150839697866756257/image.png",
     "Raw Crystal":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150839733874872441/image.png",
+    Sunsource:
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513205619785839/image.png",
     Snowsource:
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150839774177927229/image.png",
+    Cluster:
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513133209333810/image.png",
     "Crystal Chunk":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150839804032978985/image.png",
     Ginseng:
@@ -49,6 +61,8 @@ export const itemInfo: Record<string, string> = {
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150840064679620679/image.png",
     "Enhancement Shot":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150840095570677810/image.png",
+    "Piercing Shot":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513884937666621/image.png",
     "Brocade Rice":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150840193100828722/image.png",
     Sorghum:
@@ -62,10 +76,18 @@ export const itemInfo: Record<string, string> = {
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150845401293934612/image.png",
     "Green Jade":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1150845440099635272/image.png",
+    "Sense Enhancement Module":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513699461341235/image.png",
+    "Augmentation Factor":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513743837069352/image.png",
     "Augment Stats Fortification Chip":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1151578786681344110/image.png",
+    "Nanofiber Frame I":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513511158054953/image.png",
     "Nanofiber Frame II":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1151579331357839502/image.png",
     "Heart of Summit":
-        "https://cdn.discordapp.com/attachments/1149567307023122443/1151579729384706268/image.png"
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1151579729384706268/image.png",
+    "Heart of Lava":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513263232757810/image.png"
 };

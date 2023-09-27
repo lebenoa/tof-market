@@ -187,7 +187,7 @@ export const sellPrice: Seller[] = [
                 name: "Sand Otter (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 31,
+                lowestPrice: 26,
                 highestPrice: 73,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -242,7 +242,7 @@ export const sellPrice: Seller[] = [
                 image: "",
                 tier: "Common",
                 lowestPrice: 17,
-                highestPrice: 41,
+                highestPrice: 46,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
