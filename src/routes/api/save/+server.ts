@@ -1,8 +1,18 @@
 import { sellPrice } from "$lib/server/core/sell";
 import { buyPrice } from "$lib/server/core/buy";
-import { text, type RequestHandler } from "@sveltejs/kit";
+import { text, redirect, type RequestHandler } from "@sveltejs/kit";
+import { env } from "$env/dynamic/private";
+import { authSession } from "$lib/server/auth";
 
-export const POST: RequestHandler = async ({ request }) => {
+export const POST: RequestHandler = async ({ request, cookies }) => {
+    if (!env.ADMIN_USERNAME) throw redirect(302, "/");
+    if (!env.ADMIN_PASSWORD) throw redirect(302, "/");
+
+    const id = cookies.get("id");
+    if (!id || !authSession[id]) {
+        return text("Not found", { status: 404 });
+    }
+
     const textData = await request.text();
     const data = JSON.parse(textData);
 

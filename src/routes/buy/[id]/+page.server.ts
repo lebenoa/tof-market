@@ -1,3 +1,5 @@
+export const prerender = false;
+
 import { buyPrice } from "$lib/server/core/buy";
 import { error } from "@sveltejs/kit";
 import type { PageServerLoad } from "./$types";
