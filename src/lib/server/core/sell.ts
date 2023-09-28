@@ -14,7 +14,7 @@ export const sellPrice: Seller[] = [
                 name: "Moon Glow Satin",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149358839334973522/Moon_Glow_Satin.png",
                 tier: "Legendary",
-                lowestPrice: 85,
+                lowestPrice: 76,
                 highestPrice: 164,
                 lowestQuantity: 5,
                 highestQuantity: 5
@@ -60,7 +60,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422370598912/Fruity_Rice_Punch.png",
                 tier: "Rare",
                 lowestPrice: 43,
-                highestPrice: 99,
+                highestPrice: 105,
                 lowestQuantity: 7,
                 highestQuantity: 7
             },
@@ -176,7 +176,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Shrooman (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156481139058417695/image.png",
                 tier: "Common",
                 lowestPrice: 11,
                 highestPrice: 45,
@@ -185,7 +185,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Sand Otter (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156481252577267732/image.png",
                 tier: "Common",
                 lowestPrice: 26,
                 highestPrice: 73,
@@ -224,7 +224,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574475310125066/image.png",
                 tier: "Common",
                 lowestPrice: 38,
-                highestPrice: 155,
+                highestPrice: 157,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
@@ -239,7 +239,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Cactus (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156481309028397056/image.png",
                 tier: "Common",
                 lowestPrice: 17,
                 highestPrice: 46,
