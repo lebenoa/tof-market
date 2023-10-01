@@ -26,7 +26,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 47,
                 highestPrice: 103,
                 lowestQuantity: 4,
-                highestQuantity: 4
+                highestQuantity: 6
             },
             {
                 name: "Shengwen Carved Dracojade Box",
@@ -88,7 +88,7 @@ export const sellPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 39,
                 highestPrice: 96,
-                lowestQuantity: 6,
+                lowestQuantity: 5,
                 highestQuantity: 6
             },
             {
@@ -126,6 +126,87 @@ export const sellPrice: Seller[] = [
                 highestPrice: 29,
                 lowestQuantity: 13,
                 highestQuantity: 13
+            },
+            {
+                name: "Beasthide Bag",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 47,
+                highestPrice: 103,
+                lowestQuantity: 4,
+                highestQuantity: 4
+            },
+            {
+                name: "Minghai Linene",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 48,
+                highestPrice: 91,
+                lowestQuantity: 7,
+                highestQuantity: 7
+            },
+            {
+                name: "Spirit Beast Fleece",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 53,
+                highestPrice: 106,
+                lowestQuantity: 7,
+                highestQuantity: 7
+            },
+            {
+                name: "Summer FLoral Brocade",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 43,
+                highestPrice: 100,
+                lowestQuantity: 4,
+                highestQuantity: 4
+            },
+            {
+                name: "Jade Yarn",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 44,
+                highestPrice: 102,
+                lowestQuantity: 4,
+                highestQuantity: 4
+            },
+            {
+                name: "Wang's Dragon Amrita",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 106,
+                highestPrice: 204,
+                lowestQuantity: 7,
+                highestQuantity: 7
+            },
+            {
+                name: "Blackflame Censer",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 82,
+                highestPrice: 193,
+                lowestQuantity: 6,
+                highestQuantity: 6
+            },
+            {
+                name: "Jade Smithing Bench",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 47,
+                highestPrice: 105,
+                lowestQuantity: 3,
+                highestQuantity: 3
+            },
+            {
+                name: "Green Plum",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150086018461085696/image.png",
+                tier: "Common",
+                lowestPrice: 16,
+                highestPrice: 29,
+                lowestQuantity: 13,
+                highestQuantity: 13
             }
         ]
     },
@@ -152,7 +233,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1153742744720781393/image.png",
                 tier: "Common",
                 lowestPrice: 33,
-                highestPrice: 149,
+                highestPrice: 158,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -259,7 +340,7 @@ export const sellPrice: Seller[] = [
                 name: "Saber-Toothed Wolf (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151577557259538492/image.png",
                 tier: "Common",
-                lowestPrice: 40,
+                lowestPrice: 35,
                 highestPrice: 158,
                 lowestQuantity: 4,
                 highestQuantity: 4
@@ -268,7 +349,7 @@ export const sellPrice: Seller[] = [
                 name: "Infernal Steel Lizard (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151576105959051264/image.png",
                 tier: "Common",
-                lowestPrice: 11,
+                lowestPrice: 9,
                 highestPrice: 46,
                 lowestQuantity: 4,
                 highestQuantity: 4

@@ -64,7 +64,7 @@ export const buyPrice: Seller[] = [
                 name: "Fortress Belt",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149771859294957669/image.png",
                 tier: "Legendary",
-                lowestPrice: 451,
+                lowestPrice: 370,
                 highestPrice: 1198,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -83,7 +83,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156478903653761084/image.png",
                 tier: "Legendary",
                 lowestPrice: 311,
-                highestPrice: 1070,
+                highestPrice: 1144,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -157,7 +157,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074570448056340/image.png",
                 tier: "Common",
                 lowestPrice: 26,
-                highestPrice: 47,
+                highestPrice: 48,
                 lowestQuantity: 13,
                 highestQuantity: 27
             },
@@ -270,7 +270,7 @@ export const buyPrice: Seller[] = [
                 name: "Nanofiber Frame I",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156227871040339979/image.png",
                 tier: "Epic",
-                lowestPrice: 5,
+                lowestPrice: 3,
                 highestPrice: 19,
                 lowestQuantity: 3,
                 highestQuantity: 3
@@ -342,7 +342,7 @@ export const buyPrice: Seller[] = [
                 name: "Augmentation Factor",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156227910471008356/image.png",
                 tier: "Legendary",
-                lowestPrice: 45,
+                lowestPrice: 41,
                 highestPrice: 158,
                 lowestQuantity: 4,
                 highestQuantity: 4
