@@ -24,7 +24,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422156677200/Forging_Hammer.png",
                 tier: "Rare",
                 lowestPrice: 47,
-                highestPrice: 103,
+                highestPrice: 105,
                 lowestQuantity: 4,
                 highestQuantity: 6
             },
@@ -149,7 +149,7 @@ export const sellPrice: Seller[] = [
                 name: "Spirit Beast Fleece",
                 image: "",
                 tier: "Rare",
-                lowestPrice: 53,
+                lowestPrice: 52,
                 highestPrice: 106,
                 lowestQuantity: 7,
                 highestQuantity: 7
@@ -274,6 +274,15 @@ export const sellPrice: Seller[] = [
                 highestQuantity: 1
             },
             {
+                name: "Firerat (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 29,
+                highestPrice: 80,
+                lowestQuantity: 1,
+                highestQuantity: 1
+            },
+            {
                 name: "Bunnydart (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574397015040010/image.png",
                 tier: "Common",
@@ -344,6 +353,15 @@ export const sellPrice: Seller[] = [
                 highestPrice: 158,
                 lowestQuantity: 4,
                 highestQuantity: 4
+            },
+            {
+                name: "Tricoon (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 37,
+                highestPrice: 157,
+                lowestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Infernal Steel Lizard (Tamed)",

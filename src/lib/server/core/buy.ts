@@ -19,7 +19,7 @@ export const buyPrice: Seller[] = [
                 name: "Silk Cocoon",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149728020366635028/Silk_Cocoon.png",
                 tier: "Rare",
-                lowestPrice: 51,
+                lowestPrice: 50,
                 highestPrice: 97,
                 lowestQuantity: 13,
                 highestQuantity: 27
@@ -100,7 +100,7 @@ export const buyPrice: Seller[] = [
                 name: "Elite Armbands",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150825448067055717/image.png",
                 tier: "Epic",
-                lowestPrice: 57,
+                lowestPrice: 56,
                 highestPrice: 195,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -109,7 +109,7 @@ export const buyPrice: Seller[] = [
                 name: "Elite Combat Belt",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150825511493316678/image.png",
                 tier: "Epic",
-                lowestPrice: 53,
+                lowestPrice: 52,
                 highestPrice: 199,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -118,7 +118,7 @@ export const buyPrice: Seller[] = [
                 name: "Elite Combat Leggings",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149779757781750050/image.png",
                 tier: "Epic",
-                lowestPrice: 68,
+                lowestPrice: 62,
                 highestPrice: 193,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -189,6 +189,24 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 1
             },
             {
+                name: "Landsource",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 9,
+                highestPrice: 98,
+                lowestQuantity: 2,
+                highestQuantity: 2,
+            },
+            {
+                name: "Heart of Lava",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150075039614521404/image.png",
+                tier: "Rare",
+                lowestPrice: 2,
+                highestPrice: 18,
+                lowestQuantity: 3,
+                highestQuantity: 3
+            },
+            {
                 name: "Heart of Summit",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074986879516722/image.png",
                 tier: "Rare",
@@ -198,11 +216,20 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 3
             },
             {
-                name: "Heart of Lava",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150075039614521404/image.png",
-                tier: "Rare",
+                name: "Icecore",
+                image: "",
+                tier: "Common",
                 lowestPrice: 2,
-                highestPrice: 18,
+                highestPrice: 9,
+                lowestQuantity: 6,
+                highestQuantity: 6,
+            },
+            {
+                name: "Firecore",
+                image: "",
+                tier: "Common",
+                lowestPrice: 2,
+                highestPrice: 9,
                 lowestQuantity: 3,
                 highestQuantity: 3
             },
@@ -242,9 +269,17 @@ export const buyPrice: Seller[] = [
                     tier: "Legendary"
                 },
                 {
-                    name: "Colorful Scale",
-                    tier: "Rare"
-                }
+                    name: "Sense Enhancement Module",
+                    tier: "Legendary"
+                },
+                {
+                    name: "Movement Coordination Module",
+                    tier: "Legendary"
+                },
+                {
+                    name: "Augmentation Factor",
+                    tier: "Legendary"
+                },
             ]
         },
         items: [
@@ -283,6 +318,15 @@ export const buyPrice: Seller[] = [
                 highestPrice: 59,
                 lowestQuantity: 2,
                 highestQuantity: 2
+            },
+            {
+                name: "Acidproof Glaze I",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 2,
+                highestPrice: 16,
+                lowestQuantity: 7,
+                highestQuantity: 7
             },
             {
                 name: "Acidproof Glaze II",
@@ -328,6 +372,15 @@ export const buyPrice: Seller[] = [
                 highestPrice: 372,
                 lowestQuantity: 4,
                 highestQuantity: 4
+            },
+            {
+                name: "Movement Coordination Module",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 100,
+                highestPrice: 387,
+                lowestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Augment Stats Fortification Chip",
@@ -381,7 +434,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 25,
                 highestPrice: 49,
-                lowestQuantity: 26,
+                lowestQuantity: 25,
                 highestQuantity: 27
             },
             {
@@ -390,7 +443,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 53,
                 highestPrice: 99,
-                lowestQuantity: 13,
+                lowestQuantity: 10,
                 highestQuantity: 26
             },
             {
@@ -400,7 +453,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 50,
                 highestPrice: 96,
                 lowestQuantity: 14,
-                highestQuantity: 24
+                highestQuantity: 28
             },
             {
                 name: "Rejuvenation Shot",
@@ -465,7 +518,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 25,
                 highestPrice: 48,
                 lowestQuantity: 10,
-                highestQuantity: 17
+                highestQuantity: 20
             },
             {
                 name: "Brocade Rice",
