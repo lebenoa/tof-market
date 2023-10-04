@@ -157,7 +157,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074570448056340/image.png",
                 tier: "Common",
                 lowestPrice: 26,
-                highestPrice: 48,
+                highestPrice: 49,
                 lowestQuantity: 13,
                 highestQuantity: 27
             },
@@ -193,9 +193,9 @@ export const buyPrice: Seller[] = [
                 image: "",
                 tier: "Epic",
                 lowestPrice: 9,
-                highestPrice: 98,
+                highestPrice: 38,
                 lowestQuantity: 2,
-                highestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Heart of Lava",
@@ -222,7 +222,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 9,
                 lowestQuantity: 6,
-                highestQuantity: 6,
+                highestQuantity: 6
             },
             {
                 name: "Firecore",
@@ -279,7 +279,7 @@ export const buyPrice: Seller[] = [
                 {
                     name: "Augmentation Factor",
                     tier: "Legendary"
-                },
+                }
             ]
         },
         items: [
@@ -288,9 +288,9 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078746011914370/image.png",
                 tier: "Rare",
                 lowestPrice: 50,
-                highestPrice: 98,
+                highestPrice: 99,
                 lowestQuantity: 15,
-                highestQuantity: 18
+                highestQuantity: 21
             },
             {
                 name: "Colorful Scale",
@@ -298,7 +298,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 55,
                 highestPrice: 97,
-                lowestQuantity: 20,
+                lowestQuantity: 19,
                 highestQuantity: 26
             },
             {
@@ -324,7 +324,7 @@ export const buyPrice: Seller[] = [
                 image: "",
                 tier: "Rare",
                 lowestPrice: 2,
-                highestPrice: 16,
+                highestPrice: 17,
                 lowestQuantity: 7,
                 highestQuantity: 7
             },

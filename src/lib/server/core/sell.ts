@@ -113,7 +113,7 @@ export const sellPrice: Seller[] = [
                 name: "Herbal Longevity Tonic",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422823571497/Herbal_Longevity_Tonic.png",
                 tier: "Epic",
-                lowestPrice: 52,
+                lowestPrice: 49,
                 highestPrice: 118,
                 lowestQuantity: 3,
                 highestQuantity: 3
@@ -131,16 +131,16 @@ export const sellPrice: Seller[] = [
                 name: "Beasthide Bag",
                 image: "",
                 tier: "Rare",
-                lowestPrice: 47,
-                highestPrice: 103,
-                lowestQuantity: 4,
-                highestQuantity: 4
+                lowestPrice: 45,
+                highestPrice: 106,
+                lowestQuantity: 6,
+                highestQuantity: 6
             },
             {
                 name: "Minghai Linene",
                 image: "",
                 tier: "Epic",
-                lowestPrice: 48,
+                lowestPrice: 44,
                 highestPrice: 91,
                 lowestQuantity: 7,
                 highestQuantity: 7
@@ -149,7 +149,7 @@ export const sellPrice: Seller[] = [
                 name: "Spirit Beast Fleece",
                 image: "",
                 tier: "Rare",
-                lowestPrice: 52,
+                lowestPrice: 46,
                 highestPrice: 106,
                 lowestQuantity: 7,
                 highestQuantity: 7
@@ -269,7 +269,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156481252577267732/image.png",
                 tier: "Common",
                 lowestPrice: 24,
-                highestPrice: 73,
+                highestPrice: 81,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -277,7 +277,7 @@ export const sellPrice: Seller[] = [
                 name: "Firerat (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 29,
+                lowestPrice: 23,
                 highestPrice: 80,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -359,7 +359,7 @@ export const sellPrice: Seller[] = [
                 image: "",
                 tier: "Common",
                 lowestPrice: 37,
-                highestPrice: 157,
+                highestPrice: 159,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
