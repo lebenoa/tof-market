@@ -277,7 +277,7 @@ export const sellPrice: Seller[] = [
                 name: "Firerat (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 29,
+                lowestPrice: 26,
                 highestPrice: 80,
                 lowestQuantity: 1,
                 highestQuantity: 1
