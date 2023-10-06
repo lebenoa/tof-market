@@ -129,7 +129,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Beasthide Bag",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159741268033818644/image.png",
                 tier: "Rare",
                 lowestPrice: 47,
                 highestPrice: 103,
@@ -138,7 +138,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Minghai Linene",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159741562775945266/image.png",
                 tier: "Epic",
                 lowestPrice: 41,
                 highestPrice: 91,
@@ -147,7 +147,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Spirit Beast Fleece",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159742761050853456/image.png",
                 tier: "Rare",
                 lowestPrice: 52,
                 highestPrice: 106,
@@ -156,7 +156,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Summer FLoral Brocade",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159742827585081395/image.png",
                 tier: "Rare",
                 lowestPrice: 43,
                 highestPrice: 100,
@@ -165,7 +165,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Jade Yarn",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743187900960868/image.png",
                 tier: "Rare",
                 lowestPrice: 44,
                 highestPrice: 102,
@@ -174,7 +174,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Wang's Dragon Amrita",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159742097117696000/image.png",
                 tier: "Legendary",
                 lowestPrice: 106,
                 highestPrice: 204,
@@ -183,7 +183,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Blackflame Censer",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159742259823132692/image.png",
                 tier: "Legendary",
                 lowestPrice: 82,
                 highestPrice: 193,
@@ -192,7 +192,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Jade Smithing Bench",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743045852483684/image.png",
                 tier: "Rare",
                 lowestPrice: 47,
                 highestPrice: 105,
@@ -223,7 +223,7 @@ export const sellPrice: Seller[] = [
                 name: "G-Coyote (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574143565824000/image.png",
                 tier: "Common",
-                lowestPrice: 41,
+                lowestPrice: 30,
                 highestPrice: 152,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -268,14 +268,14 @@ export const sellPrice: Seller[] = [
                 name: "Sand Otter (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156481252577267732/image.png",
                 tier: "Common",
-                lowestPrice: 24,
+                lowestPrice: 22,
                 highestPrice: 73,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
             {
                 name: "Firerat (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743593678917642/image.png",
                 tier: "Common",
                 lowestPrice: 26,
                 highestPrice: 80,
@@ -331,7 +331,7 @@ export const sellPrice: Seller[] = [
                 name: "Cactus (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156481309028397056/image.png",
                 tier: "Common",
-                lowestPrice: 17,
+                lowestPrice: 11,
                 highestPrice: 46,
                 lowestQuantity: 2,
                 highestQuantity: 2
@@ -356,7 +356,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Tricoon (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743711215898705/image.png",
                 tier: "Common",
                 lowestPrice: 37,
                 highestPrice: 157,

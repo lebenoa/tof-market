@@ -118,7 +118,7 @@ export const buyPrice: Seller[] = [
                 name: "Elite Combat Leggings",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149779757781750050/image.png",
                 tier: "Epic",
-                lowestPrice: 62,
+                lowestPrice: 52,
                 highestPrice: 193,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -190,10 +190,10 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Landsource",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744013474201650/image.png",
                 tier: "Epic",
                 lowestPrice: 9,
-                highestPrice: 98,
+                highestPrice: 38,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
@@ -217,7 +217,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Icecore",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744232609812551/image.png",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
@@ -226,7 +226,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Firecore",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744154604142632/image.png",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
@@ -321,7 +321,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Acidproof Glaze I",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744310720339968/image.png",
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 16,
@@ -375,7 +375,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Movement Coordination Module",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744381788622928/image.png",
                 tier: "Legendary",
                 lowestPrice: 100,
                 highestPrice: 387,
@@ -451,7 +451,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083253852721222/image.png",
                 tier: "Rare",
                 lowestPrice: 50,
-                highestPrice: 96,
+                highestPrice: 97,
                 lowestQuantity: 14,
                 highestQuantity: 28
             },
