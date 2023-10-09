@@ -23,7 +23,7 @@ export const sellPrice: Seller[] = [
                 name: "Forging Hammer",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422156677200/Forging_Hammer.png",
                 tier: "Rare",
-                lowestPrice: 47,
+                lowestPrice: 44,
                 highestPrice: 105,
                 lowestQuantity: 4,
                 highestQuantity: 6
@@ -168,7 +168,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743187900960868/image.png",
                 tier: "Rare",
                 lowestPrice: 44,
-                highestPrice: 102,
+                highestPrice: 103,
                 lowestQuantity: 4,
                 highestQuantity: 4
             },
