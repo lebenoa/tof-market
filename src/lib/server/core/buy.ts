@@ -40,7 +40,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 26,
                 highestPrice: 49,
                 lowestQuantity: 14,
-                highestQuantity: 25
+                highestQuantity: 27
             },
             {
                 name: "Fortress Helm",
@@ -149,7 +149,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 98,
-                lowestQuantity: 13,
+                lowestQuantity: 11,
                 highestQuantity: 29
             },
             {
@@ -192,7 +192,7 @@ export const buyPrice: Seller[] = [
                 name: "Landsource",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744013474201650/image.png",
                 tier: "Epic",
-                lowestPrice: 9,
+                lowestPrice: 7,
                 highestPrice: 38,
                 lowestQuantity: 1,
                 highestQuantity: 2
@@ -297,7 +297,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078746011914370/image.png",
                 tier: "Rare",
                 lowestPrice: 50,
-                highestPrice: 98,
+                highestPrice: 99,
                 lowestQuantity: 15,
                 highestQuantity: 18
             },
@@ -307,7 +307,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 55,
                 highestPrice: 97,
-                lowestQuantity: 20,
+                lowestQuantity: 15,
                 highestQuantity: 26
             },
             {
@@ -487,7 +487,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156479387223461948/image.png",
                 tier: "Epic",
                 lowestPrice: 308,
-                highestPrice: 575,
+                highestPrice: 595,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
