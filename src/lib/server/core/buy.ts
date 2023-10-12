@@ -486,7 +486,7 @@ export const buyPrice: Seller[] = [
                 name: "Piercing Shot",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156479387223461948/image.png",
                 tier: "Epic",
-                lowestPrice: 308,
+                lowestPrice: 306,
                 highestPrice: 595,
                 lowestQuantity: 1,
                 highestQuantity: 1
