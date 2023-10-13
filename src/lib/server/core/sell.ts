@@ -131,7 +131,7 @@ export const sellPrice: Seller[] = [
                 name: "Beasthide Bag",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159741268033818644/image.png",
                 tier: "Rare",
-                lowestPrice: 47,
+                lowestPrice: 43,
                 highestPrice: 103,
                 lowestQuantity: 4,
                 highestQuantity: 4
