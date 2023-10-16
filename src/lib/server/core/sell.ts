@@ -194,7 +194,7 @@ export const sellPrice: Seller[] = [
                 name: "Jade Smithing Bench",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743045852483684/image.png",
                 tier: "Rare",
-                lowestPrice: 47,
+                lowestPrice: 45,
                 highestPrice: 105,
                 lowestQuantity: 3,
                 highestQuantity: 3
@@ -292,6 +292,15 @@ export const sellPrice: Seller[] = [
                 highestQuantity: 2
             },
             {
+                name: "Moundslinger (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 26,
+                highestPrice: 83,
+                lowestQuantity: 2,
+                highestQuantity: 2,
+            },
+            {
                 name: "G-Crawler (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574300944502864/image.png",
                 tier: "Common",
@@ -359,7 +368,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743711215898705/image.png",
                 tier: "Common",
                 lowestPrice: 37,
-                highestPrice: 157,
+                highestPrice: 158,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },

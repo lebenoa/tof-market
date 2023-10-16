@@ -374,6 +374,15 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 5
             },
             {
+                name: "Nano Coating III",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 26,
+                highestPrice: 139,
+                lowestQuantity: 1,
+                highestQuantity: 1
+            },
+            {
                 name: "Information Processing Module",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150824742346043442/image.png",
                 tier: "Legendary",
@@ -452,7 +461,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 25,
                 highestPrice: 49,
-                lowestQuantity: 25,
+                lowestQuantity: 18,
                 highestQuantity: 27
             },
             {
@@ -508,7 +517,16 @@ export const buyPrice: Seller[] = [
                 highestPrice: 792,
                 lowestQuantity: 1,
                 highestQuantity: 1
-            }
+            },
+            {
+                name: "Vitality Solution",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 262,
+                highestPrice: 916,
+                lowestQuantity: 1,
+                highestQuantity: 1,
+            },
         ]
     },
     {
@@ -536,7 +554,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 25,
                 highestPrice: 48,
                 lowestQuantity: 10,
-                highestQuantity: 20
+                highestQuantity: 24
             },
             {
                 name: "Brocade Rice",
@@ -562,7 +580,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 10,
                 highestPrice: 19,
-                lowestQuantity: 11,
+                lowestQuantity: 10,
                 highestQuantity: 29
             },
             {
