@@ -305,7 +305,7 @@ export const buyPrice: Seller[] = [
                 name: "Colorful Scale",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078694602313889/image.png",
                 tier: "Rare",
-                lowestPrice: 55,
+                lowestPrice: 50,
                 highestPrice: 97,
                 lowestQuantity: 15,
                 highestQuantity: 26
@@ -525,8 +525,8 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 262,
                 highestPrice: 916,
                 lowestQuantity: 1,
-                highestQuantity: 1,
-            },
+                highestQuantity: 1
+            }
         ]
     },
     {

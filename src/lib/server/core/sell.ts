@@ -176,7 +176,7 @@ export const sellPrice: Seller[] = [
                 name: "Wang's Dragon Amrita",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159742097117696000/image.png",
                 tier: "Legendary",
-                lowestPrice: 106,
+                lowestPrice: 90,
                 highestPrice: 204,
                 lowestQuantity: 7,
                 highestQuantity: 7
@@ -298,7 +298,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 26,
                 highestPrice: 83,
                 lowestQuantity: 2,
-                highestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "G-Crawler (Tamed)",
