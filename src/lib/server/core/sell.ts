@@ -149,7 +149,7 @@ export const sellPrice: Seller[] = [
                 name: "Spirit Beast Fleece",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159742761050853456/image.png",
                 tier: "Rare",
-                lowestPrice: 52,
+                lowestPrice: 47,
                 highestPrice: 106,
                 lowestQuantity: 7,
                 highestQuantity: 7
