@@ -342,7 +342,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744310720339968/image.png",
                 tier: "Rare",
                 lowestPrice: 2,
-                highestPrice: 16,
+                highestPrice: 19,
                 lowestQuantity: 7,
                 highestQuantity: 7
             },
@@ -522,7 +522,7 @@ export const buyPrice: Seller[] = [
                 name: "Vitality Solution",
                 image: "",
                 tier: "Epic",
-                lowestPrice: 262,
+                lowestPrice: 234,
                 highestPrice: 916,
                 lowestQuantity: 1,
                 highestQuantity: 1
