@@ -165,7 +165,7 @@ export const buyPrice: Seller[] = [
                 name: "Raw Crystal",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074611413827714/image.png",
                 tier: "Common",
-                lowestPrice: 26,
+                lowestPrice: 25,
                 highestPrice: 49,
                 lowestQuantity: 12,
                 highestQuantity: 29
