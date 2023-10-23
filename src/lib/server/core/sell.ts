@@ -104,7 +104,7 @@ export const sellPrice: Seller[] = [
                 name: "Fast-Acting Heart Capsule",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365421909221476/Fast-Acting_Heart_Capsule.png",
                 tier: "Rare",
-                lowestPrice: 48,
+                lowestPrice: 46,
                 highestPrice: 103,
                 lowestQuantity: 5,
                 highestQuantity: 5
@@ -186,7 +186,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159742259823132692/image.png",
                 tier: "Legendary",
                 lowestPrice: 82,
-                highestPrice: 193,
+                highestPrice: 195,
                 lowestQuantity: 6,
                 highestQuantity: 6
             },
@@ -247,20 +247,20 @@ export const sellPrice: Seller[] = [
                 highestQuantity: 1
             },
             {
-                name: "G-Thorn Wolf (Tamed)",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574220539707453/image.png",
-                tier: "Common",
-                lowestPrice: 18,
-                highestPrice: 87,
-                lowestQuantity: 1,
-                highestQuantity: 1
-            },
-            {
                 name: "Shrooman (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156481139058417695/image.png",
                 tier: "Common",
                 lowestPrice: 11,
                 highestPrice: 45,
+                lowestQuantity: 1,
+                highestQuantity: 1
+            },
+            {
+                name: "G-Thorn Wolf (Tamed)",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574220539707453/image.png",
+                tier: "Common",
+                lowestPrice: 18,
+                highestPrice: 87,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },

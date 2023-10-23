@@ -39,7 +39,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 26,
                 highestPrice: 49,
-                lowestQuantity: 14,
+                lowestQuantity: 10,
                 highestQuantity: 27
             },
             {
@@ -50,6 +50,15 @@ export const buyPrice: Seller[] = [
                 highestPrice: 1169,
                 lowestQuantity: 1,
                 highestQuantity: 1
+            },
+            {
+                name: "Fortress Bracers",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 347,
+                highestPrice: 1151,
+                lowestQuantity: 1,
+                highestQuantity: 1,
             },
             {
                 name: "Fortress Handguards",
@@ -104,6 +113,15 @@ export const buyPrice: Seller[] = [
                 highestPrice: 197,
                 lowestQuantity: 1,
                 highestQuantity: 1
+            },
+            {
+                name: "Elite Gloves",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 91,
+                highestPrice: 173,
+                lowestQuantity: 1,
+                highestQuantity: 1,
             },
             {
                 name: "Elite Combat Belt",
@@ -230,7 +248,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
-                lowestQuantity: 6,
+                lowestQuantity: 4,
                 highestQuantity: 6
             },
             {
@@ -241,6 +259,24 @@ export const buyPrice: Seller[] = [
                 highestPrice: 9,
                 lowestQuantity: 3,
                 highestQuantity: 3
+            },
+            {
+                name: "Magcore",
+                image: "",
+                tier: "Common",
+                lowestPrice: 2,
+                highestPrice: 8,
+                lowestQuantity: 4,
+                highestQuantity: 4,
+            },
+            {
+                name: "Refined Cluster",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 8,
+                highestPrice: 63,
+                lowestQuantity: 1,
+                highestQuantity: 1
             },
             {
                 name: "Cluster",
@@ -299,7 +335,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 50,
                 highestPrice: 99,
                 lowestQuantity: 15,
-                highestQuantity: 18
+                highestQuantity: 23
             },
             {
                 name: "Colorful Scale",
@@ -307,7 +343,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 98,
-                lowestQuantity: 15,
+                lowestQuantity: 10,
                 highestQuantity: 26
             },
             {
@@ -336,6 +372,15 @@ export const buyPrice: Seller[] = [
                 highestPrice: 19,
                 lowestQuantity: 7,
                 highestQuantity: 7
+            },
+            {
+                name: "Booster Frame II",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 9,
+                highestPrice: 49,
+                lowestQuantity: 2,
+                highestQuantity: 2,
             },
             {
                 name: "Acidproof Glaze I",
@@ -425,7 +470,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 41,
                 highestPrice: 158,
                 lowestQuantity: 4,
-                highestQuantity: 4
+                highestQuantity: 12
             }
         ]
     },
@@ -471,7 +516,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 53,
                 highestPrice: 99,
                 lowestQuantity: 10,
-                highestQuantity: 26
+                highestQuantity: 28
             },
             {
                 name: "Lingzhi",
@@ -554,7 +599,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 25,
                 highestPrice: 48,
                 lowestQuantity: 10,
-                highestQuantity: 24
+                highestQuantity: 28
             },
             {
                 name: "Brocade Rice",
@@ -563,7 +608,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 25,
                 highestPrice: 49,
                 lowestQuantity: 16,
-                highestQuantity: 22
+                highestQuantity: 28
             },
             {
                 name: "Sorghum",
