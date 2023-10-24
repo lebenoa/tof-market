@@ -55,10 +55,10 @@ export const buyPrice: Seller[] = [
                 name: "Fortress Bracers",
                 image: "",
                 tier: "Legendary",
-                lowestPrice: 347,
+                lowestPrice: 313,
                 highestPrice: 1151,
                 lowestQuantity: 1,
-                highestQuantity: 1,
+                highestQuantity: 1
             },
             {
                 name: "Fortress Handguards",
@@ -119,9 +119,9 @@ export const buyPrice: Seller[] = [
                 image: "",
                 tier: "Epic",
                 lowestPrice: 91,
-                highestPrice: 173,
+                highestPrice: 186,
                 lowestQuantity: 1,
-                highestQuantity: 1,
+                highestQuantity: 1
             },
             {
                 name: "Elite Combat Belt",
@@ -267,7 +267,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 8,
                 lowestQuantity: 4,
-                highestQuantity: 4,
+                highestQuantity: 4
             },
             {
                 name: "Refined Cluster",
@@ -380,7 +380,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 9,
                 highestPrice: 49,
                 lowestQuantity: 2,
-                highestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Acidproof Glaze I",
@@ -641,7 +641,7 @@ export const buyPrice: Seller[] = [
                 name: "Bamboo Shoots",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150087457430315069/image.png",
                 tier: "Epic",
-                lowestPrice: 3,
+                lowestPrice: 2,
                 highestPrice: 19,
                 lowestQuantity: 11,
                 highestQuantity: 28
