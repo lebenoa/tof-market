@@ -24,7 +24,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422156677200/Forging_Hammer.png",
                 tier: "Rare",
                 lowestPrice: 44,
-                highestPrice: 105,
+                highestPrice: 106,
                 lowestQuantity: 4,
                 highestQuantity: 6
             },
