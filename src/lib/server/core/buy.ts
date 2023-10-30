@@ -52,6 +52,15 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 1
             },
             {
+                name: "Fortress Armor",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 382,
+                highestPrice: 1122,
+                lowestQuantity: 1,
+                highestQuantity: 1,
+            },
+            {
                 name: "Fortress Bracers",
                 image: "",
                 tier: "Legendary",
@@ -91,8 +100,8 @@ export const buyPrice: Seller[] = [
                 name: "Fortress Sabatons",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156478903653761084/image.png",
                 tier: "Legendary",
-                lowestPrice: 311,
-                highestPrice: 1144,
+                lowestPrice: 307,
+                highestPrice: 1187,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -104,6 +113,15 @@ export const buyPrice: Seller[] = [
                 highestPrice: 194,
                 lowestQuantity: 1,
                 highestQuantity: 1
+            },
+            {
+                name: "Elite Combat Suit",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 77,
+                highestPrice: 198,
+                lowestQuantity: 1,
+                highestQuantity: 1,
             },
             {
                 name: "Elite Armbands",
@@ -177,7 +195,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 26,
                 highestPrice: 49,
                 lowestQuantity: 13,
-                highestQuantity: 27
+                highestQuantity: 29
             },
             {
                 name: "Raw Crystal",
@@ -231,7 +249,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 3,
                 highestPrice: 18,
                 lowestQuantity: 3,
-                highestQuantity: 3
+                highestQuantity: 5
             },
             {
                 name: "Heart of Lightning",
@@ -261,13 +279,22 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 3
             },
             {
+                name: "Rockcore",
+                image: "",
+                tier: "Common",
+                lowestPrice: 2,
+                highestPrice: 9,
+                lowestQuantity: 6,
+                highestQuantity: 6,
+            },
+            {
                 name: "Magcore",
                 image: "",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 8,
                 lowestQuantity: 4,
-                highestQuantity: 4
+                highestQuantity: 6
             },
             {
                 name: "Refined Cluster",
@@ -335,7 +362,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 50,
                 highestPrice: 99,
                 lowestQuantity: 15,
-                highestQuantity: 23
+                highestQuantity: 26
             },
             {
                 name: "Colorful Scale",
@@ -353,7 +380,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 3,
                 highestPrice: 19,
                 lowestQuantity: 3,
-                highestQuantity: 3
+                highestQuantity: 5
             },
             {
                 name: "Nanofiber Frame II",
@@ -507,7 +534,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 25,
                 highestPrice: 49,
                 lowestQuantity: 18,
-                highestQuantity: 27
+                highestQuantity: 29
             },
             {
                 name: "Ginseng",
@@ -524,7 +551,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 97,
-                lowestQuantity: 14,
+                lowestQuantity: 11,
                 highestQuantity: 28
             },
             {
@@ -607,7 +634,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 25,
                 highestPrice: 49,
-                lowestQuantity: 16,
+                lowestQuantity: 11,
                 highestQuantity: 28
             },
             {

@@ -278,7 +278,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743593678917642/image.png",
                 tier: "Common",
                 lowestPrice: 26,
-                highestPrice: 80,
+                highestPrice: 85,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -389,7 +389,34 @@ export const sellPrice: Seller[] = [
                 highestPrice: 87,
                 lowestQuantity: 4,
                 highestQuantity: 4
-            }
+            },
+            {
+                name: "Sea Catfish (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 47,
+                highestPrice: 83,
+                lowestQuantity: 2,
+                highestQuantity: 2,
+            },
+            {
+                name: "Archeagle (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 72,
+                highestPrice: 178,
+                lowestQuantity: 1,
+                highestQuantity: 1,
+            },
+            {
+                name: "Gold Phantom Dolphin (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 58,
+                highestPrice: 159,
+                lowestQuantity: 1,
+                highestQuantity: 1,
+            },
         ]
     }
 ];
