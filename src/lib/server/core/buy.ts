@@ -118,7 +118,7 @@ export const buyPrice: Seller[] = [
                 name: "Elite Combat Suit",
                 image: "",
                 tier: "Epic",
-                lowestPrice: 77,
+                lowestPrice: 76,
                 highestPrice: 198,
                 lowestQuantity: 1,
                 highestQuantity: 1,
@@ -292,7 +292,7 @@ export const buyPrice: Seller[] = [
                 image: "",
                 tier: "Common",
                 lowestPrice: 2,
-                highestPrice: 8,
+                highestPrice: 9,
                 lowestQuantity: 4,
                 highestQuantity: 6
             },
@@ -431,7 +431,7 @@ export const buyPrice: Seller[] = [
                 name: "Acidproof Glaze III",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150079012790599720/image.png",
                 tier: "Legendary",
-                lowestPrice: 25,
+                lowestPrice: 17,
                 highestPrice: 141,
                 lowestQuantity: 1,
                 highestQuantity: 2
