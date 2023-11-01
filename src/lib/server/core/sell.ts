@@ -34,7 +34,7 @@ export const sellPrice: Seller[] = [
                 tier: "Legendary",
                 lowestPrice: 103,
                 highestPrice: 221,
-                lowestQuantity: 5,
+                lowestQuantity: 3,
                 highestQuantity: 5
             },
             {
@@ -71,7 +71,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 43,
                 highestPrice: 106,
                 lowestQuantity: 6,
-                highestQuantity: 6
+                highestQuantity: 7
             },
             {
                 name: "Crystal Bangle",
@@ -113,10 +113,10 @@ export const sellPrice: Seller[] = [
                 name: "Herbal Longevity Tonic",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422823571497/Herbal_Longevity_Tonic.png",
                 tier: "Epic",
-                lowestPrice: 52,
+                lowestPrice: 5492,
                 highestPrice: 118,
                 lowestQuantity: 3,
-                highestQuantity: 3
+                highestQuantity: 5
             },
             {
                 name: "Sorghum",
@@ -178,7 +178,7 @@ export const sellPrice: Seller[] = [
                 tier: "Legendary",
                 lowestPrice: 86,
                 highestPrice: 212,
-                lowestQuantity: 7,
+                lowestQuantity: 4,
                 highestQuantity: 7
             },
             {
@@ -205,9 +205,45 @@ export const sellPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 12,
                 highestPrice: 29,
-                lowestQuantity: 13,
+                lowestQuantity: 12,
                 highestQuantity: 13
-            }
+            },
+            {
+                name: "Limpid Cicada Wings",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 53,
+                highestPrice: 109,
+                lowestQuantity: 7,
+                highestQuantity: 7,
+            },
+            {
+                name: "Emerald Fan",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 92,
+                highestPrice: 198,
+                lowestQuantity: 7,
+                highestQuantity: 7,
+            },
+            {
+                name: "Herbal Marrow Brew",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 46,
+                highestPrice: 95,
+                lowestQuantity: 7,
+                highestQuantity: 7,
+            },
+            {
+                name: "Agarwood Box",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 45,
+                highestPrice: 103,
+                lowestQuantity: 6,
+                highestQuantity: 6,
+            },
         ]
     },
     {
@@ -241,7 +277,7 @@ export const sellPrice: Seller[] = [
                 name: "Folium Tiger (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574575444926516/image.png",
                 tier: "Common",
-                lowestPrice: 56,
+                lowestPrice: 54,
                 highestPrice: 246,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -394,7 +430,7 @@ export const sellPrice: Seller[] = [
                 name: "Sea Catfish (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 39,
+                lowestPrice: 35,
                 highestPrice: 83,
                 lowestQuantity: 2,
                 highestQuantity: 2,
@@ -403,7 +439,7 @@ export const sellPrice: Seller[] = [
                 name: "Archeagle (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 72,
+                lowestPrice: 36,
                 highestPrice: 178,
                 lowestQuantity: 1,
                 highestQuantity: 1,
