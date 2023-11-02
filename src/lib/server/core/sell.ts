@@ -98,7 +98,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 45,
                 highestPrice: 105,
                 lowestQuantity: 3,
-                highestQuantity: 3
+                highestQuantity: 6
             },
             {
                 name: "Fast-Acting Heart Capsule",
@@ -113,7 +113,7 @@ export const sellPrice: Seller[] = [
                 name: "Herbal Longevity Tonic",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422823571497/Herbal_Longevity_Tonic.png",
                 tier: "Epic",
-                lowestPrice: 5492,
+                lowestPrice: 48,
                 highestPrice: 118,
                 lowestQuantity: 3,
                 highestQuantity: 5
@@ -221,7 +221,7 @@ export const sellPrice: Seller[] = [
                 name: "Emerald Fan",
                 image: "",
                 tier: "Legendary",
-                lowestPrice: 92,
+                lowestPrice: 91,
                 highestPrice: 198,
                 lowestQuantity: 7,
                 highestQuantity: 7,
@@ -448,7 +448,7 @@ export const sellPrice: Seller[] = [
                 name: "Gold Phantom Dolphin (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 58,
+                lowestPrice: 57,
                 highestPrice: 159,
                 lowestQuantity: 1,
                 highestQuantity: 1,
