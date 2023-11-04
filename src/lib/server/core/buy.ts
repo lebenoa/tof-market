@@ -53,7 +53,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Armor",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343391767318670/image.png",
                 tier: "Legendary",
                 lowestPrice: 382,
                 highestPrice: 1138,
@@ -62,7 +62,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Bracers",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343445164986489/image.png",
                 tier: "Legendary",
                 lowestPrice: 313,
                 highestPrice: 1151,
@@ -116,7 +116,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Elite Combat Suit",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343520834424832/image.png",
                 tier: "Epic",
                 lowestPrice: 59,
                 highestPrice: 198,
@@ -134,7 +134,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Elite Gloves",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343563519852655/image.png",
                 tier: "Epic",
                 lowestPrice: 53,
                 highestPrice: 190,
@@ -253,7 +253,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Heart of Lightning",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343850825494548/image.png",
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 18,
@@ -280,7 +280,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Rockcore",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343928885678131/image.png",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
@@ -289,7 +289,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Magcore",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344014655012944/image.png",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
@@ -298,7 +298,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Refined Cluster",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344074688069642/image.png",
                 tier: "Epic",
                 lowestPrice: 8,
                 highestPrice: 72,
@@ -393,7 +393,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Booster Frame I",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344334198067250/image.png",
                 tier: "Epic",
                 lowestPrice: 6,
                 highestPrice: 19,
@@ -402,7 +402,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Booster Frame II",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344414326030336/image.png",
                 tier: "Legendary",
                 lowestPrice: 9,
                 highestPrice: 49,
@@ -447,7 +447,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Nano Coating III",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344679074697257/image.png",
                 tier: "Legendary",
                 lowestPrice: 26,
                 highestPrice: 139,
@@ -592,7 +592,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Vitality Solution",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344929332052060/image.png",
                 tier: "Epic",
                 lowestPrice: 200,
                 highestPrice: 971,
