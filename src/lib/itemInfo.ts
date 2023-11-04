@@ -123,5 +123,5 @@ export const itemInfo: Record<string, string> = {
     "Elite Combat Suit":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1170349475798196224/image.png",
     "Elite Gloves":
-        "https://cdn.discordapp.com/attachments/1149567307023122443/1170349562964234351/image.png",
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170349562964234351/image.png"
 };
