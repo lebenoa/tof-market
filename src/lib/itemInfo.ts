@@ -89,5 +89,39 @@ export const itemInfo: Record<string, string> = {
     "Heart of Summit":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1151579729384706268/image.png",
     "Heart of Lava":
-        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513263232757810/image.png"
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1156513263232757810/image.png",
+    "Refined Cluster":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170345489384874114/image.png",
+    Landsource:
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170345895863263312/image.png",
+    "Heart of Lightning":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170346180501315614/image.png",
+    Firecore:
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170346595624157245/image.png",
+    Icecore:
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170346647251861616/image.png",
+    Rockcore:
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170346690318962759/image.png",
+    Magcore:
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170346735445491784/image.png",
+    "Booster Frame I":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170347772290019378/image.png",
+    "Booster Frame II":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170347969552339036/image.png",
+    "Acidproof Glaze I":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170348062363885751/image.png",
+    "Nano Coating III":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170348141334241410/image.png",
+    "Movement Coordiantion Module":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170348219671248906/image.png",
+    "Vitality Solution":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170348777756954646/image.png",
+    "Fortress Armor":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170349018023469166/image.png",
+    "Fortress Bracer":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170349173418238103/image.png",
+    "Elite Combat Suit":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170349475798196224/image.png",
+    "Elite Gloves":
+        "https://cdn.discordapp.com/attachments/1149567307023122443/1170349562964234351/image.png",
 };
