@@ -58,7 +58,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 382,
                 highestPrice: 1138,
                 lowestQuantity: 1,
-                highestQuantity: 1,
+                highestQuantity: 1
             },
             {
                 name: "Fortress Bracers",
@@ -121,7 +121,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 59,
                 highestPrice: 198,
                 lowestQuantity: 1,
-                highestQuantity: 1,
+                highestQuantity: 1
             },
             {
                 name: "Elite Armbands",
@@ -285,7 +285,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 9,
                 lowestQuantity: 6,
-                highestQuantity: 6,
+                highestQuantity: 6
             },
             {
                 name: "Magcore",

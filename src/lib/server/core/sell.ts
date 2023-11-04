@@ -210,40 +210,40 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Limpid Cicada Wings",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170339801367592980/image.png",
                 tier: "Legendary",
                 lowestPrice: 46,
                 highestPrice: 109,
                 lowestQuantity: 7,
-                highestQuantity: 7,
+                highestQuantity: 7
             },
             {
                 name: "Emerald Fan",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170339859735519289/image.png",
                 tier: "Legendary",
                 lowestPrice: 91,
                 highestPrice: 198,
                 lowestQuantity: 7,
-                highestQuantity: 7,
+                highestQuantity: 7
             },
             {
                 name: "Herbal Marrow Brew",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170339942744985640/image.png",
                 tier: "Rare",
                 lowestPrice: 46,
                 highestPrice: 105,
                 lowestQuantity: 7,
-                highestQuantity: 7,
+                highestQuantity: 7
             },
             {
                 name: "Agarwood Box",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170339991021424801/image.png",
                 tier: "Rare",
                 lowestPrice: 45,
                 highestPrice: 105,
                 lowestQuantity: 6,
-                highestQuantity: 6,
-            },
+                highestQuantity: 6
+            }
         ]
     },
     {
@@ -329,7 +329,7 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Moundslinger (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170341519547437146/image.png",
                 tier: "Common",
                 lowestPrice: 26,
                 highestPrice: 85,
@@ -428,31 +428,31 @@ export const sellPrice: Seller[] = [
             },
             {
                 name: "Sea Catfish (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170341639240298576/image.png",
                 tier: "Common",
                 lowestPrice: 35,
                 highestPrice: 83,
                 lowestQuantity: 2,
-                highestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Archeagle (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170341736200011856/image.png",
                 tier: "Common",
                 lowestPrice: 36,
                 highestPrice: 178,
                 lowestQuantity: 1,
-                highestQuantity: 1,
+                highestQuantity: 1
             },
             {
                 name: "Gold Phantom Dolphin (Tamed)",
-                image: "",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170341684824002560/image.png",
                 tier: "Common",
                 lowestPrice: 57,
                 highestPrice: 159,
                 lowestQuantity: 1,
-                highestQuantity: 1,
-            },
+                highestQuantity: 1
+            }
         ]
     }
 ];
