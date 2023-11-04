@@ -112,13 +112,13 @@ export const itemInfo: Record<string, string> = {
         "https://cdn.discordapp.com/attachments/1149567307023122443/1170348062363885751/image.png",
     "Nano Coating III":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1170348141334241410/image.png",
-    "Movement Coordiantion Module":
+    "Movement Coordination Module":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1170348219671248906/image.png",
     "Vitality Solution":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1170348777756954646/image.png",
     "Fortress Armor":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1170349018023469166/image.png",
-    "Fortress Bracer":
+    "Fortress Bracers":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1170349173418238103/image.png",
     "Elite Combat Suit":
         "https://cdn.discordapp.com/attachments/1149567307023122443/1170349475798196224/image.png",
