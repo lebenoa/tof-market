@@ -118,7 +118,7 @@ export const buyPrice: Seller[] = [
                 name: "Elite Combat Suit",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343520834424832/image.png",
                 tier: "Epic",
-                lowestPrice: 59,
+                lowestPrice: 54,
                 highestPrice: 198,
                 lowestQuantity: 1,
                 highestQuantity: 1
