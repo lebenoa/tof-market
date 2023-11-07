@@ -467,7 +467,7 @@ export const buyPrice: Seller[] = [
                 name: "Core Control Module",
                 image: "",
                 tier: "Legendary",
-                lowestPrice: 121,
+                lowestPrice: 103,
                 highestPrice: 365,
                 lowestQuantity: 1,
                 highestQuantity: 1

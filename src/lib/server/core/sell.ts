@@ -323,7 +323,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574397015040010/image.png",
                 tier: "Common",
                 lowestPrice: 18,
-                highestPrice: 87,
+                highestPrice: 88,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
@@ -341,7 +341,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574300944502864/image.png",
                 tier: "Common",
                 lowestPrice: 17,
-                highestPrice: 85,
+                highestPrice: 87,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
@@ -403,7 +403,7 @@ export const sellPrice: Seller[] = [
                 name: "Tricoon (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743711215898705/image.png",
                 tier: "Common",
-                lowestPrice: 36,
+                lowestPrice: 32,
                 highestPrice: 158,
                 lowestQuantity: 2,
                 highestQuantity: 2
