@@ -37,7 +37,7 @@ export const buyPrice: Seller[] = [
                 name: "Beast Hide",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149729220562518047/image.png",
                 tier: "Common",
-                lowestPrice: 26,
+                lowestPrice: 25,
                 highestPrice: 49,
                 lowestQuantity: 10,
                 highestQuantity: 27
