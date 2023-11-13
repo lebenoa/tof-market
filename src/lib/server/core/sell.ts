@@ -260,7 +260,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574143565824000/image.png",
                 tier: "Common",
                 lowestPrice: 30,
-                highestPrice: 152,
+                highestPrice: 157,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -452,6 +452,15 @@ export const sellPrice: Seller[] = [
                 highestPrice: 209,
                 lowestQuantity: 1,
                 highestQuantity: 1,
+            },
+            {
+                name: "Dragon-Necked Turtle (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 27,
+                highestPrice: 79,
+                lowestQuantity: 2,
+                highestQuantity: 2,
             },
             {
                 name: "Gold Phantom Dolphin (Tamed)",

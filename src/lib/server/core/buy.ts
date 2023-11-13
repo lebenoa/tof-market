@@ -31,7 +31,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 25,
                 highestPrice: 48,
                 lowestQuantity: 14,
-                highestQuantity: 26
+                highestQuantity: 29
             },
             {
                 name: "Beast Hide",
@@ -118,7 +118,7 @@ export const buyPrice: Seller[] = [
                 name: "Elite Combat Suit",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343520834424832/image.png",
                 tier: "Epic",
-                lowestPrice: 54,
+                lowestPrice: 51,
                 highestPrice: 198,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -234,6 +234,15 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 2
             },
             {
+                name: "Heart of Winter",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 5,
+                highestPrice: 18,
+                lowestQuantity: 3,
+                highestQuantity: 3,
+            },
+            {
                 name: "Heart of Lava",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150075039614521404/image.png",
                 tier: "Rare",
@@ -266,7 +275,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
-                lowestQuantity: 4,
+                lowestQuantity: 3,
                 highestQuantity: 6
             },
             {
@@ -361,7 +370,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 99,
-                lowestQuantity: 15,
+                lowestQuantity: 11,
                 highestQuantity: 26
             },
             {
@@ -380,7 +389,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 3,
                 highestPrice: 19,
                 lowestQuantity: 3,
-                highestQuantity: 5
+                highestQuantity: 7
             },
             {
                 name: "Nanofiber Frame II",
@@ -516,7 +525,16 @@ export const buyPrice: Seller[] = [
                 highestPrice: 799,
                 lowestQuantity: 1,
                 highestQuantity: 1
-            }
+            },
+            {
+                name: "Random Stats Fortification Chip",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 211,
+                highestPrice: 575,
+                lowestQuantity: 1,
+                highestQuantity: 1,
+            },
         ]
     },
     {
@@ -680,7 +698,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 19,
                 lowestQuantity: 11,
-                highestQuantity: 25
+                highestQuantity: 26
             },
             {
                 name: "Bamboo Shoots",
