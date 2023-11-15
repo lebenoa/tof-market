@@ -237,7 +237,7 @@ export const buyPrice: Seller[] = [
                 name: "Heart of Winter",
                 image: "",
                 tier: "Rare",
-                lowestPrice: 5,
+                lowestPrice: 2,
                 highestPrice: 18,
                 lowestQuantity: 3,
                 highestQuantity: 3,
