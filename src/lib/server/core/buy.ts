@@ -386,7 +386,7 @@ export const buyPrice: Seller[] = [
                 name: "Nanofiber Frame I",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156227871040339979/image.png",
                 tier: "Epic",
-                lowestPrice: 3,
+                lowestPrice: 2,
                 highestPrice: 19,
                 lowestQuantity: 3,
                 highestQuantity: 7
@@ -531,7 +531,7 @@ export const buyPrice: Seller[] = [
                 image: "",
                 tier: "Legendary",
                 lowestPrice: 211,
-                highestPrice: 575,
+                highestPrice: 629,
                 lowestQuantity: 1,
                 highestQuantity: 1,
             },
