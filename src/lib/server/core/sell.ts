@@ -239,7 +239,7 @@ export const sellPrice: Seller[] = [
                 name: "Agarwood Box",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170339991021424801/image.png",
                 tier: "Rare",
-                lowestPrice: 45,
+                lowestPrice: 43,
                 highestPrice: 105,
                 lowestQuantity: 6,
                 highestQuantity: 6
@@ -430,7 +430,7 @@ export const sellPrice: Seller[] = [
                 name: "Sea Catfish (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170341639240298576/image.png",
                 tier: "Common",
-                lowestPrice: 35,
+                lowestPrice: 23,
                 highestPrice: 87,
                 lowestQuantity: 2,
                 highestQuantity: 2
@@ -458,7 +458,7 @@ export const sellPrice: Seller[] = [
                 image: "",
                 tier: "Common",
                 lowestPrice: 27,
-                highestPrice: 83,
+                highestPrice: 86,
                 lowestQuantity: 2,
                 highestQuantity: 2,
             },
