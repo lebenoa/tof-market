@@ -55,7 +55,7 @@ export const buyPrice: Seller[] = [
                 name: "Fortress Armor",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343391767318670/image.png",
                 tier: "Legendary",
-                lowestPrice: 382,
+                lowestPrice: 352,
                 highestPrice: 1138,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -576,7 +576,7 @@ export const buyPrice: Seller[] = [
                 name: "Ginseng",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083089494724688/image.png",
                 tier: "Rare",
-                lowestPrice: 53,
+                lowestPrice: 51,
                 highestPrice: 99,
                 lowestQuantity: 10,
                 highestQuantity: 28
