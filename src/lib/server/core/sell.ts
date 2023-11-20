@@ -32,7 +32,7 @@ export const sellPrice: Seller[] = [
                 name: "Shengwen Carved Dracojade Box",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365449461596190/Shengwen_Carved_Dracojade_Box.png",
                 tier: "Legendary",
-                lowestPrice: 103,
+                lowestPrice: 102,
                 highestPrice: 221,
                 lowestQuantity: 3,
                 highestQuantity: 5
@@ -95,7 +95,7 @@ export const sellPrice: Seller[] = [
                 name: "Golden Vein Ointment",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422584504370/Golden_Vein_Ointment.png",
                 tier: "Rare",
-                lowestPrice: 45,
+                lowestPrice: 43,
                 highestPrice: 105,
                 lowestQuantity: 3,
                 highestQuantity: 6
@@ -436,11 +436,20 @@ export const sellPrice: Seller[] = [
                 highestQuantity: 2
             },
             {
+                name: "Phantom Dolphin (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 23,
+                highestPrice: 83,
+                lowestQuantity: 2,
+                highestQuantity: 2
+            },
+            {
                 name: "Archeagle (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170341736200011856/image.png",
                 tier: "Common",
                 lowestPrice: 36,
-                highestPrice: 178,
+                highestPrice: 185,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -451,7 +460,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 71,
                 highestPrice: 209,
                 lowestQuantity: 1,
-                highestQuantity: 1,
+                highestQuantity: 1
             },
             {
                 name: "Dragon-Necked Turtle (Tamed)",
@@ -460,7 +469,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 27,
                 highestPrice: 86,
                 lowestQuantity: 2,
-                highestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Gold Phantom Dolphin (Tamed)",

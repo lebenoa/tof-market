@@ -61,6 +61,15 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 1
             },
             {
+                name: "Fortress Spaulders",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 391,
+                highestPrice: 1081,
+                lowestQuantity: 1,
+                highestQuantity: 1
+            },
+            {
                 name: "Fortress Bracers",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343445164986489/image.png",
                 tier: "Legendary",
@@ -240,7 +249,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 19,
                 lowestQuantity: 3,
-                highestQuantity: 3,
+                highestQuantity: 3
             },
             {
                 name: "Heart of Lava",
@@ -330,7 +339,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 19,
                 lowestQuantity: 7,
-                highestQuantity: 13
+                highestQuantity: 14
             }
         ]
     },
@@ -395,10 +404,10 @@ export const buyPrice: Seller[] = [
                 name: "Nanofiber Frame II",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078836982161441/image.png",
                 tier: "Legendary",
-                lowestPrice: 22,
+                lowestPrice: 11,
                 highestPrice: 59,
                 lowestQuantity: 2,
-                highestQuantity: 2
+                highestQuantity: 3
             },
             {
                 name: "Booster Frame I",
@@ -533,8 +542,8 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 203,
                 highestPrice: 629,
                 lowestQuantity: 1,
-                highestQuantity: 1,
-            },
+                highestQuantity: 1
+            }
         ]
     },
     {
