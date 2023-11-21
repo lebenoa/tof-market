@@ -212,7 +212,7 @@ export const sellPrice: Seller[] = [
                 name: "Limpid Cicada Wings",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170339801367592980/image.png",
                 tier: "Legendary",
-                lowestPrice: 46,
+                lowestPrice: 45,
                 highestPrice: 109,
                 lowestQuantity: 7,
                 highestQuantity: 7
@@ -350,7 +350,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1153743932765769798/image.png",
                 tier: "Common",
                 lowestPrice: 50,
-                highestPrice: 241,
+                highestPrice: 242,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
