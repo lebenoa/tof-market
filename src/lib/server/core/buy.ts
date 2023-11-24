@@ -201,7 +201,7 @@ export const buyPrice: Seller[] = [
                 name: "Jadestone",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074570448056340/image.png",
                 tier: "Common",
-                lowestPrice: 26,
+                lowestPrice: 25,
                 highestPrice: 49,
                 lowestQuantity: 13,
                 highestQuantity: 29
