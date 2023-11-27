@@ -463,6 +463,15 @@ export const sellPrice: Seller[] = [
                 highestQuantity: 1
             },
             {
+                name: "Nightmare Scourge (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 62,
+                highestPrice: 224,
+                lowestQuantity: 1,
+                highestQuantity: 1,
+            },
+            {
                 name: "Dragon-Necked Turtle (Tamed)",
                 image: "",
                 tier: "Common",
@@ -479,7 +488,16 @@ export const sellPrice: Seller[] = [
                 highestPrice: 159,
                 lowestQuantity: 1,
                 highestQuantity: 1
-            }
+            },
+            {
+                name: "Star Antelope (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 21,
+                highestPrice: 78,
+                lowestQuantity: 2,
+                highestQuantity: 2,
+            },
         ]
     }
 ];
