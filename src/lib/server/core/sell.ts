@@ -332,7 +332,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170341519547437146/image.png",
                 tier: "Common",
                 lowestPrice: 26,
-                highestPrice: 85,
+                highestPrice: 86,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
@@ -466,7 +466,7 @@ export const sellPrice: Seller[] = [
                 name: "Nightmare Scourge (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 62,
+                lowestPrice: 52,
                 highestPrice: 224,
                 lowestQuantity: 1,
                 highestQuantity: 1,
