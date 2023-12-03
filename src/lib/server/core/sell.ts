@@ -257,7 +257,7 @@ export const sellPrice: Seller[] = [
                 name: "Titabalt Longsword",
                 image: "",
                 tier: "Legendary",
-                lowestPrice: 110,
+                lowestPrice: 83,
                 highestPrice: 190,
                 lowestQuantity: 6,
                 highestQuantity: 6,
