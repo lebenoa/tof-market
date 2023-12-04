@@ -303,7 +303,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 9,
                 lowestQuantity: 6,
-                highestQuantity: 6
+                highestQuantity: 7
             },
             {
                 name: "Magcore",
@@ -380,7 +380,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 50,
                 highestPrice: 99,
                 lowestQuantity: 11,
-                highestQuantity: 26
+                highestQuantity: 29
             },
             {
                 name: "Colorful Scale",
@@ -413,9 +413,9 @@ export const buyPrice: Seller[] = [
                 name: "Booster Frame I",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344334198067250/image.png",
                 tier: "Epic",
-                lowestPrice: 6,
+                lowestPrice: 5,
                 highestPrice: 19,
-                lowestQuantity: 7,
+                lowestQuantity: 5,
                 highestQuantity: 7
             },
             {
@@ -596,7 +596,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 98,
-                lowestQuantity: 11,
+                lowestQuantity: 10,
                 highestQuantity: 28
             },
             {
@@ -715,7 +715,7 @@ export const buyPrice: Seller[] = [
                 tier: "Epic",
                 lowestPrice: 2,
                 highestPrice: 19,
-                lowestQuantity: 11,
+                lowestQuantity: 10,
                 highestQuantity: 29
             },
             {
