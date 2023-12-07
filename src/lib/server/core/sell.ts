@@ -249,7 +249,7 @@ export const sellPrice: Seller[] = [
                 image: "",
                 tier: "Legendary",
                 lowestPrice: 88,
-                highestPrice: 173,
+                highestPrice: 198,
                 lowestQuantity: 4,
                 highestQuantity: 4,
             },
