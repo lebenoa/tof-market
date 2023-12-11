@@ -21,7 +21,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 98,
-                lowestQuantity: 13,
+                lowestQuantity: 12,
                 highestQuantity: 27
             },
             {
@@ -258,7 +258,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 18,
                 lowestQuantity: 3,
-                highestQuantity: 3
+                highestQuantity: 5
             },
             {
                 name: "Heart of Summit",
@@ -470,7 +470,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 19,
                 lowestQuantity: 5,
-                highestQuantity: 5
+                highestQuantity: 7
             },
             {
                 name: "Nano Coating III",
@@ -523,7 +523,7 @@ export const buyPrice: Seller[] = [
                 tier: "Legendary",
                 lowestPrice: 41,
                 highestPrice: 158,
-                lowestQuantity: 4,
+                lowestQuantity: 3,
                 highestQuantity: 12
             },
             {
@@ -707,7 +707,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 19,
                 lowestQuantity: 11,
-                highestQuantity: 26
+                highestQuantity: 27
             },
             {
                 name: "Bamboo Shoots",
