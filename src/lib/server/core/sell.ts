@@ -140,7 +140,7 @@ export const sellPrice: Seller[] = [
                 name: "Minghai Linene",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159741562775945266/image.png",
                 tier: "Epic",
-                lowestPrice: 39,
+                lowestPrice: 38,
                 highestPrice: 91,
                 lowestQuantity: 4,
                 highestQuantity: 7
