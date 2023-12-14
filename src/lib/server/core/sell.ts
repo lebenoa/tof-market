@@ -502,7 +502,7 @@ export const sellPrice: Seller[] = [
                 name: "Dragon-Necked Turtle (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 25,
+                lowestPrice: 18,
                 highestPrice: 88,
                 lowestQuantity: 2,
                 highestQuantity: 2
