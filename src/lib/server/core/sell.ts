@@ -385,7 +385,7 @@ export const sellPrice: Seller[] = [
                 name: "Stone Spider (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574475310125066/image.png",
                 tier: "Common",
-                lowestPrice: 33,
+                lowestPrice: 31,
                 highestPrice: 159,
                 lowestQuantity: 2,
                 highestQuantity: 2

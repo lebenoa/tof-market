@@ -20,7 +20,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149728020366635028/Silk_Cocoon.png",
                 tier: "Rare",
                 lowestPrice: 50,
-                highestPrice: 98,
+                highestPrice: 99,
                 lowestQuantity: 12,
                 highestQuantity: 27
             },
