@@ -621,7 +621,7 @@ export const buyPrice: Seller[] = [
                 name: "Enhancement Shot",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083167655559168/image.png",
                 tier: "Epic",
-                lowestPrice: 205,
+                lowestPrice: 202,
                 highestPrice: 399,
                 lowestQuantity: 1,
                 highestQuantity: 1
