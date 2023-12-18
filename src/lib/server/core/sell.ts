@@ -251,7 +251,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 88,
                 highestPrice: 202,
                 lowestQuantity: 4,
-                highestQuantity: 4,
+                highestQuantity: 4
             },
             {
                 name: "Titabalt Longsword",
@@ -260,7 +260,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 83,
                 highestPrice: 190,
                 lowestQuantity: 6,
-                highestQuantity: 6,
+                highestQuantity: 6
             },
             {
                 name: "Rejuvenation Compound",
@@ -269,8 +269,8 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 41,
                 highestPrice: 101,
                 lowestQuantity: 7,
-                highestQuantity: 7,
-            },
+                highestQuantity: 7
+            }
         ]
     },
     {
@@ -496,7 +496,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 52,
                 highestPrice: 247,
                 lowestQuantity: 1,
-                highestQuantity: 1,
+                highestQuantity: 1
             },
             {
                 name: "Dragon-Necked Turtle (Tamed)",
@@ -523,7 +523,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 12,
                 highestPrice: 43,
                 lowestQuantity: 4,
-                highestQuantity: 4,
+                highestQuantity: 4
             },
             {
                 name: "Star Antelope (Tamed)",
@@ -532,7 +532,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 21,
                 highestPrice: 105,
                 lowestQuantity: 2,
-                highestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Trichroma Fox (Tamed)",
@@ -541,8 +541,8 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 24,
                 highestPrice: 115,
                 lowestQuantity: 2,
-                highestQuantity: 2,
-            },
+                highestQuantity: 2
+            }
         ]
     }
 ];

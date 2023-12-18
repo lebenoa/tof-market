@@ -249,7 +249,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 7,
                 highestPrice: 37,
                 lowestQuantity: 2,
-                highestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Heart of Winter",
