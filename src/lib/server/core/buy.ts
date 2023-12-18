@@ -30,7 +30,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 25,
                 highestPrice: 48,
-                lowestQuantity: 14,
+                lowestQuantity: 13,
                 highestQuantity: 29
             },
             {
@@ -243,6 +243,15 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 2
             },
             {
+                name: "Lightsource",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 7,
+                highestPrice: 37,
+                lowestQuantity: 2,
+                highestQuantity: 2,
+            },
+            {
                 name: "Heart of Winter",
                 image: "",
                 tier: "Rare",
@@ -389,7 +398,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 50,
                 highestPrice: 99,
                 lowestQuantity: 10,
-                highestQuantity: 27
+                highestQuantity: 29
             },
             {
                 name: "Nanofiber Frame I",
@@ -573,15 +582,6 @@ export const buyPrice: Seller[] = [
         },
         items: [
             {
-                name: "Medicinal Herbs",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150081767571718144/image.png",
-                tier: "Rare",
-                lowestPrice: 25,
-                highestPrice: 49,
-                lowestQuantity: 12,
-                highestQuantity: 29
-            },
-            {
                 name: "Ginseng",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083089494724688/image.png",
                 tier: "Rare",
@@ -598,6 +598,15 @@ export const buyPrice: Seller[] = [
                 highestPrice: 98,
                 lowestQuantity: 10,
                 highestQuantity: 28
+            },
+            {
+                name: "Medicinal Herbs",
+                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150081767571718144/image.png",
+                tier: "Rare",
+                lowestPrice: 25,
+                highestPrice: 49,
+                lowestQuantity: 12,
+                highestQuantity: 29
             },
             {
                 name: "Rejuvenation Shot",
@@ -725,7 +734,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 19,
                 lowestQuantity: 10,
-                highestQuantity: 28
+                highestQuantity: 29
             }
         ]
     }

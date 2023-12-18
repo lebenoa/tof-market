@@ -457,7 +457,7 @@ export const sellPrice: Seller[] = [
                 name: "Sea Catfish (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170341639240298576/image.png",
                 tier: "Common",
-                lowestPrice: 22,
+                lowestPrice: 21,
                 highestPrice: 87,
                 lowestQuantity: 2,
                 highestQuantity: 2
@@ -515,6 +515,15 @@ export const sellPrice: Seller[] = [
                 highestPrice: 159,
                 lowestQuantity: 1,
                 highestQuantity: 1
+            },
+            {
+                name: "Shielded Beast",
+                image: "",
+                tier: "Common",
+                lowestPrice: 12,
+                highestPrice: 43,
+                lowestQuantity: 4,
+                highestQuantity: 4,
             },
             {
                 name: "Star Antelope (Tamed)",
