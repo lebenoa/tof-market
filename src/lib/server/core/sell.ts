@@ -258,7 +258,7 @@ export const sellPrice: Seller[] = [
                 image: "",
                 tier: "Legendary",
                 lowestPrice: 83,
-                highestPrice: 190,
+                highestPrice: 199,
                 lowestQuantity: 6,
                 highestQuantity: 6
             },
@@ -341,7 +341,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743593678917642/image.png",
                 tier: "Common",
                 lowestPrice: 21,
-                highestPrice: 86,
+                highestPrice: 87,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -517,7 +517,7 @@ export const sellPrice: Seller[] = [
                 highestQuantity: 1
             },
             {
-                name: "Shielded Beast",
+                name: "Shielded Beast (Tamed)",
                 image: "",
                 tier: "Common",
                 lowestPrice: 12,

@@ -243,10 +243,10 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 2
             },
             {
-                name: "Lightsource",
+                name: "Lightningsource",
                 image: "",
                 tier: "Epic",
-                lowestPrice: 7,
+                lowestPrice: 4,
                 highestPrice: 37,
                 lowestQuantity: 2,
                 highestQuantity: 2
@@ -630,7 +630,7 @@ export const buyPrice: Seller[] = [
                 name: "Enhancement Shot",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083167655559168/image.png",
                 tier: "Epic",
-                lowestPrice: 202,
+                lowestPrice: 201,
                 highestPrice: 399,
                 lowestQuantity: 1,
                 highestQuantity: 1
