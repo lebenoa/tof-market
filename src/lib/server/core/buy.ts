@@ -21,7 +21,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 99,
-                lowestQuantity: 12,
+                lowestQuantity: 11,
                 highestQuantity: 27
             },
             {
@@ -64,7 +64,7 @@ export const buyPrice: Seller[] = [
                 name: "Fortress Spaulders",
                 image: "",
                 tier: "Legendary",
-                lowestPrice: 391,
+                lowestPrice: 367,
                 highestPrice: 1114,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -533,7 +533,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 41,
                 highestPrice: 158,
                 lowestQuantity: 3,
-                highestQuantity: 12
+                highestQuantity: 14
             },
             {
                 name: "Augment Stats Fortification Chip",

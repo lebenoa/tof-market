@@ -493,7 +493,7 @@ export const sellPrice: Seller[] = [
                 name: "Nightmare Scourge (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 52,
+                lowestPrice: 50,
                 highestPrice: 247,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -515,6 +515,15 @@ export const sellPrice: Seller[] = [
                 highestPrice: 159,
                 lowestQuantity: 1,
                 highestQuantity: 1
+            },
+            {
+                name: "Swordfish (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 26,
+                highestPrice: 107,
+                lowestQuantity: 2,
+                highestQuantity: 2,
             },
             {
                 name: "Shielded Beast (Tamed)",
