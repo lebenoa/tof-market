@@ -197,7 +197,7 @@
     {#if $settings.enableAnimation}
         {#key data.url}
             <div
-                class="w-full h-auto"
+                class="w-full h-full"
                 in:fly={{ x: -300, duration: animationDelay, delay: animationDelay }}
                 out:fly={{ x: -300, duration: animationDelay }}
             >
@@ -205,7 +205,7 @@
             </div>
         {/key}
     {:else}
-        <div class="w-full h-auto">
+        <div class="w-full h-full">
             <slot />
         </div>
     {/if}
