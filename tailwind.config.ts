@@ -21,6 +21,14 @@ export default {
             themes: {
                 preset: [
                     {
+                        name: "rocket",
+                        enhancements: true
+                    },
+                    {
+                        name: "modern",
+                        enhancements: true
+                    },
+                    {
                         name: "gold-nouveau",
                         enhancements: true
                     }

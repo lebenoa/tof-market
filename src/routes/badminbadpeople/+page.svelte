@@ -94,8 +94,8 @@
                 out:fly={{ y: 100, duration: 200 }}
             >
                 {#each displayData as item}
-                        <Card bind:item />
-                        {/each}
+                    <Card bind:item />
+                {/each}
             </div>
         </svelte:fragment>
     </TabGroup>

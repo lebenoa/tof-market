@@ -9,14 +9,9 @@
         TabAnchor,
         initializeStores,
         Modal,
-        storeHighlightJs,
         type ModalComponent
     } from "@skeletonlabs/skeleton";
-    import hljs from "highlight.js/lib/core";
-    import jsonHl from "highlight.js/lib/languages/json";
-    hljs.registerLanguage("json", jsonHl);
-    import "highlight.js/styles/vs2015.css";
-    storeHighlightJs.set(hljs);
+    import { onMount } from "svelte";
 
     initializeStores();
 
@@ -25,7 +20,20 @@
     import { browser } from "$app/environment";
     import { settings } from "$lib/store/settings";
 
-    import EditModal from "$lib/componenets/modal/EditModal.svelte";
+    function setTheme() {
+        if (!document) return;
+
+        const body = document.querySelector("body[data-theme]");
+        if (!body) return;
+
+        // @ts-ignore
+        body.setAttribute("data-theme", $settings.theme);
+    }
+
+    onMount(() => {
+        setTheme();
+    });
+
     import ImageModal from "$lib/componenets/modal/ImageModal.svelte";
 
     const animationDelay = 210;
@@ -186,6 +194,18 @@
                 >
                     TODOs
                 </a>
+                <select
+                    class="select mr-2 w-auto"
+                    bind:value={$settings.theme}
+                    on:change={(e) => {
+                        setTheme();
+                    }}
+                >
+                    <option value="modern">Modern</option>
+                    <option value="rocket">Rocket</option>
+                    <option value="gold-nouveau">Gold Nouveau</option>
+                    <option value="random">Dev's Randomly Generate</option>
+                </select>
             </svelte:fragment>
         </AppBar>
     </svelte:fragment>
