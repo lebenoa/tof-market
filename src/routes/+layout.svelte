@@ -52,8 +52,13 @@
 
         await new Promise((resolve) => setTimeout(resolve, animationDelay + 50));
 
-        const page = document.querySelector("#page");
+        const page = document.querySelector("html");
         if (!page) return;
+
+        console.log({
+            scrollHeight: page.scrollHeight,
+            clientHeight: page.clientHeight
+        });
 
         if (page.scrollHeight > page.clientHeight) {
             showBackToTopButton = true;
@@ -213,7 +218,7 @@
     {#if $settings.enableAnimation}
         {#key data.url}
             <div
-                class="w-full h-full"
+                class="w-full h-auto"
                 in:fly={{ x: -300, duration: animationDelay, delay: animationDelay }}
                 out:fly={{ x: -300, duration: animationDelay }}
             >
@@ -228,7 +233,7 @@
         <button
             class="btn variant-soft-primary w-full mb-5 lg:mb-0"
             on:click={() => {
-                document.querySelector("#page")?.scrollTo({
+                document.querySelector("html")?.scrollTo({
                     behavior: "smooth",
                     top: 0
                 });
