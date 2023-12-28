@@ -7,10 +7,7 @@ const DEFAULT = {
     theme: "gold-nouveau"
 };
 
-export const settings = localStorageStore("settings", {
-    enableAnimation: true,
-    theme: "gold-nouveau"
-});
+export const settings = init();
 
 function init() {
     let settings = localStorageStore("settings", DEFAULT);
