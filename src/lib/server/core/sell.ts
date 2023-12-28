@@ -257,7 +257,7 @@ export const sellPrice: Seller[] = [
                 name: "Titabalt Longsword",
                 image: "",
                 tier: "Legendary",
-                lowestPrice: 83,
+                lowestPrice: 82,
                 highestPrice: 199,
                 lowestQuantity: 6,
                 highestQuantity: 6
@@ -523,7 +523,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 26,
                 highestPrice: 107,
                 lowestQuantity: 2,
-                highestQuantity: 2,
+                highestQuantity: 2
             },
             {
                 name: "Shielded Beast (Tamed)",
