@@ -212,7 +212,7 @@
 
     {#if showBackToTopButton}
         <button
-            class="btn variant-soft-primary w-full mb-5 lg:mb-0"
+            class="btn variant-soft-primary w-full mt-5 mb-10 lg:mb-0"
             on:click={() => {
                 document.querySelector("html")?.scrollTo({
                     behavior: "smooth",
