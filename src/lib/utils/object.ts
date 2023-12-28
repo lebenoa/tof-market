@@ -20,7 +20,7 @@ export function setMissingValueFromDefault(
     for (const [name, task] of Object.entries(def)) {
         if (typeof task == "object") {
             target[name] = setMissingValueFromDefault(target[name], task);
-        } else if (target[name]) {
+        } else if (typeof target[name] != "undefined") {
             continue;
         } else {
             target[name] = task;

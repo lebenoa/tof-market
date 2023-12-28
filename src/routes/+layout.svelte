@@ -19,19 +19,10 @@
     import { fly, scale } from "svelte/transition";
     import { browser } from "$app/environment";
     import { settings } from "$lib/store/settings";
-
-    function setTheme() {
-        if (!document) return;
-
-        const body = document.querySelector("body[data-theme]");
-        if (!body) return;
-
-        // @ts-ignore
-        body.setAttribute("data-theme", $settings.theme);
-    }
+    import { setTheme } from "$lib/utils/theme";
 
     onMount(() => {
-        setTheme();
+        setTheme($settings.theme);
     });
 
     import ImageModal from "$lib/componenets/modal/ImageModal.svelte";
@@ -87,7 +78,7 @@
             padding="p-0"
         >
             <svelte:fragment slot="lead">
-                <strong class="lg:text-xl ml-2 uppercase">Tianhe Bazaar</strong>
+                <strong class="hidden lg:block text-xl ml-2 uppercase">Tianhe Bazaar</strong>
             </svelte:fragment>
 
             <TabGroup
@@ -192,25 +183,13 @@
                     <a class="btn btn-sm variant-ghost-surface mr-2" href="/data">Data</a>
                 {/if}
                 <a
-                    class="btn btn-sm variant-ghost-surface mr-2"
+                    class="hidden lg:block btn btn-sm variant-ghost-surface mr-2"
                     href="https://tof-todo.vercel.app"
                     target="_blank"
                     rel="noreferrer"
                 >
                     TODOs
                 </a>
-                <select
-                    class="select mr-2 w-auto"
-                    bind:value={$settings.theme}
-                    on:change={(e) => {
-                        setTheme();
-                    }}
-                >
-                    <option value="modern">Modern</option>
-                    <option value="rocket">Rocket</option>
-                    <option value="gold-nouveau">Gold Nouveau</option>
-                    <option value="random">Dev's Randomly Generate</option>
-                </select>
             </svelte:fragment>
         </AppBar>
     </svelte:fragment>
@@ -226,7 +205,9 @@
             </div>
         {/key}
     {:else}
-        <slot />
+        <div class="w-full h-auto">
+            <slot />
+        </div>
     {/if}
 
     {#if showBackToTopButton}
