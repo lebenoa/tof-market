@@ -46,11 +46,6 @@
         const page = document.querySelector("#page");
         if (!page) return;
 
-        console.log({
-            scrollHeight: page.scrollHeight,
-            clientHeight: page.clientHeight
-        });
-
         if (page.scrollHeight > page.clientHeight) {
             showBackToTopButton = true;
         } else {
@@ -59,7 +54,6 @@
     }
 
     $: shouldShowBackToTopButton(data.url);
-    $: console.log(data.authed);
 </script>
 
 <Modal

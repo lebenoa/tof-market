@@ -16,9 +16,7 @@ export const load: LayoutServerLoad = async ({ cookies }) => {
         };
     }
 
-    console.log(authSession[id]);
-
     return {
-        authed: authSession[id] ? authSession[id] : false
+        authed: authSession[id] ?? false
     };
 };
