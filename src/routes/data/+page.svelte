@@ -1,8 +1,6 @@
 <script lang="ts">
     export let data;
 
-    const { buyPrice, sellPrice } = data;
-
     import { TabGroup, Tab, CodeBlock } from "@skeletonlabs/skeleton";
 
     let tabSet = 0;
@@ -11,8 +9,8 @@
         return JSON.stringify(value, null, 4);
     }
 
-    const sellOutput = toJSON(sellPrice);
-    const buyOutput = toJSON(buyPrice);
+    const sellOutput = toJSON(data.sellPrice);
+    const buyOutput = toJSON(data.buyPrice);
 </script>
 
 <svelte:head>

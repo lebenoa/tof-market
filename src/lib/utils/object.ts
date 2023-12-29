@@ -18,7 +18,9 @@ export function setMissingValueFromDefault(
     def: Record<string, any>
 ): Record<string, any> {
     for (const [name, task] of Object.entries(def)) {
-        if (typeof task == "object") {
+        if (typeof target[name] == 'undefined') {
+            target[name] = task;
+        } else if (typeof task == "object") {
             target[name] = setMissingValueFromDefault(target[name], task);
         } else if (typeof target[name] != "undefined") {
             continue;

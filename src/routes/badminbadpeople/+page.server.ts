@@ -8,8 +8,7 @@ import { sellPrice } from "$lib/server/core/sell";
 import type { PageServerLoad, Actions } from "./$types";
 
 export const load: PageServerLoad = async ({ cookies }) => {
-    if (!env.ADMIN_USERNAME) throw redirect(302, "/");
-    if (!env.ADMIN_PASSWORD) throw redirect(302, "/");
+    if (!env.ADMIN_USERNAME || !env.ADMIN_PASSWORD) throw redirect(302, "/");
 
     const id = cookies.get("id");
     if (!id || typeof authSession[id] == "undefined") {
