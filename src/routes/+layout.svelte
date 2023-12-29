@@ -59,6 +59,7 @@
     }
 
     $: shouldShowBackToTopButton(data.url);
+    $: console.log(data.authed);
 </script>
 
 <Modal
