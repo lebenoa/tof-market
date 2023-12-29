@@ -43,7 +43,7 @@
 
         await new Promise((resolve) => setTimeout(resolve, animationDelay + 50));
 
-        const page = document.querySelector("html");
+        const page = document.querySelector("#page");
         if (!page) return;
 
         console.log({
@@ -214,7 +214,7 @@
         <button
             class="btn variant-soft-primary w-full mt-5 mb-10 lg:mb-0"
             on:click={() => {
-                document.querySelector("html")?.scrollTo({
+                document.querySelector("#page")?.scrollTo({
                     behavior: "smooth",
                     top: 0
                 });
