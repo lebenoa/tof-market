@@ -1,7 +1,7 @@
 <script lang="ts">
     import { getTierColor, type Pricing } from "$lib/core";
     import { getModalStore, type ModalSettings, type ModalComponent } from "@skeletonlabs/skeleton";
-    import EditModal from "$lib/componenets/modal/EditModal.svelte";
+    import EditModal from "$lib/components/modal/EditModal.svelte";
     import { fly } from "svelte/transition";
 
     export let item: Pricing;

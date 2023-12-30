@@ -5,7 +5,7 @@
     const items = data.items;
 
     import { getModalStore, type ModalSettings } from "@skeletonlabs/skeleton";
-    import CardContainer from "$lib/componenets/CardContainer.svelte";
+    import CardContainer from "$lib/components/CardContainer.svelte";
 
     const modalStore = getModalStore();
 

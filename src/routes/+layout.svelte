@@ -25,7 +25,7 @@
         setTheme($settings.theme);
     });
 
-    import ImageModal from "$lib/componenets/modal/ImageModal.svelte";
+    import ImageModal from "$lib/components/modal/ImageModal.svelte";
 
     const animationDelay = 210;
     const registry: Record<string, ModalComponent> = {
