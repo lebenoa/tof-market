@@ -331,7 +331,7 @@ export const sellPrice: Seller[] = [
                 name: "Sand Otter (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156481252577267732/image.png",
                 tier: "Common",
-                lowestPrice: 20,
+                lowestPrice: 17,
                 highestPrice: 88,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -358,7 +358,7 @@ export const sellPrice: Seller[] = [
                 name: "Moundslinger (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170341519547437146/image.png",
                 tier: "Common",
-                lowestPrice: 19,
+                lowestPrice: 18,
                 highestPrice: 87,
                 lowestQuantity: 2,
                 highestQuantity: 2
