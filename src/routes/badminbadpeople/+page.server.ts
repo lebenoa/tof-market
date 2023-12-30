@@ -39,8 +39,7 @@ export const load: PageServerLoad = async ({ cookies }) => {
 
 export const actions: Actions = {
     default: async ({ request, cookies }) => {
-        if (!env.ADMIN_USERNAME) throw redirect(302, "/");
-        if (!env.ADMIN_PASSWORD) throw redirect(302, "/");
+        if (!env.ADMIN_USERNAME || !env.ADMIN_PASSWORD) throw redirect(302, "/");
 
         const data = await request.formData();
 
