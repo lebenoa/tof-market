@@ -203,7 +203,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 25,
                 highestPrice: 49,
-                lowestQuantity: 13,
+                lowestQuantity: 12,
                 highestQuantity: 29
             },
             {
@@ -285,7 +285,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 18,
                 lowestQuantity: 2,
-                highestQuantity: 2
+                highestQuantity: 3
             },
             {
                 name: "Icecore",
@@ -689,7 +689,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 25,
                 highestPrice: 49,
                 lowestQuantity: 11,
-                highestQuantity: 28
+                highestQuantity: 29
             },
             {
                 name: "Sorghum",
@@ -697,7 +697,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 10,
                 highestPrice: 19,
-                lowestQuantity: 11,
+                lowestQuantity: 10,
                 highestQuantity: 17
             },
             {

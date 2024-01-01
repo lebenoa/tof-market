@@ -104,9 +104,9 @@ export const sellPrice: Seller[] = [
                 name: "Fast-Acting Heart Capsule",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365421909221476/Fast-Acting_Heart_Capsule.png",
                 tier: "Rare",
-                lowestPrice: 46,
+                lowestPrice: 44,
                 highestPrice: 103,
-                lowestQuantity: 5,
+                lowestQuantity: 3,
                 highestQuantity: 5
             },
             {
@@ -125,7 +125,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 12,
                 highestPrice: 29,
                 lowestQuantity: 13,
-                highestQuantity: 13
+                highestQuantity: 27
             },
             {
                 name: "Beasthide Bag",
@@ -134,7 +134,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 43,
                 highestPrice: 104,
                 lowestQuantity: 4,
-                highestQuantity: 4
+                highestQuantity: 6
             },
             {
                 name: "Minghai Linene",
@@ -151,7 +151,7 @@ export const sellPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 47,
                 highestPrice: 106,
-                lowestQuantity: 7,
+                lowestQuantity: 5,
                 highestQuantity: 7
             },
             {
@@ -214,7 +214,7 @@ export const sellPrice: Seller[] = [
                 tier: "Legendary",
                 lowestPrice: 45,
                 highestPrice: 109,
-                lowestQuantity: 7,
+                lowestQuantity: 3,
                 highestQuantity: 7
             },
             {
@@ -270,7 +270,43 @@ export const sellPrice: Seller[] = [
                 highestPrice: 101,
                 lowestQuantity: 7,
                 highestQuantity: 7
-            }
+            },
+            {
+                name: "Maiden's Fragrance",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 73,
+                highestPrice: 153,
+                lowestQuantity: 6,
+                highestQuantity: 6,
+            },
+            {
+                name: "Tusu Wine",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 49,
+                highestPrice: 95,
+                lowestQuantity: 5,
+                highestQuantity: 5,
+            },
+            {
+                name: "Jadestone Tea Set",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 41,
+                highestPrice: 92,
+                lowestQuantity: 3,
+                highestQuantity: 3,
+            },
+            {
+                name: "Bone Plaster",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 59,
+                highestPrice: 98,
+                lowestQuantity: 3,
+                highestQuantity: 3,
+            },
         ]
     },
     {
@@ -533,6 +569,15 @@ export const sellPrice: Seller[] = [
                 highestPrice: 46,
                 lowestQuantity: 4,
                 highestQuantity: 4
+            },
+            {
+                name: "Crystalline Hatching (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 25,
+                highestPrice: 110,
+                lowestQuantity: 2,
+                highestQuantity: 2,
             },
             {
                 name: "Star Antelope (Tamed)",
