@@ -293,7 +293,7 @@ export const sellPrice: Seller[] = [
                 name: "Jadestone Tea Set",
                 image: "",
                 tier: "Rare",
-                lowestPrice: 41,
+                lowestPrice: 40,
                 highestPrice: 92,
                 lowestQuantity: 3,
                 highestQuantity: 3,
