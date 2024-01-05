@@ -585,7 +585,7 @@ export const buyPrice: Seller[] = [
                 name: "Ginseng",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083089494724688/image.png",
                 tier: "Rare",
-                lowestPrice: 51,
+                lowestPrice: 50,
                 highestPrice: 99,
                 lowestQuantity: 10,
                 highestQuantity: 28
