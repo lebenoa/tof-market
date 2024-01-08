@@ -520,7 +520,7 @@ export const sellPrice: Seller[] = [
                 name: "Hornfeather (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 71,
+                lowestPrice: 45,
                 highestPrice: 209,
                 lowestQuantity: 1,
                 highestQuantity: 1

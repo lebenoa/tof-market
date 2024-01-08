@@ -294,7 +294,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 9,
                 lowestQuantity: 3,
-                highestQuantity: 6
+                highestQuantity: 7
             },
             {
                 name: "Firecore",
@@ -321,7 +321,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 9,
                 lowestQuantity: 4,
-                highestQuantity: 6
+                highestQuantity: 7
             },
             {
                 name: "Refined Cluster",
@@ -588,7 +588,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 50,
                 highestPrice: 99,
                 lowestQuantity: 10,
-                highestQuantity: 28
+                highestQuantity: 29
             },
             {
                 name: "Lingzhi",
