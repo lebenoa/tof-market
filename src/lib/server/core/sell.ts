@@ -104,7 +104,7 @@ export const sellPrice: Seller[] = [
                 name: "Fast-Acting Heart Capsule",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365421909221476/Fast-Acting_Heart_Capsule.png",
                 tier: "Rare",
-                lowestPrice: 44,
+                lowestPrice: 43,
                 highestPrice: 103,
                 lowestQuantity: 3,
                 highestQuantity: 5
@@ -149,7 +149,7 @@ export const sellPrice: Seller[] = [
                 name: "Spirit Beast Fleece",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159742761050853456/image.png",
                 tier: "Rare",
-                lowestPrice: 47,
+                lowestPrice: 45,
                 highestPrice: 106,
                 lowestQuantity: 5,
                 highestQuantity: 7
@@ -285,7 +285,7 @@ export const sellPrice: Seller[] = [
                 image: "",
                 tier: "Rare",
                 lowestPrice: 45,
-                highestPrice: 98,
+                highestPrice: 100,
                 lowestQuantity: 5,
                 highestQuantity: 5,
             },
@@ -323,7 +323,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574143565824000/image.png",
                 tier: "Common",
                 lowestPrice: 30,
-                highestPrice: 157,
+                highestPrice: 158,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
