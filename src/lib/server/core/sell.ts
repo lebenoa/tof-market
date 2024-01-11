@@ -376,7 +376,7 @@ export const sellPrice: Seller[] = [
                 name: "Firerat (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159743593678917642/image.png",
                 tier: "Common",
-                lowestPrice: 21,
+                lowestPrice: 19,
                 highestPrice: 87,
                 lowestQuantity: 1,
                 highestQuantity: 1
