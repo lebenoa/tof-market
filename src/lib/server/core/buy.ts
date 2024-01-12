@@ -11,6 +11,10 @@ export const buyPrice: Seller[] = [
                 {
                     name: "Silk Cocoon",
                     tier: "Rare"
+                },
+                {
+                    name: "3 Equipments per week",
+                    tier: "Epic"
                 }
             ]
         },
@@ -29,7 +33,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149729186999705640/image.png",
                 tier: "Common",
                 lowestPrice: 25,
-                highestPrice: 48,
+                highestPrice: 49,
                 lowestQuantity: 13,
                 highestQuantity: 29
             },
@@ -183,6 +187,14 @@ export const buyPrice: Seller[] = [
                 },
                 {
                     name: "Jadestone",
+                    tier: "Common"
+                },
+                {
+                    name: "Raw Crystal",
+                    tier: "Common"
+                },
+                {
+                    name: "Elemental ores",
                     tier: "Common"
                 }
             ]
@@ -364,15 +376,23 @@ export const buyPrice: Seller[] = [
                     tier: "Legendary"
                 },
                 {
+                    name: "Random Stats Fortification Chip",
+                    tier: "Legendary"
+                },
+                {
+                    name: "Core Control Module",
+                    tier: "Legendary",
+                },
+                {
+                    name: "Movement Coordination Module",
+                    tier: "Legendary"
+                },
+                {
                     name: "Information Processing Module",
                     tier: "Legendary"
                 },
                 {
                     name: "Sense Enhancement Module",
-                    tier: "Legendary"
-                },
-                {
-                    name: "Movement Coordination Module",
                     tier: "Legendary"
                 },
                 {
@@ -504,7 +524,7 @@ export const buyPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744381788622928/image.png",
                 tier: "Legendary",
                 lowestPrice: 100,
-                highestPrice: 394,
+                highestPrice: 398,
                 lowestQuantity: 1,
                 highestQuantity: 2
             },
@@ -567,7 +587,11 @@ export const buyPrice: Seller[] = [
                     tier: "Rare"
                 },
                 {
-                    name: "Enhanced Blade Shot",
+                    name: "Rejuvenation Shot",
+                    tier: "Epic"
+                },
+                {
+                    name: "Piercing Shot",
                     tier: "Epic"
                 },
                 {
@@ -575,9 +599,13 @@ export const buyPrice: Seller[] = [
                     tier: "Epic"
                 },
                 {
-                    name: "Rejuvenation Shot",
+                    name: "Enhanced Blade Shot",
                     tier: "Epic"
-                }
+                },
+                {
+                    name: "Vitality Solution",
+                    tier: "Epic",
+                },
             ]
         },
         items: [

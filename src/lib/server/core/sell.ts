@@ -230,7 +230,7 @@ export const sellPrice: Seller[] = [
                 name: "Herbal Marrow Brew",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170339942744985640/image.png",
                 tier: "Rare",
-                lowestPrice: 45,
+                lowestPrice: 43,
                 highestPrice: 106,
                 lowestQuantity: 7,
                 highestQuantity: 7
