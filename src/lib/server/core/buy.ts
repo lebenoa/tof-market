@@ -323,7 +323,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
-                lowestQuantity: 6,
+                lowestQuantity: 3,
                 highestQuantity: 7
             },
             {
@@ -454,7 +454,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 9,
                 highestPrice: 49,
                 lowestQuantity: 2,
-                highestQuantity: 2
+                highestQuantity: 3
             },
             {
                 name: "Booster Frame III",
@@ -559,7 +559,7 @@ export const buyPrice: Seller[] = [
                 name: "Augment Stats Fortification Chip",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078582622785627/image.png",
                 tier: "Legendary",
-                lowestPrice: 232,
+                lowestPrice: 202,
                 highestPrice: 799,
                 lowestQuantity: 1,
                 highestQuantity: 1
@@ -726,7 +726,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 10,
                 highestPrice: 19,
                 lowestQuantity: 10,
-                highestQuantity: 17
+                highestQuantity: 26
             },
             {
                 name: "Green Plum",
