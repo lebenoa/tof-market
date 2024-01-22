@@ -34,7 +34,7 @@ export const buyPrice: Seller[] = [
                 tier: "Common",
                 lowestPrice: 25,
                 highestPrice: 49,
-                lowestQuantity: 13,
+                lowestQuantity: 11,
                 highestQuantity: 29
             },
             {
@@ -135,6 +135,15 @@ export const buyPrice: Seller[] = [
                 highestPrice: 198,
                 lowestQuantity: 1,
                 highestQuantity: 1
+            },
+            {
+                name: "Elite Shouderguards",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 60,
+                highestPrice: 157,
+                lowestQuantity: 1,
+                highestQuantity: 1,
             },
             {
                 name: "Elite Armbands",
@@ -278,7 +287,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 19,
-                lowestQuantity: 3,
+                lowestQuantity: 2,
                 highestQuantity: 5
             },
             {
@@ -462,7 +471,7 @@ export const buyPrice: Seller[] = [
                 tier: "Legendary",
                 lowestPrice: 19,
                 highestPrice: 127,
-                lowestQuantity: 2,
+                lowestQuantity: 1,
                 highestQuantity: 2
             },
             {
@@ -726,7 +735,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 10,
                 highestPrice: 19,
                 lowestQuantity: 10,
-                highestQuantity: 26
+                highestQuantity: 29
             },
             {
                 name: "Green Plum",
