@@ -565,7 +565,7 @@ export const sellPrice: Seller[] = [
                 name: "Shielded Beast (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 12,
+                lowestPrice: 11,
                 highestPrice: 46,
                 lowestQuantity: 4,
                 highestQuantity: 4

@@ -137,10 +137,10 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 1
             },
             {
-                name: "Elite Shouderguards",
+                name: "Elite Shoulderguards",
                 image: "",
                 tier: "Epic",
-                lowestPrice: 60,
+                lowestPrice: 51,
                 highestPrice: 157,
                 lowestQuantity: 1,
                 highestQuantity: 1,
