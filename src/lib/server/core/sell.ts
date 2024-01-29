@@ -521,7 +521,7 @@ export const sellPrice: Seller[] = [
                 image: "",
                 tier: "Common",
                 lowestPrice: 45,
-                highestPrice: 209,
+                highestPrice: 210,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
@@ -587,6 +587,15 @@ export const sellPrice: Seller[] = [
                 highestPrice: 105,
                 lowestQuantity: 2,
                 highestQuantity: 2
+            },
+            {
+                name: "Herbal Tiger (Tamed)",
+                image: "",
+                tier: "Common",
+                lowestPrice: 49,
+                highestPrice: 235,
+                lowestQuantity: 1,
+                highestQuantity: 1,
             },
             {
                 name: "Trichroma Fox (Tamed)",
