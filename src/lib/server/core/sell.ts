@@ -133,7 +133,7 @@ export const sellPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 43,
                 highestPrice: 106,
-                lowestQuantity: 4,
+                lowestQuantity: 3,
                 highestQuantity: 6
             },
             {
@@ -169,7 +169,7 @@ export const sellPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 43,
                 highestPrice: 105,
-                lowestQuantity: 4,
+                lowestQuantity: 3,
                 highestQuantity: 4
             },
             {
@@ -241,7 +241,7 @@ export const sellPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 43,
                 highestPrice: 105,
-                lowestQuantity: 6,
+                lowestQuantity: 5,
                 highestQuantity: 6
             },
             {
@@ -251,7 +251,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 88,
                 highestPrice: 202,
                 lowestQuantity: 4,
-                highestQuantity: 4
+                highestQuantity: 5
             },
             {
                 name: "Titabalt Longsword",
@@ -259,7 +259,7 @@ export const sellPrice: Seller[] = [
                 tier: "Legendary",
                 lowestPrice: 82,
                 highestPrice: 199,
-                lowestQuantity: 6,
+                lowestQuantity: 4,
                 highestQuantity: 6
             },
             {
@@ -306,6 +306,15 @@ export const sellPrice: Seller[] = [
                 highestPrice: 100,
                 lowestQuantity: 3,
                 highestQuantity: 3,
+            },
+            {
+                name: "Salt",
+                image: "",
+                tier: "Rare",
+                lowestPrice: 31,
+                highestPrice: 59,
+                lowestQuantity: 15,
+                highestQuantity: 15,
             },
         ]
     },
@@ -538,7 +547,7 @@ export const sellPrice: Seller[] = [
                 name: "Dragon-Necked Turtle (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 18,
+                lowestPrice: 17,
                 highestPrice: 88,
                 lowestQuantity: 2,
                 highestQuantity: 2

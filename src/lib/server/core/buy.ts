@@ -249,7 +249,7 @@ export const buyPrice: Seller[] = [
                 name: "Sunsource",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156478578872033350/image.png",
                 tier: "Epic",
-                lowestPrice: 6,
+                lowestPrice: 4,
                 highestPrice: 39,
                 lowestQuantity: 1,
                 highestQuantity: 2
