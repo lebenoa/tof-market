@@ -114,7 +114,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365422823571497/Herbal_Longevity_Tonic.png",
                 tier: "Epic",
                 lowestPrice: 48,
-                highestPrice: 118,
+                highestPrice: 119,
                 lowestQuantity: 3,
                 highestQuantity: 7
             },
@@ -367,7 +367,7 @@ export const sellPrice: Seller[] = [
                 name: "G-Thorn Wolf (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574220539707453/image.png",
                 tier: "Common",
-                lowestPrice: 18,
+                lowestPrice: 17,
                 highestPrice: 88,
                 lowestQuantity: 1,
                 highestQuantity: 1
