@@ -50,7 +50,7 @@ export const sellPrice: Seller[] = [
                 name: "Two-Sided Jade Pendant",
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365449885233202/Two-Sided_Jade_Pendant.png",
                 tier: "Epic",
-                lowestPrice: 60,
+                lowestPrice: 55,
                 highestPrice: 133,
                 lowestQuantity: 4,
                 highestQuantity: 4
