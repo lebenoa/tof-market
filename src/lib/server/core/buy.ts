@@ -26,7 +26,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 50,
                 highestPrice: 99,
                 lowestQuantity: 11,
-                highestQuantity: 27
+                highestQuantity: 28
             },
             {
                 name: "Beast Bone",
@@ -448,6 +448,15 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 3
             },
             {
+                name: "Nanofiber Frame III",
+                image: "",
+                tier: "Legendary",
+                lowestPrice: 17,
+                highestPrice: 146,
+                lowestQuantity: 1,
+                highestQuantity: 1,
+            },
+            {
                 name: "Booster Frame I",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344334198067250/image.png",
                 tier: "Epic",
@@ -511,6 +520,15 @@ export const buyPrice: Seller[] = [
                 highestQuantity: 7
             },
             {
+                name: "Nano Coating II",
+                image: "",
+                tier: "Epic",
+                lowestPrice: 11,
+                highestPrice: 54,
+                lowestQuantity: 2,
+                highestQuantity: 2,
+            },
+            {
                 name: "Nano Coating III",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344679074697257/image.png",
                 tier: "Legendary",
@@ -535,7 +553,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 100,
                 highestPrice: 398,
                 lowestQuantity: 1,
-                highestQuantity: 2
+                highestQuantity: 4
             },
             {
                 name: "Information Processing Module",
@@ -725,7 +743,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 25,
                 highestPrice: 49,
-                lowestQuantity: 11,
+                lowestQuantity: 10,
                 highestQuantity: 29
             },
             {
