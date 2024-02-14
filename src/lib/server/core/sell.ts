@@ -413,7 +413,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574300944502864/image.png",
                 tier: "Common",
                 lowestPrice: 17,
-                highestPrice: 87,
+                highestPrice: 88,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
