@@ -302,7 +302,7 @@ export const sellPrice: Seller[] = [
                 name: "Bone Plaster",
                 image: "",
                 tier: "Rare",
-                lowestPrice: 47,
+                lowestPrice: 45,
                 highestPrice: 100,
                 lowestQuantity: 3,
                 highestQuantity: 3,
