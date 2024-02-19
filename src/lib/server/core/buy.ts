@@ -215,7 +215,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 99,
-                lowestQuantity: 11,
+                lowestQuantity: 10,
                 highestQuantity: 29
             },
             {
@@ -296,7 +296,7 @@ export const buyPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 18,
-                lowestQuantity: 3,
+                lowestQuantity: 2,
                 highestQuantity: 5
             },
             {
