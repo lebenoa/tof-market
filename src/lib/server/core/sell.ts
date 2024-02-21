@@ -258,7 +258,7 @@ export const sellPrice: Seller[] = [
                 image: "",
                 tier: "Legendary",
                 lowestPrice: 82,
-                highestPrice: 199,
+                highestPrice: 200,
                 lowestQuantity: 4,
                 highestQuantity: 6
             },
@@ -302,7 +302,7 @@ export const sellPrice: Seller[] = [
                 name: "Bone Plaster",
                 image: "",
                 tier: "Rare",
-                lowestPrice: 45,
+                lowestPrice: 43,
                 highestPrice: 100,
                 lowestQuantity: 3,
                 highestQuantity: 3,
