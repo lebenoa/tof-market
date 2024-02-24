@@ -51,7 +51,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149358091180195940/1149365449885233202/Two-Sided_Jade_Pendant.png",
                 tier: "Epic",
                 lowestPrice: 55,
-                highestPrice: 133,
+                highestPrice: 134,
                 lowestQuantity: 4,
                 highestQuantity: 4
             },
@@ -440,7 +440,7 @@ export const sellPrice: Seller[] = [
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574665282723881/image.png",
                 tier: "Common",
                 lowestPrice: 48,
-                highestPrice: 245,
+                highestPrice: 249,
                 lowestQuantity: 1,
                 highestQuantity: 1
             },
