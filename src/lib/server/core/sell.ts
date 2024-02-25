@@ -394,7 +394,7 @@ export const sellPrice: Seller[] = [
                 name: "Bunnydart (Tamed)",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1151574397015040010/image.png",
                 tier: "Common",
-                lowestPrice: 18,
+                lowestPrice: 17,
                 highestPrice: 88,
                 lowestQuantity: 2,
                 highestQuantity: 2
