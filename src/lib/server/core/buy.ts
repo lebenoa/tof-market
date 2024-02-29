@@ -577,7 +577,7 @@ export const buyPrice: Seller[] = [
                 name: "Augmentation Factor",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156227910471008356/image.png",
                 tier: "Legendary",
-                lowestPrice: 41,
+                lowestPrice: 40,
                 highestPrice: 159,
                 lowestQuantity: 3,
                 highestQuantity: 14
