@@ -17,7 +17,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 72,
                 highestPrice: 171,
                 lowestQuantity: 3,
-                highestQuantity: 5
+                highestQuantity: 6
             },
             {
                 name: "Forging Hammer",
@@ -44,7 +44,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 43,
                 highestPrice: 105,
                 lowestQuantity: 5,
-                highestQuantity: 5
+                highestQuantity: 7
             },
             {
                 name: "Two-Sided Jade Pendant",
@@ -107,7 +107,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 43,
                 highestPrice: 103,
                 lowestQuantity: 3,
-                highestQuantity: 5
+                highestQuantity: 7
             },
             {
                 name: "Herbal Longevity Tonic",
@@ -170,7 +170,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 43,
                 highestPrice: 106,
                 lowestQuantity: 3,
-                highestQuantity: 4
+                highestQuantity: 6
             },
             {
                 name: "Wang's Dragon Amrita",
@@ -232,7 +232,7 @@ export const sellPrice: Seller[] = [
                 tier: "Rare",
                 lowestPrice: 43,
                 highestPrice: 106,
-                lowestQuantity: 7,
+                lowestQuantity: 4,
                 highestQuantity: 7
             },
             {
@@ -251,7 +251,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 83,
                 highestPrice: 202,
                 lowestQuantity: 4,
-                highestQuantity: 5
+                highestQuantity: 6
             },
             {
                 name: "Titabalt Longsword",
@@ -305,7 +305,7 @@ export const sellPrice: Seller[] = [
                 lowestPrice: 43,
                 highestPrice: 100,
                 lowestQuantity: 3,
-                highestQuantity: 3,
+                highestQuantity: 4,
             },
             {
                 name: "Salt",

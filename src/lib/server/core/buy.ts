@@ -122,7 +122,7 @@ export const buyPrice: Seller[] = [
                 name: "Elite Combat Helmet",
                 image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149779866103857214/image.png",
                 tier: "Epic",
-                lowestPrice: 57,
+                lowestPrice: 53,
                 highestPrice: 194,
                 lowestQuantity: 1,
                 highestQuantity: 1
