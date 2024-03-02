@@ -4,9 +4,9 @@ export const buyPrice: Seller[] = [
     {
         seller: {
             name: "[Brocade House] Aunt Yun",
-            image: "https://cdn.discordapp.com/attachments/1149570080154333274/1149570080393396274/bh_auth_yun.png",
+            image: "http://103.208.27.180:19999/api/files/ci1uinVzXrTgIxAt/stream/bh_auth_yun.png?hash=d07d033741a381d87f44c463cb7ad250",
             location:
-                "https://cdn.discordapp.com/attachments/1149567307023122443/1149734094981316669/image.png",
+                "http://103.208.27.180:19999/api/files/qEQPrWwMhNld1dlq/stream/brocade_house.png?hash=d07d033741a381d87f44c463cb7ad250",
             highlights: [
                 {
                     name: "Silk Cocoon",
@@ -21,7 +21,7 @@ export const buyPrice: Seller[] = [
         items: [
             {
                 name: "Silk Cocoon",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149728020366635028/Silk_Cocoon.png",
+                image: "http://103.208.27.180:19999/api/files/x1uZk720QGstVkXe/stream/silk_cocoon.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 99,
@@ -30,7 +30,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Beast Bone",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149729186999705640/image.png",
+                image: "http://103.208.27.180:19999/api/files/CoQd7GHtUlByxgq5/stream/beast_bone.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 25,
                 highestPrice: 49,
@@ -39,7 +39,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Beast Hide",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149729220562518047/image.png",
+                image: "http://103.208.27.180:19999/api/files/Si3MQueLWF5IWBcJ/stream/beast_hide.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 25,
                 highestPrice: 49,
@@ -48,7 +48,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Helm",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156478761764655214/image.png",
+                image: "http://103.208.27.180:19999/api/files/lxhFAHDtxCPGTdKF/stream/1156478761764655214.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 335,
                 highestPrice: 1169,
@@ -57,7 +57,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Armor",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343391767318670/image.png",
+                image: "http://103.208.27.180:19999/api/files/rsQE6T5saloY76hE/stream/1170343391767318670.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 315,
                 highestPrice: 1195,
@@ -75,7 +75,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Bracers",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343445164986489/image.png",
+                image: "http://103.208.27.180:19999/api/files/mT1B76asDrMlhKuQ/stream/1170343445164986489.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 313,
                 highestPrice: 1151,
@@ -84,7 +84,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Handguards",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150825312049963150/image.png",
+                image: "http://103.208.27.180:19999/api/files/83gcjXWBO3GOCJMB/stream/fortress_handguards.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 368,
                 highestPrice: 1180,
@@ -93,7 +93,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Belt",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149771859294957669/image.png",
+                image: "http://103.208.27.180:19999/api/files/lMOJihbdr9fIrRdT/stream/fortress_belt.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 315,
                 highestPrice: 1198,
@@ -102,7 +102,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Legguards",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156479067122573363/image.png",
+                image: "http://103.208.27.180:19999/api/files/jDB3mMgyvibLibAw/stream/1156479067122573363.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 314,
                 highestPrice: 1146,
@@ -111,7 +111,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Fortress Sabatons",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156478903653761084/image.png",
+                image: "http://103.208.27.180:19999/api/files/ZuIjBF8HoxGOEBYC/stream/1156478903653761084.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 307,
                 highestPrice: 1187,
@@ -120,7 +120,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Elite Combat Helmet",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149779866103857214/image.png",
+                image: "http://103.208.27.180:19999/api/files/cOCOxeRpUvMIuQlW/stream/elite_combat_helmet.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 53,
                 highestPrice: 194,
@@ -129,7 +129,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Elite Combat Suit",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343520834424832/image.png",
+                image: "http://103.208.27.180:19999/api/files/xOPYKZ0rGBuzGvuq/stream/1170343520834424832.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 51,
                 highestPrice: 198,
@@ -147,7 +147,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Elite Armbands",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150825448067055717/image.png",
+                image: "http://103.208.27.180:19999/api/files/2D4P0WUDQH3AEWno/stream/elite_armbands.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 50,
                 highestPrice: 197,
@@ -156,7 +156,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Elite Gloves",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343563519852655/image.png",
+                image: "http://103.208.27.180:19999/api/files/L3OxWxAExz21q7fU/stream/1170343563519852655.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 53,
                 highestPrice: 195,
@@ -165,7 +165,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Elite Combat Belt",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150825511493316678/image.png",
+                image: "http://103.208.27.180:19999/api/files/iVGttgfLymSwc9r5/stream/elite_combat_belt.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 52,
                 highestPrice: 199,
@@ -174,7 +174,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Elite Combat Leggings",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149779757781750050/image.png",
+                image: "http://103.208.27.180:19999/api/files/SG4a6vl3eqhFsvYX/stream/elite_combat_leggings.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 52,
                 highestPrice: 193,
@@ -186,9 +186,9 @@ export const buyPrice: Seller[] = [
     {
         seller: {
             name: "[Lusterium Trade Center] Owner Xu",
-            image: "https://cdn.discordapp.com/attachments/1149567307023122443/1149757805486682225/image.png",
+            image: "http://103.208.27.180:19999/api/files/rxWJ6afEAvtVcqnW/stream/owner_xu.png?hash=d07d033741a381d87f44c463cb7ad250",
             location:
-                "https://cdn.discordapp.com/attachments/1149567307023122443/1149760008356110336/image.png",
+                "http://103.208.27.180:19999/api/files/gg9xeHyiOBDpjbdi/stream/lusterium_trade_center.png?hash=d07d033741a381d87f44c463cb7ad250",
             highlights: [
                 {
                     name: "Roughstone",
@@ -211,7 +211,7 @@ export const buyPrice: Seller[] = [
         items: [
             {
                 name: "Roughstone",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074523534753982/image.png",
+                image: "http://103.208.27.180:19999/api/files/KD9CFck9lAsi3Vwa/stream/roughstone.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 99,
@@ -220,7 +220,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Jadestone",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074570448056340/image.png",
+                image: "http://103.208.27.180:19999/api/files/Umr1vo8oImlf24yQ/stream/jadestone.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 25,
                 highestPrice: 49,
@@ -229,7 +229,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Raw Crystal",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074611413827714/image.png",
+                image: "http://103.208.27.180:19999/api/files/prhNI3jmPezuDxuv/stream/raw_crystal.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 25,
                 highestPrice: 49,
@@ -238,7 +238,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Snowsource",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074922115285052/image.png",
+                image: "http://103.208.27.180:19999/api/files/08TDnxvCLjB9j27d/stream/snowsource.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 4,
                 highestPrice: 39,
@@ -247,7 +247,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Sunsource",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156478578872033350/image.png",
+                image: "http://103.208.27.180:19999/api/files/kUMZD6iGw4EHjyD1/stream/1156478578872033350.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 4,
                 highestPrice: 39,
@@ -256,7 +256,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Landsource",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744013474201650/image.png",
+                image: "http://103.208.27.180:19999/api/files/DsD7nAhAVDIv6h84/stream/1159744013474201650.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 7,
                 highestPrice: 39,
@@ -283,7 +283,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Heart of Lava",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150075039614521404/image.png",
+                image: "http://103.208.27.180:19999/api/files/AuYhqW97IqQLNjOc/stream/heart_of_lava.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 19,
@@ -292,7 +292,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Heart of Summit",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150074986879516722/image.png",
+                image: "http://103.208.27.180:19999/api/files/1rAxQ3xNhUGcrOPE/stream/heart_of_summit.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 18,
@@ -301,7 +301,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Heart of Lightning",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343850825494548/image.png",
+                image: "http://103.208.27.180:19999/api/files/4iqOjx4ohcb6iF3b/stream/1170343850825494548.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 18,
@@ -310,7 +310,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Icecore",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744232609812551/image.png",
+                image: "http://103.208.27.180:19999/api/files/jDEa2sByxxG73HUh/stream/1159744232609812551.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
@@ -319,7 +319,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Firecore",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744154604142632/image.png",
+                image: "http://103.208.27.180:19999/api/files/d0cetFXAwkPBQx4l/stream/1159744154604142632.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
@@ -328,7 +328,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Rockcore",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170343928885678131/image.png",
+                image: "http://103.208.27.180:19999/api/files/USF6dgTUgc51pDCQ/stream/1170343928885678131.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
@@ -337,7 +337,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Magcore",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344014655012944/image.png",
+                image: "http://103.208.27.180:19999/api/files/0CA7dKQnswDEANPj/stream/1170344014655012944.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 9,
@@ -346,7 +346,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Refined Cluster",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344074688069642/image.png",
+                image: "http://103.208.27.180:19999/api/files/Mcc4dbLa91bD3BbB/stream/1170344074688069642.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 8,
                 highestPrice: 78,
@@ -355,7 +355,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Cluster",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1155317574792392835/image.png",
+                image: "http://103.208.27.180:19999/api/files/4gVUe2ziN5KayD3D/stream/1155317574792392835.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 4,
                 highestPrice: 38,
@@ -364,7 +364,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Crystal Chunk",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150825903870464011/image.png",
+                image: "http://103.208.27.180:19999/api/files/K7bwQH0jfRsGaUol/stream/crystal_chunk.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 2,
                 highestPrice: 19,
@@ -376,9 +376,9 @@ export const buyPrice: Seller[] = [
     {
         seller: {
             name: "[Sky Workshop] Master Tang",
-            image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150077488379211796/image.png",
+            image: "http://103.208.27.180:19999/api/files/jAj87sA0ISYAJFwL/stream/master_tang.png?hash=d07d033741a381d87f44c463cb7ad250",
             location:
-                "https://cdn.discordapp.com/attachments/1149567307023122443/1150078026508419102/image.png",
+                "http://103.208.27.180:19999/api/files/CokDrk70K6Q5ePsc/stream/sky_workshop.png?hash=d07d033741a381d87f44c463cb7ad250",
             highlights: [
                 {
                     name: "Augment Stats Fortification Chip",
@@ -413,7 +413,7 @@ export const buyPrice: Seller[] = [
         items: [
             {
                 name: "Shellstone",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078746011914370/image.png",
+                image: "http://103.208.27.180:19999/api/files/HriIF3ITc6tK490V/stream/shellstone.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 99,
@@ -422,7 +422,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Colorful Scale",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078694602313889/image.png",
+                image: "http://103.208.27.180:19999/api/files/dfvb0FPMfHEkdYI6/stream/colorful_scale.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 99,
@@ -431,7 +431,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Nanofiber Frame I",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156227871040339979/image.png",
+                image: "http://103.208.27.180:19999/api/files/YYGjfRAYXrm1Nln3/stream/1156227871040339979.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 2,
                 highestPrice: 19,
@@ -440,7 +440,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Nanofiber Frame II",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078836982161441/image.png",
+                image: "http://103.208.27.180:19999/api/files/cxU8T3UHuRWJR2F6/stream/nanofiber_frame_2.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 6,
                 highestPrice: 59,
@@ -458,7 +458,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Booster Frame I",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344334198067250/image.png",
+                image: "http://103.208.27.180:19999/api/files/GjCKdwwKTu9mJtGl/stream/booster_frame_1.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 3,
                 highestPrice: 19,
@@ -467,7 +467,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Booster Frame II",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344414326030336/image.png",
+                image: "http://103.208.27.180:19999/api/files/K3S5oH8B7NCk5yqG/stream/booster_frame_2.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 8,
                 highestPrice: 57,
@@ -485,7 +485,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Acidproof Glaze I",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744310720339968/image.png",
+                image: "http://103.208.27.180:19999/api/files/T2cypZ8IMy9QqnVS/stream/1159744310720339968.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 19,
@@ -494,7 +494,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Acidproof Glaze II",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1155317262677446706/image.png",
+                image: "http://103.208.27.180:19999/api/files/He4DpMqwdqpS4QXx/stream/1155317262677446706.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 7,
                 highestPrice: 59,
@@ -503,7 +503,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Acidproof Glaze III",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150079012790599720/image.png",
+                image: "http://103.208.27.180:19999/api/files/3G6FIbirRmFC7faB/stream/acidproof_glaze_3.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 17,
                 highestPrice: 141,
@@ -512,7 +512,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Nano Coating I",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150824937267925146/image.png",
+                image: "http://103.208.27.180:19999/api/files/IejCEQymlsAvP5pD/stream/nano_coating_1.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 19,
@@ -530,7 +530,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Nano Coating III",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344679074697257/image.png",
+                image: "http://103.208.27.180:19999/api/files/mTCIlwr2SkuULyDx/stream/nano_coating_3.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 26,
                 highestPrice: 139,
@@ -548,7 +548,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Movement Coordination Module",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1159744381788622928/image.png",
+                image: "",
                 tier: "Legendary",
                 lowestPrice: 100,
                 highestPrice: 398,
@@ -557,7 +557,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Information Processing Module",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150824742346043442/image.png",
+                image: "http://103.208.27.180:19999/api/files/ctGa5dSqfypN6F2C/stream/info_vitality_solution.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 123,
                 highestPrice: 396,
@@ -566,7 +566,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Sense Enhancement Module",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1155316624522485840/image.png",
+                image: "http://103.208.27.180:19999/api/files/nvHy1cXbi0PBuDF6/stream/1155316624522485840.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 135,
                 highestPrice: 372,
@@ -575,7 +575,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Augmentation Factor",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156227910471008356/image.png",
+                image: "http://103.208.27.180:19999/api/files/qGqCB5NUXgaspUCM/stream/1156227910471008356.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
                 lowestPrice: 40,
                 highestPrice: 159,
@@ -584,7 +584,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Augment Stats Fortification Chip",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150078582622785627/image.png",
+                image: "",
                 tier: "Legendary",
                 lowestPrice: 202,
                 highestPrice: 799,
@@ -605,9 +605,9 @@ export const buyPrice: Seller[] = [
     {
         seller: {
             name: "[Golden Elixer Pavilion] Jing Dan",
-            image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150082542205149225/image.png",
+            image: "http://103.208.27.180:19999/api/files/xT3EaQ6qsEJWdj3K/stream/jing_dan.png?hash=d07d033741a381d87f44c463cb7ad250",
             location:
-                "https://cdn.discordapp.com/attachments/1149567307023122443/1150082068047478855/image.png",
+                "http://103.208.27.180:19999/api/files/BhxSsngAIoBaqHOx/stream/golden_elixir_pavilion.png?hash=d07d033741a381d87f44c463cb7ad250",
             highlights: [
                 {
                     name: "Medicinal Herbs",
@@ -638,7 +638,7 @@ export const buyPrice: Seller[] = [
         items: [
             {
                 name: "Ginseng",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083089494724688/image.png",
+                image: "http://103.208.27.180:19999/api/files/fmfHhdjjhjZWXHQ5/stream/ginseng.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 99,
@@ -647,7 +647,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Lingzhi",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083253852721222/image.png",
+                image: "http://103.208.27.180:19999/api/files/nAt8Z2ZNicSGmwG4/stream/lingzhi.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 50,
                 highestPrice: 99,
@@ -656,7 +656,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Medicinal Herbs",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150081767571718144/image.png",
+                image: "http://103.208.27.180:19999/api/files/19XFRhdsVnY1Gl06/stream/medicinal_herbs.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 25,
                 highestPrice: 49,
@@ -665,7 +665,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Rejuvenation Shot",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083123804111029/image.png",
+                image: "http://103.208.27.180:19999/api/files/ltAYa1ylqj1cOQYO/stream/rejuvenation_shot.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 307,
                 highestPrice: 599,
@@ -674,7 +674,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Piercing Shot",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1156479387223461948/image.png",
+                image: "http://103.208.27.180:19999/api/files/HMpsszaieUS3tLBG/stream/1156479387223461948.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 306,
                 highestPrice: 595,
@@ -683,7 +683,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Enhancement Shot",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083167655559168/image.png",
+                image: "http://103.208.27.180:19999/api/files/HFAHQBg1H37737ja/stream/enhancement_shot.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 201,
                 highestPrice: 399,
@@ -692,7 +692,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Enhanced Blade Shot",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150826290941804550/image.png",
+                image: "http://103.208.27.180:19999/api/files/TQEY0ujqCtj2vAtM/stream/enhanced_blade_shot.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 405,
                 highestPrice: 794,
@@ -701,7 +701,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Vitality Solution",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1170344929332052060/image.png",
+                image: "http://103.208.27.180:19999/api/files/eIiEkxYjIa7pSsZE/stream/vitality_solution.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 200,
                 highestPrice: 990,
@@ -713,9 +713,9 @@ export const buyPrice: Seller[] = [
     {
         seller: {
             name: "[Jade Dew Corner] Jing Tian",
-            image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150083715456831539/image.png",
+            image: "http://103.208.27.180:19999/api/files/GilPfn5KdmAn1deD/stream/jing_tian.png?hash=d07d033741a381d87f44c463cb7ad250",
             location:
-                "https://cdn.discordapp.com/attachments/1149567307023122443/1150084183843160165/image.png",
+                "http://103.208.27.180:19999/api/files/hxNoXcRdSyQMBE6H/stream/jade_dew_tower.png?hash=d07d033741a381d87f44c463cb7ad250",
             highlights: [
                 {
                     name: "Salt",
@@ -730,7 +730,7 @@ export const buyPrice: Seller[] = [
         items: [
             {
                 name: "Salt",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150085815838453780/image.png",
+                image: "http://103.208.27.180:19999/api/files/HreMqvcwVuFno5FI/stream/salt.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 25,
                 highestPrice: 49,
@@ -739,7 +739,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Brocade Rice",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150085881584156782/image.png",
+                image: "http://103.208.27.180:19999/api/files/XHWzDcsymN8jLDRw/stream/brocade_rice.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 25,
                 highestPrice: 49,
@@ -748,7 +748,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Sorghum",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150085963842867220/image.png",
+                image: "http://103.208.27.180:19999/api/files/i2ktS6vNx5WEAzaB/stream/sorghum.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 10,
                 highestPrice: 19,
@@ -757,7 +757,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Green Plum",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150086018461085696/image.png",
+                image: "http://103.208.27.180:19999/api/files/h7tZVUZCnNLbPcOw/stream/green_plum.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 10,
                 highestPrice: 19,
@@ -766,7 +766,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Begonia",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150087190307680326/image.png",
+                image: "http://103.208.27.180:19999/api/files/nZZthfVQf9sa8xBx/stream/begonia.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 2,
                 highestPrice: 19,
@@ -775,7 +775,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Bamboo Shoots",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150087457430315069/image.png",
+                image: "http://103.208.27.180:19999/api/files/XElr4Yqxzqz60tRA/stream/bamboo_shoots.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 2,
                 highestPrice: 19,
@@ -784,7 +784,7 @@ export const buyPrice: Seller[] = [
             },
             {
                 name: "Green Jade",
-                image: "https://cdn.discordapp.com/attachments/1149567307023122443/1150087561897840752/image.png",
+                image: "http://103.208.27.180:19999/api/files/2YAGCmDoVgtGj2WK/stream/green_jade.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 2,
                 highestPrice: 19,

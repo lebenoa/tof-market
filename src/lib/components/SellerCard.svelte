@@ -1,5 +1,6 @@
 <script lang="ts">
     import { getTierColor, type SellerInfo } from "$lib/core";
+    import { MISSING_IMAGE } from "$lib/itemInfo";
 
     export let seller: SellerInfo;
     export let id: number;
@@ -19,7 +20,7 @@
         <img
             src={seller.location
                 ? seller.location
-                : "https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png"}
+                : MISSING_IMAGE}
             alt="{seller.name} location"
         />
     </div>

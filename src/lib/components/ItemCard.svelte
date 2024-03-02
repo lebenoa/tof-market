@@ -1,9 +1,9 @@
 <script lang="ts">
     import { getTierColor, type Pricing } from "$lib/core";
-    import { itemInfo } from "$lib/itemInfo";
+    import { itemInfo, MISSING_IMAGE } from "$lib/itemInfo";
     import { fly } from "svelte/transition";
     import { getModalStore, type ModalSettings } from "@skeletonlabs/skeleton";
-
+    
     export let item: Pricing;
     export let prioritizeLowest: boolean = false;
 
@@ -47,7 +47,7 @@
                 class="mx-auto max-w-full max-h-full"
                 src={item.image
                     ? item.image
-                    : "https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png"}
+                    : MISSING_IMAGE }
                 alt={item.name}
             />
             <h3 class="h3 text-center {nameColor}">{item.name}</h3>
@@ -79,7 +79,7 @@
             class="mx-auto min-w-[96px] min-h-[96px] max-w-full max-h-full pt-2"
             src={item.image
                 ? item.image
-                : "https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png"}
+                : MISSING_IMAGE}
             alt={item.name}
         />
         <h3 class="h3 text-center {nameColor}">{item.name}</h3>

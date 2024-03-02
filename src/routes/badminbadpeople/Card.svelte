@@ -3,6 +3,7 @@
     import { getModalStore, type ModalSettings, type ModalComponent } from "@skeletonlabs/skeleton";
     import EditModal from "$lib/components/modal/EditModal.svelte";
     import { fly } from "svelte/transition";
+    import { MISSING_IMAGE } from "$lib/itemInfo";
 
     export let item: Pricing;
 
@@ -45,7 +46,7 @@
             class="mx-auto min-w-[96px] min-h-[96px] max-w-full max-h-full pt-2"
             src={internal.image
                 ? internal.image
-                : "https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png"}
+                : MISSING_IMAGE}
             alt={internal.name}
         />
         <h3 class="h3 text-center mx-auto {getTierColor(internal.tier)}">{internal.name}</h3>

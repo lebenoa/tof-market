@@ -2,6 +2,7 @@
     import { getModalStore } from "@skeletonlabs/skeleton";
     import { getTierColor, type Pricing } from "$lib/core";
     import { onDestroy } from "svelte";
+    import { MISSING_IMAGE } from "$lib/itemInfo";
 
     export let parent: any;
     export let item: Pricing;
@@ -40,7 +41,7 @@
                 class="mx-auto w-1/3"
                 src={item.image
                     ? item.image
-                    : "https://cdn.discordapp.com/attachments/1149567307023122443/1149780152906162247/image.png"}
+                    : MISSING_IMAGE}
                 alt={item.name}
             />
             <h3 class="h3 {getTierColor(item.tier)}">{item.name}</h3>
