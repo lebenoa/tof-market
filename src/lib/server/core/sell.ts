@@ -404,7 +404,7 @@ export const sellPrice: Seller[] = [
                 image: "http://103.208.27.180:19999/api/files/X84I6FEhYYPd8JNx/stream/1170341519547437146.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
                 lowestPrice: 17,
-                highestPrice: 87,
+                highestPrice: 88,
                 lowestQuantity: 2,
                 highestQuantity: 2
             },
