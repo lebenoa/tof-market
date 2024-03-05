@@ -704,7 +704,7 @@ export const buyPrice: Seller[] = [
                 image: "http://103.208.27.180:19999/api/files/eIiEkxYjIa7pSsZE/stream/vitality_solution.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 200,
-                highestPrice: 990,
+                highestPrice: 999,
                 lowestQuantity: 1,
                 highestQuantity: 1
             }
