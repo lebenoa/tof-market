@@ -109,7 +109,7 @@ export const itemInfo: Record<string, string> = {
   "Booster Frame II":
     "https://cdn.discordapp.com/attachments/1149567307023122443/1170347969552339036/image.png",
   "Acidproof Glaze I":
-    "https://cdn.discordapp.com/attachments/1149567307023122443/1170348062363885751/image.png",
+    "https://height-not-skin-rim.trycloudflare.com/api/files/Ys07ZmSxQlzcGbJi/stream/info_acidproof_glaze_1.png?hash=0549a8aca84d86413deffca7c4428aa8",
   "Nano Coating III":
     "https://cdn.discordapp.com/attachments/1149567307023122443/1170348141334241410/image.png",
   "Movement Coordination Module":
