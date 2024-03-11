@@ -324,7 +324,7 @@ export const buyPrice: Seller[] = [
                 lowestPrice: 2,
                 highestPrice: 9,
                 lowestQuantity: 3,
-                highestQuantity: 5
+                highestQuantity: 7
             },
             {
                 name: "Rockcore",
@@ -462,7 +462,7 @@ export const buyPrice: Seller[] = [
                 tier: "Epic",
                 lowestPrice: 3,
                 highestPrice: 19,
-                lowestQuantity: 5,
+                lowestQuantity: 3,
                 highestQuantity: 7
             },
             {

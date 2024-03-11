@@ -105,7 +105,7 @@ export const sellPrice: Seller[] = [
                 image: "http://103.208.27.180:19999/api/files/j5tYNVZlqM8yNuGO/stream/1149365421909221476_Fast-Acting_Heart_Capsule.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 43,
-                highestPrice: 103,
+                highestPrice: 106,
                 lowestQuantity: 3,
                 highestQuantity: 7
             },
