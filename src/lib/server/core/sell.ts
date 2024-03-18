@@ -141,7 +141,7 @@ export const sellPrice: Seller[] = [
                 image: "http://103.208.27.180:19999/api/files/oOEUoxEYBG07jYEz/stream/1159741562775945266.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Epic",
                 lowestPrice: 37,
-                highestPrice: 91,
+                highestPrice: 92,
                 lowestQuantity: 4,
                 highestQuantity: 7
             },

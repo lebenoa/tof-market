@@ -358,7 +358,7 @@ export const buyPrice: Seller[] = [
                 image: "http://103.208.27.180:19999/api/files/4gVUe2ziN5KayD3D/stream/1155317574792392835.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 4,
-                highestPrice: 38,
+                highestPrice: 39,
                 lowestQuantity: 3,
                 highestQuantity: 8
             },
