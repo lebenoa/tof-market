@@ -565,7 +565,7 @@ export const sellPrice: Seller[] = [
                 name: "Swordfish (Tamed)",
                 image: "",
                 tier: "Common",
-                lowestPrice: 26,
+                lowestPrice: 23,
                 highestPrice: 108,
                 lowestQuantity: 2,
                 highestQuantity: 2
