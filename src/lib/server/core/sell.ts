@@ -14,7 +14,7 @@ export const sellPrice: Seller[] = [
                 name: "Moon Glow Satin",
                 image: "http://103.208.27.180:19999/api/files/XT0F5kjDldH57XCq/stream/1149358839334973522_Moon_Glow_Satin.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
-                lowestPrice: 72,
+                lowestPrice: 71,
                 highestPrice: 171,
                 lowestQuantity: 3,
                 highestQuantity: 6
