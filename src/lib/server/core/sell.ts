@@ -556,7 +556,7 @@ export const sellPrice: Seller[] = [
                 name: "Gold Phantom Dolphin (Tamed)",
                 image: "http://103.208.27.180:19999/api/files/GN2ji0gAxfGxnJi0/stream/1170341684824002560.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Common",
-                lowestPrice: 32,
+                lowestPrice: 30,
                 highestPrice: 159,
                 lowestQuantity: 1,
                 highestQuantity: 1
