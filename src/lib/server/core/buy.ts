@@ -469,7 +469,7 @@ export const buyPrice: Seller[] = [
                 name: "Booster Frame II",
                 image: "http://103.208.27.180:19999/api/files/K3S5oH8B7NCk5yqG/stream/booster_frame_2.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Legendary",
-                lowestPrice: 8,
+                lowestPrice: 7,
                 highestPrice: 57,
                 lowestQuantity: 2,
                 highestQuantity: 3

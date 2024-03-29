@@ -42,7 +42,7 @@ export const sellPrice: Seller[] = [
                 image: "http://103.208.27.180:19999/api/files/2iQH0TTM5UhRo5k3/stream/1149365449235116124_White_Jade_Dew.png?hash=d07d033741a381d87f44c463cb7ad250",
                 tier: "Rare",
                 lowestPrice: 43,
-                highestPrice: 105,
+                highestPrice: 106,
                 lowestQuantity: 5,
                 highestQuantity: 7
             },
