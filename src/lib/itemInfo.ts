@@ -1,6 +1,6 @@
 export const itemInfo: Record<string, string> = {
   "Silk Cocoon":
-    "http://103.208.27.180:19999/api/files/x1uZk720QGstVkXe/stream/1149728020366635028.png?hash=d07d033741a381d87f44c463cb7ad250",
+    "",
   "Beast Bone":
     "https://cdn.discordapp.com/attachments/1149567307023122443/1150831647617470506/image.png",
   "Beast Hide":
@@ -81,13 +81,13 @@ export const itemInfo: Record<string, string> = {
   "Augmentation Factor":
     "https://cdn.discordapp.com/attachments/1149567307023122443/1156513743837069352/image.png",
   "Augment Stats Fortification Chip":
-    "http://103.208.27.180:19999/api/files/WhDnFF3rR4ON1SKy/stream/1151578786681344110.png?hash=d07d033741a381d87f44c463cb7ad250",
+    "",
   "Nanofiber Frame I":
     "https://cdn.discordapp.com/attachments/1149567307023122443/1156513511158054953/image.png",
   "Nanofiber Frame II":
-    "http://103.208.27.180:19999/api/files/Y3EeXFwPNDALMnSq/stream/1151579331357839502.png?hash=d07d033741a381d87f44c463cb7ad250",
+    "",
   "Heart of Summit":
-    "http://103.208.27.180:19999/api/files/4ERtdvgNvsitohy5/stream/1151579729384706268.png?hash=d07d033741a381d87f44c463cb7ad250",
+    "",
   "Heart of Lava":
     "https://cdn.discordapp.com/attachments/1149567307023122443/1156513263232757810/image.png",
   "Refined Cluster":
@@ -126,4 +126,4 @@ export const itemInfo: Record<string, string> = {
     "https://cdn.discordapp.com/attachments/1149567307023122443/1170349562964234351/image.png"
 };
 
-export const MISSING_IMAGE = "http://103.208.27.180:19999/api/files/OC1Gb07MlzXwX4gH/stream/missing.png?hash=d07d033741a381d87f44c463cb7ad250"
+export const MISSING_IMAGE = ""
