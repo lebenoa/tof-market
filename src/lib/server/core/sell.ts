@@ -14,7 +14,7 @@ export const sellPrice: Seller[] = [
                 name: "Moon Glow Satin",
                 image: "",
                 tier: "Legendary",
-                lowestPrice: 71,
+                lowestPrice: 69,
                 highestPrice: 171,
                 lowestQuantity: 3,
                 highestQuantity: 6
